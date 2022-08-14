@@ -4,6 +4,44 @@
 		{
 			"eventType": "group",
 			"disabled": false,
+			"title": "Startup",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 783861539734720
+						}
+					],
+					"actions": [
+						{
+							"id": "pin-to-object-properties",
+							"objectClass": "BubbleGun",
+							"sid": 125915290073951,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Player",
+								"x": true,
+								"y": true,
+								"angle": true,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						}
+					],
+					"sid": 101708366532738
+				}
+			],
+			"sid": 105453859178087
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
 			"title": "Slug Movement",
 			"description": "",
 			"isActiveOnStart": true,
@@ -184,6 +222,208 @@
 				}
 			],
 			"sid": 979969363392062
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 738364767080675
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle-toward-position",
+					"objectClass": "BubbleGun",
+					"sid": 366659929465044,
+					"parameters": {
+						"x": "Mouse.X",
+						"y": "Mouse.Y"
+					}
+				},
+				{
+					"id": "move-along-path",
+					"objectClass": "Slug",
+					"sid": 894433577417422,
+					"behaviorType": "Pathfinding"
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Slug",
+					"sid": 645153049091142,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"speed": "50"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Slug",
+					"sid": 865159928199040,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"set": "enabled"
+					}
+				}
+			],
+			"sid": 891017871534338
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "mouse-button-is-down",
+					"objectClass": "Mouse",
+					"sid": 658675613155511,
+					"parameters": {
+						"mouse-button": "left"
+					}
+				},
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 792856677390980,
+					"parameters": {
+						"interval-seconds": "0.75"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "BubbleGun",
+					"sid": 347310723438890,
+					"parameters": {
+						"object": "Bubble",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Bubble",
+					"sid": 697700455334001,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Bubble",
+					"sid": 386686597184017,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				}
+			],
+			"sid": 562426021512745
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bubble",
+					"sid": 662496694145672,
+					"parameters": {
+						"object": "Slug"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Slug",
+					"sid": 362006050151298,
+					"parameters": {
+						"instance-variable": "Health",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Bubble",
+					"sid": 827975788550951,
+					"parameters": {
+						"animation": "\"Pop\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-effect-enabled",
+					"objectClass": "Slug",
+					"sid": 568366965209496,
+					"parameters": {
+						"mode": "enable",
+						"effect": "\"Tint\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 414937302755001,
+					"parameters": {
+						"seconds": "0.1"
+					}
+				},
+				{
+					"id": "set-effect-enabled",
+					"objectClass": "Slug",
+					"sid": 210628516703579,
+					"parameters": {
+						"mode": "disable",
+						"effect": "\"Tint\""
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bubble",
+					"sid": 140166970854595
+				}
+			],
+			"sid": 920587464935776
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-speed",
+					"objectClass": "Bubble",
+					"sid": 733267415916776,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"comparison": 0,
+						"speed": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Bubble",
+					"sid": 274256042050293,
+					"parameters": {
+						"animation": "\"Pop\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 720315819016080,
+					"parameters": {
+						"seconds": "0.06666"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bubble",
+					"sid": 201030622096219
+				}
+			],
+			"sid": 914738026947830
 		}
 	],
 	"sid": 335250269904769

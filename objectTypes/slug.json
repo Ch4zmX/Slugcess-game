@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 171482648177384,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "Health",
+			"type": "number",
+			"desc": "",
+			"sid": 602274040597915
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "EightDir",
@@ -14,9 +21,19 @@
 			"behaviorId": "Pathfinding",
 			"name": "Pathfinding",
 			"sid": 192639400231413
+		},
+		{
+			"behaviorId": "Flash",
+			"name": "Flash",
+			"sid": 980225129564272
 		}
 	],
-	"effectTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "tint",
+			"name": "Tint"
+		}
+	],
 	"animations": {
 		"items": [
 			{

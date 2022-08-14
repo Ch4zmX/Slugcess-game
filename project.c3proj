@@ -53,6 +53,38 @@
 			"author": "Scirra",
 			"version": "r302",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Flash",
+			"name": "Flash",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pin",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "tint",
+			"name": "Tint",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
 		}
 	],
 	"uniqueId": "vwydcenu5qk",
@@ -62,7 +94,9 @@
 			"Slug",
 			"Keyboard",
 			"Mouse",
-			"Player"
+			"Player",
+			"BubbleGun",
+			"Bubble"
 		],
 		"subfolders": []
 	},

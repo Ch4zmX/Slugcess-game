@@ -49,7 +49,9 @@
 						"live-preview": false
 					},
 					"uid": 3,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Health": 3
+					},
 					"behaviors": {
 						"8Direction": {
 							"properties": {
@@ -75,6 +77,22 @@
 								"rotate-object": true,
 								"diagonals": true,
 								"enabled": true
+							}
+						},
+						"Flash": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"Tint": {
+							"isEnabled": false,
+							"parameters": {
+								"color": [
+									1,
+									0,
+									0,
+									1
+								]
 							}
 						}
 					},
@@ -125,6 +143,82 @@
 						"y": 288,
 						"width": 108.28665661105248,
 						"height": 108.28665661105248,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "BubbleGun",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 7,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": true
+							}
+						}
+					},
+					"world": {
+						"x": 141.5257070032163,
+						"y": 291.62469499163495,
+						"width": 74.52637206976384,
+						"height": 74.52637206976384,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 1.5707963267948966,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Bubble",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": false,
+						"live-preview": false
+					},
+					"uid": 8,
+					"instanceVariables": {},
+					"behaviors": {
+						"Bullet": {
+							"properties": {
+								"speed": 200,
+								"acceleration": -50,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 170,
+						"y": 383,
+						"width": 23.823069975021063,
+						"height": 23.823069975021063,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
