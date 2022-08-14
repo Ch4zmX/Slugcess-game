@@ -1,5 +1,190 @@
 {
 	"name": "Event sheet 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Slug Movement",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 560388137546197,
+							"parameters": {
+								"key": 87
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Player",
+							"sid": 221764334295891,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "up"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 274636144124503,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "current-frame"
+							}
+						}
+					],
+					"sid": 939353953067111
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 727894937850347,
+							"parameters": {
+								"key": 65
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Player",
+							"sid": 922745937800198,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "left"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Player",
+							"sid": 536249291951282,
+							"parameters": {
+								"state": "mirrored"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 168325208571347,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "current-frame"
+							}
+						}
+					],
+					"sid": 113652449773854
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 218554068299181,
+							"parameters": {
+								"key": 83
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Player",
+							"sid": 225489526658301,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "down"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 962082746571051,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "current-frame"
+							}
+						}
+					],
+					"sid": 915308519920123
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 568799038952964,
+							"parameters": {
+								"key": 68
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Player",
+							"sid": 598500869053778,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "right"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Player",
+							"sid": 213398474082932,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 317976209449974,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "current-frame"
+							}
+						}
+					],
+					"sid": 920476835183556
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-any-key-released",
+							"objectClass": "Keyboard",
+							"sid": 388132146003571
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 898518929414185,
+							"parameters": {
+								"animation": "\"Idle\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 667616265685314
+				}
+			],
+			"sid": 979969363392062
+		}
+	],
 	"sid": 335250269904769
 }

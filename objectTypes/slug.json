@@ -4,7 +4,18 @@
 	"sid": 171482648177384,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direction",
+			"sid": 927881028990738
+		},
+		{
+			"behaviorId": "Pathfinding",
+			"name": "Pathfinding",
+			"sid": 192639400231413
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -18,7 +29,50 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9528930,
+						"imageSpriteId": 9720252,
+						"collisionPoly": {
+							"points": [
+								0.25,
+								0.25,
+								0.5,
+								0.08,
+								0.55,
+								0.44,
+								0.76,
+								0.5,
+								0.68,
+								0.68,
+								0.5,
+								0.72,
+								0.29,
+								0.7,
+								0.32,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 979518421071329,
+				"name": "Idle",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 100,
+						"height": 100,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3751033,
 						"collisionPoly": {
 							"points": [
 								0.25,
@@ -50,7 +104,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6983751,
+						"imageSpriteId": 7561141,
 						"collisionPoly": {
 							"points": [
 								0.21,
@@ -82,7 +136,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4046155,
+						"imageSpriteId": 4234850,
 						"collisionPoly": {
 							"points": [
 								0.24,
@@ -114,7 +168,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4282395,
+						"imageSpriteId": 3341530,
 						"collisionPoly": {
 							"points": [
 								0.21,
@@ -146,7 +200,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 981115,
+						"imageSpriteId": 1346529,
 						"collisionPoly": {
 							"points": [
 								0.25,
@@ -171,13 +225,13 @@
 						"duration": 1
 					}
 				],
-				"sid": 357709914805978,
-				"name": "Slug Walk",
+				"sid": 688903661850750,
+				"name": "Walk",
 				"isLooping": true,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,
-				"speed": 5
+				"speed": 6
 			}
 		],
 		"subfolders": []
