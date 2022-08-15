@@ -1,7 +1,7 @@
 {
-	"name": "GunUpgrader",
+	"name": "GunUpgrader2",
 	"plugin-id": "Sprite",
-	"sid": 398075782123781,
+	"sid": 676306382072249,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 630936,
+						"imageSpriteId": 4100349,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 925046913428227,
+				"sid": 877370467852614,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

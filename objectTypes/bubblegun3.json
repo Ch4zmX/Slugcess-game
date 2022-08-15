@@ -1,10 +1,16 @@
 {
-	"name": "GunUpgrader",
+	"name": "BubbleGun3",
 	"plugin-id": "Sprite",
-	"sid": 398075782123781,
+	"sid": 186278042118388,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 933882270111755
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -18,12 +24,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 630936,
+						"imageSpriteId": 3443517,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 925046913428227,
+				"sid": 683016167534952,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -126,7 +126,9 @@
 			"DeathScreen",
 			"Sprite",
 			"BubbleGun2",
-			"GunUpgrader"
+			"GunUpgrader",
+			"BubbleGun3",
+			"GunUpgrader2"
 		],
 		"subfolders": []
 	},

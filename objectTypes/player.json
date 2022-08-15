@@ -17,9 +17,9 @@
 			"sid": 312504591014797
 		},
 		{
-			"name": "GunType",
+			"name": "ShotsPerSecond",
 			"type": "number",
-			"desc": "1 is default bubble gun, 2 is bubble pistol, 3 is bubble assault rifle",
+			"desc": "1.333 is default bubble gun, 3 is bubble pistol, 5 is bubble assault rifle",
 			"sid": 816063868567920
 		}
 	],

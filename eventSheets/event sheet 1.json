@@ -27,14 +27,34 @@
 							}
 						},
 						{
-							"id": "pin-to-object-properties",
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 161849194412161,
+							"parameters": {
+								"object-to-create": "BubbleGun",
+								"layer": "0",
+								"x": "0",
+								"y": "0",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "set-scale",
 							"objectClass": "BubbleGun",
-							"sid": 125915290073951,
+							"sid": 488777209958977,
+							"parameters": {
+								"scale": ".25"
+							}
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "BubbleGun",
+							"sid": 596331651880093,
 							"behaviorType": "Pin",
 							"parameters": {
 								"pin-to": "Player",
-								"x": true,
-								"y": true,
+								"image-point": "0",
 								"angle": true,
 								"width-type": "no",
 								"height-type": "no",
@@ -258,6 +278,15 @@
 						"x": "Mouse.X",
 						"y": "Mouse.Y"
 					}
+				},
+				{
+					"id": "set-angle-toward-position",
+					"objectClass": "BubbleGun3",
+					"sid": 609604729789292,
+					"parameters": {
+						"x": "Mouse.X",
+						"y": "Mouse.Y"
+					}
 				}
 			],
 			"sid": 891017871534338
@@ -276,17 +305,17 @@
 				{
 					"id": "every-x-seconds",
 					"objectClass": "System",
-					"sid": 792856677390980,
+					"sid": 737926149680395,
 					"parameters": {
-						"interval-seconds": "0.75"
+						"interval-seconds": "1/Player.ShotsPerSecond"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "spawn-another-object",
-					"objectClass": "BubbleGun",
-					"sid": 347310723438890,
+					"objectClass": "Player",
+					"sid": 313531013378416,
 					"parameters": {
 						"object": "Bubble",
 						"layer": "0",
@@ -295,19 +324,36 @@
 					}
 				},
 				{
-					"id": "set-visible",
+					"id": "set-scale",
 					"objectClass": "Bubble",
-					"sid": 697700455334001,
+					"sid": 379518643943796,
 					"parameters": {
-						"visibility": "visible"
+						"scale": "0.06"
+					}
+				},
+				{
+					"id": "set-angle-of-motion",
+					"objectClass": "Bubble",
+					"sid": 418531102749558,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"angle": "angle(Player.X, Player.Y, Mouse.X, Mouse.Y)"
 					}
 				},
 				{
 					"id": "set-collisions-enabled",
 					"objectClass": "Bubble",
-					"sid": 386686597184017,
+					"sid": 515389640971979,
 					"parameters": {
 						"collisions": "enabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Bubble",
+					"sid": 697700455334001,
+					"parameters": {
+						"visibility": "visible"
 					}
 				}
 			],
@@ -608,18 +654,44 @@
 			],
 			"actions": [
 				{
-					"id": "add-to-instvar",
+					"id": "set-instvar-value",
 					"objectClass": "Player",
-					"sid": 757089771432867,
+					"sid": 401942129673779,
 					"parameters": {
-						"instance-variable": "GunType",
-						"value": "1"
+						"instance-variable": "ShotsPerSecond",
+						"value": "3"
 					}
 				},
 				{
 					"id": "destroy",
 					"objectClass": "BubbleGun",
 					"sid": 154122169200762
+				},
+				{
+					"id": "destroy",
+					"objectClass": "BubbleGun3",
+					"sid": 813996138575477
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 932558211352035,
+					"parameters": {
+						"object-to-create": "BubbleGun2",
+						"layer": "0",
+						"x": "0",
+						"y": "0",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "set-scale",
+					"objectClass": "BubbleGun2",
+					"sid": 431035277762832,
+					"parameters": {
+						"scale": "0.25"
+					}
 				},
 				{
 					"id": "pin-to-object-imagepoint",
@@ -637,6 +709,76 @@
 				}
 			],
 			"sid": 287628504861580
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 606117761870593,
+					"parameters": {
+						"object": "GunUpgrader2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Player",
+					"sid": 399145390112444,
+					"parameters": {
+						"instance-variable": "ShotsPerSecond",
+						"value": "5"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "BubbleGun",
+					"sid": 463511662663754
+				},
+				{
+					"id": "destroy",
+					"objectClass": "BubbleGun2",
+					"sid": 700424072535377
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 335947909745597,
+					"parameters": {
+						"object-to-create": "BubbleGun3",
+						"layer": "0",
+						"x": "0",
+						"y": "0",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "set-scale",
+					"objectClass": "BubbleGun3",
+					"sid": 102081999549214,
+					"parameters": {
+						"scale": ".25"
+					}
+				},
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "BubbleGun3",
+					"sid": 434096963154653,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "Player",
+						"image-point": "0",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 260474621044311
 		}
 	],
 	"sid": 335250269904769
