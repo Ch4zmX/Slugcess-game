@@ -56,8 +56,8 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Flash",
-			"name": "Flash",
+			"id": "MoveTo",
+			"name": "Move To",
 			"author": "Scirra",
 			"version": "r302",
 			"bundled": false
@@ -96,7 +96,10 @@
 			"Mouse",
 			"Player",
 			"BubbleGun",
-			"Bubble"
+			"Bubble",
+			"WallBlock",
+			"CollisionDetector",
+			"Snail"
 		],
 		"subfolders": []
 	},

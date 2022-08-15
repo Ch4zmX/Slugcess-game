@@ -32,6 +32,15 @@
 								"height-type": "no",
 								"z": false
 							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Slug",
+							"sid": 655697931357890,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "beginning"
+							}
 						}
 					],
 					"sid": 101708366532738
@@ -42,7 +51,7 @@
 		{
 			"eventType": "group",
 			"disabled": false,
-			"title": "Slug Movement",
+			"title": "Player Movement",
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
@@ -265,6 +274,22 @@
 					"parameters": {
 						"set": "enabled"
 					}
+				},
+				{
+					"id": "set-height",
+					"objectClass": "CollisionDetector",
+					"sid": 836324772985567,
+					"parameters": {
+						"height": "Slug.Height"
+					}
+				},
+				{
+					"id": "set-width",
+					"objectClass": "CollisionDetector",
+					"sid": 135254447048175,
+					"parameters": {
+						"width": "Slug.Width"
+					}
 				}
 			],
 			"sid": 891017871534338
@@ -424,6 +449,30 @@
 				}
 			],
 			"sid": 914738026947830
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 915115821690033,
+					"parameters": {
+						"object": "Slug"
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player",
+					"sid": 870408062474588,
+					"parameters": {
+						"object": "Bubble"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 629608774465293,
+			"isOrBlock": true
 		}
 	],
 	"sid": 335250269904769

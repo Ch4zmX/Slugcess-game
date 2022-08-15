@@ -1,0 +1,63 @@
+{
+	"name": "Snail",
+	"plugin-id": "Sprite",
+	"sid": 482875836854715,
+	"isGlobal": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 129992417496370
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 509,
+						"height": 443,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5829857,
+						"collisionPoly": {
+							"points": [
+								0.0019569471624266144,
+								0.0022471910112359553,
+								0.5,
+								0.0022471910112359553,
+								0.9960861056751468,
+								0.0022471910112359553,
+								0.9960861056751468,
+								0.5,
+								0.9960861056751468,
+								0.9955056179775281,
+								0.5,
+								0.9955056179775281,
+								0.0019569471624266144,
+								0.9955056179775281,
+								0.0019569471624266144,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 116154228497860,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
