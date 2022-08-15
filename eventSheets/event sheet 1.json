@@ -19,6 +19,14 @@
 					],
 					"actions": [
 						{
+							"id": "save",
+							"objectClass": "System",
+							"sid": 953370806734414,
+							"parameters": {
+								"slot": "\"Start\""
+							}
+						},
+						{
 							"id": "pin-to-object-properties",
 							"objectClass": "BubbleGun",
 							"sid": 125915290073951,
@@ -274,22 +282,6 @@
 					"parameters": {
 						"set": "enabled"
 					}
-				},
-				{
-					"id": "set-height",
-					"objectClass": "CollisionDetector",
-					"sid": 836324772985567,
-					"parameters": {
-						"height": "Slug.Height"
-					}
-				},
-				{
-					"id": "set-width",
-					"objectClass": "CollisionDetector",
-					"sid": 135254447048175,
-					"parameters": {
-						"width": "Slug.Width"
-					}
 				}
 			],
 			"sid": 891017871534338
@@ -460,19 +452,171 @@
 					"parameters": {
 						"object": "Slug"
 					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Player",
+					"sid": 274699577806829,
+					"parameters": {
+						"instance-variable": "Health",
+						"value": "1"
+					}
 				},
 				{
-					"id": "is-overlapping-another-object",
+					"id": "set-effect-enabled",
 					"objectClass": "Player",
-					"sid": 870408062474588,
+					"sid": 410668335172340,
 					"parameters": {
-						"object": "Bubble"
+						"mode": "enable",
+						"effect": "\"Tint\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 242867457520694,
+					"parameters": {
+						"seconds": "0.1"
+					}
+				},
+				{
+					"id": "set-effect-enabled",
+					"objectClass": "Player",
+					"sid": 992147399435195,
+					"parameters": {
+						"mode": "disable",
+						"effect": "\"Tint\""
+					}
+				},
+				{
+					"id": "set-width",
+					"objectClass": "Sprite",
+					"sid": 728029236280446,
+					"parameters": {
+						"width": "Player.Health*60"
 					}
 				}
 			],
-			"actions": [],
 			"sid": 629608774465293,
 			"isOrBlock": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player",
+					"sid": 339210641054089,
+					"parameters": {
+						"instance-variable": "Health",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite",
+					"sid": 201404946575103
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Player",
+					"sid": 631698452258878
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Slug",
+					"sid": 691585977887792
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "DeathScreen",
+					"sid": 763402936729240,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "YouDied",
+					"sid": 154892633033650,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 738623337187551,
+					"parameters": {
+						"object-to-create": "YouDied",
+						"layer": "0",
+						"x": "215",
+						"y": "170",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "start-fade",
+					"objectClass": "YouDied",
+					"sid": 206206126797089,
+					"behaviorType": "Fade"
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 897326433108787,
+					"parameters": {
+						"seconds": "7"
+					}
+				},
+				{
+					"id": "load",
+					"objectClass": "System",
+					"sid": 546929215067834,
+					"parameters": {
+						"slot": "\"Start\""
+					}
+				}
+			],
+			"sid": 834621395321125
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Slug",
+					"sid": 215948622100243,
+					"parameters": {
+						"instance-variable": "Health",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Slug",
+					"sid": 867574255820384
+				},
+				{
+					"id": "add-to-instvar",
+					"objectClass": "Player",
+					"sid": 740424645401466,
+					"parameters": {
+						"instance-variable": "Kills",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 277715642246401
 		}
 	],
 	"sid": 335250269904769

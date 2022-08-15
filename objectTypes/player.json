@@ -3,7 +3,20 @@
 	"plugin-id": "Sprite",
 	"sid": 543395048267214,
 	"isGlobal": true,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "Health",
+			"type": "number",
+			"desc": "",
+			"sid": 920953756641341
+		},
+		{
+			"name": "Kills",
+			"type": "number",
+			"desc": "",
+			"sid": 312504591014797
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "EightDir",
@@ -11,7 +24,12 @@
 			"sid": 998223234593080
 		}
 	],
-	"effectTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "tint",
+			"name": "Tint"
+		}
+	],
 	"animations": {
 		"items": [
 			{

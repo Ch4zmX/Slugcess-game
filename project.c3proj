@@ -39,6 +39,22 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "SVGPicture",
+			"name": "SVG Picture",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "EightDir",
 			"name": "8 Direction",
@@ -79,6 +95,22 @@
 			"bundled": false
 		},
 		{
+			"type": "behavior",
+			"id": "Fade",
+			"name": "Fade",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Tween",
+			"name": "Tween",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
 			"type": "effect",
 			"id": "tint",
 			"name": "Tint",
@@ -99,7 +131,11 @@
 			"Bubble",
 			"WallBlock",
 			"CollisionDetector",
-			"Snail"
+			"Snail",
+			"SVGPicture",
+			"YouDied",
+			"DeathScreen",
+			"Sprite"
 		],
 		"subfolders": []
 	},

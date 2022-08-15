@@ -2,7 +2,7 @@
 	"name": "Layout 1",
 	"layers": [
 		{
-			"name": "Layer 0",
+			"name": "Main",
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
@@ -49,7 +49,10 @@
 						"live-preview": false
 					},
 					"uid": 6,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Health": 5,
+						"Kills": 0
+					},
 					"behaviors": {
 						"8Direction": {
 							"properties": {
@@ -61,6 +64,19 @@
 								"allow-sliding": true,
 								"default-controls": false,
 								"enabled": true
+							}
+						}
+					},
+					"effects": {
+						"Tint": {
+							"isEnabled": false,
+							"parameters": {
+								"color": [
+									0.8901960784313725,
+									0.23137254901960785,
+									0.32941176470588235,
+									1
+								]
 							}
 						}
 					},
@@ -145,35 +161,6 @@
 						"y": 383,
 						"width": 23.823069975021063,
 						"height": 23.823069975021063,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "WallBlock",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 9,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 44,
-						"y": 41,
-						"width": 150.85483864402417,
-						"height": 150.85483864402417,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -293,8 +280,8 @@
 						}
 					},
 					"world": {
-						"x": 590.4583070442533,
-						"y": 312.5416929557467,
+						"x": 255,
+						"y": 306,
 						"width": 53.64080231221882,
 						"height": 60.00496529841427,
 						"originX": 0.4406779661016949,
@@ -306,7 +293,7 @@
 							1
 						],
 						"angle": 0,
-						"zElevation": 1
+						"zElevation": 0
 					}
 				}
 			],
@@ -327,6 +314,171 @@
 				1
 			],
 			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "Death Screen",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "DeathScreen",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 12,
+					"instanceVariables": {},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 0,
+								"wait-time": 5,
+								"fade-out-time": 2,
+								"destroy": true,
+								"enabled": false,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": -13,
+						"y": -5.172280354095136,
+						"width": 867,
+						"height": 485.68934904763006,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							0,
+							0,
+							0,
+							0
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 9,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 166.5,
+						"y": 24.5,
+						"width": 300,
+						"height": 25,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "YouDied",
+					"properties": {
+						"text": "YOU DIED",
+						"enable-bbcode": true,
+						"font": "Times New Roman",
+						"size": 69,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0.45098039215686275,
+							0.043137254901960784,
+							0.043137254901960784,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 11,
+					"instanceVariables": {},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 4,
+								"wait-time": 3,
+								"fade-out-time": 1,
+								"destroy": true,
+								"enabled": true,
+								"live-preview": false
+							}
+						},
+						"Tween": {
+							"properties": {
+								"enabled": false
+							}
+						}
+					},
+					"world": {
+						"x": 217,
+						"y": 160,
+						"width": 448,
+						"height": 114,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 1
+					}
+				}
+			],
+			"sid": 885876443005192,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": true,
 			"parallaxX": 1,
 			"parallaxY": 1,
 			"scaleRate": 1,
