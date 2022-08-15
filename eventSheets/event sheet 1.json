@@ -40,15 +40,6 @@
 								"height-type": "no",
 								"z": false
 							}
-						},
-						{
-							"id": "set-animation",
-							"objectClass": "Slug",
-							"sid": 655697931357890,
-							"parameters": {
-								"animation": "\"Walk\"",
-								"from": "beginning"
-							}
 						}
 					],
 					"sid": 101708366532738
@@ -260,27 +251,12 @@
 					}
 				},
 				{
-					"id": "move-along-path",
-					"objectClass": "Slug",
-					"sid": 894433577417422,
-					"behaviorType": "Pathfinding"
-				},
-				{
-					"id": "set-speed",
-					"objectClass": "Slug",
-					"sid": 645153049091142,
-					"behaviorType": "Pathfinding",
+					"id": "set-angle-toward-position",
+					"objectClass": "BubbleGun2",
+					"sid": 258310899512640,
 					"parameters": {
-						"speed": "50"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "Slug",
-					"sid": 865159928199040,
-					"behaviorType": "Pathfinding",
-					"parameters": {
-						"set": "enabled"
+						"x": "Mouse.X",
+						"y": "Mouse.Y"
 					}
 				}
 			],
@@ -617,6 +593,50 @@
 				}
 			],
 			"sid": 277715642246401
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 344027528734493,
+					"parameters": {
+						"object": "GunUpgrader"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-instvar",
+					"objectClass": "Player",
+					"sid": 757089771432867,
+					"parameters": {
+						"instance-variable": "GunType",
+						"value": "1"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "BubbleGun",
+					"sid": 154122169200762
+				},
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "BubbleGun2",
+					"sid": 794088272910220,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "Player",
+						"image-point": "0",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 287628504861580
 		}
 	],
 	"sid": 335250269904769
