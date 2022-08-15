@@ -540,37 +540,6 @@
 			],
 			"actions": [
 				{
-					"id": "set-time-scale",
-					"objectClass": "System",
-					"sid": 829335362078894,
-					"parameters": {
-						"time-scale": "0"
-					}
-				},
-				{
-					"id": "create-object",
-					"objectClass": "System",
-					"sid": 857364655215097,
-					"disabled": true,
-					"parameters": {
-						"object-to-create": "DeathScreen",
-						"layer": "0",
-						"x": "0",
-						"y": "0",
-						"create-hierarchy": false,
-						"template-name": "\"\""
-					}
-				},
-				{
-					"id": "set-size",
-					"objectClass": "DeathScreen",
-					"sid": 406412270564239,
-					"parameters": {
-						"width": "100000",
-						"height": "100000"
-					}
-				},
-				{
 					"id": "destroy",
 					"objectClass": "Sprite",
 					"sid": 201404946575103
@@ -586,9 +555,25 @@
 					"sid": 691585977887792
 				},
 				{
+					"id": "set-opacity",
+					"objectClass": "DeathScreen",
+					"sid": 763402936729240,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "YouDied",
+					"sid": 154892633033650,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 185275031773724,
+					"sid": 738623337187551,
 					"parameters": {
 						"object-to-create": "YouDied",
 						"layer": "0",
@@ -618,14 +603,6 @@
 					"sid": 546929215067834,
 					"parameters": {
 						"slot": "\"Start\""
-					}
-				},
-				{
-					"id": "set-time-scale",
-					"objectClass": "System",
-					"sid": 339983551897704,
-					"parameters": {
-						"time-scale": "1"
 					}
 				}
 			],

@@ -355,6 +355,50 @@
 			"subLayers": [],
 			"instances": [
 				{
+					"type": "DeathScreen",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 12,
+					"instanceVariables": {},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 0,
+								"wait-time": 5,
+								"fade-out-time": 2,
+								"destroy": true,
+								"enabled": false,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": -13,
+						"y": -5.172280354095136,
+						"width": 867,
+						"height": 485.68934904763006,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							0,
+							0,
+							0,
+							0
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Sprite",
 					"properties": {
 						"initially-visible": true,
@@ -381,6 +425,64 @@
 						],
 						"angle": 0,
 						"zElevation": 0
+					}
+				},
+				{
+					"type": "YouDied",
+					"properties": {
+						"text": "YOU DIED",
+						"enable-bbcode": true,
+						"font": "Times New Roman",
+						"size": 69,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0.45098039215686275,
+							0.043137254901960784,
+							0.043137254901960784,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 11,
+					"instanceVariables": {},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 4,
+								"wait-time": 3,
+								"fade-out-time": 1,
+								"destroy": true,
+								"enabled": true,
+								"live-preview": false
+							}
+						},
+						"Tween": {
+							"properties": {
+								"enabled": false
+							}
+						}
+					},
+					"world": {
+						"x": 217,
+						"y": 160,
+						"width": 448,
+						"height": 114,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 1
 					}
 				}
 			],
