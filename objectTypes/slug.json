@@ -9,6 +9,12 @@
 			"type": "number",
 			"desc": "",
 			"sid": 602274040597915
+		},
+		{
+			"name": "Damage",
+			"type": "number",
+			"desc": "",
+			"sid": 635689498902623
 		}
 	],
 	"behaviorTypes": [
@@ -26,6 +32,11 @@
 			"behaviorId": "MoveTo",
 			"name": "MoveTo",
 			"sid": 450873922484759
+		},
+		{
+			"behaviorId": "LOS",
+			"name": "LineOfSight",
+			"sid": 169831760697072
 		}
 	],
 	"effectTypes": [

@@ -57,7 +57,7 @@
 					"behaviors": {
 						"8Direction": {
 							"properties": {
-								"max-speed": 150,
+								"max-speed": 175,
 								"acceleration": 1000000000000000,
 								"deceleration": 1000000000000000,
 								"directions": "dir-8",
@@ -149,27 +149,30 @@
 						"live-preview": false
 					},
 					"uid": 10,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Damage": 1,
+						"Health": 20
+					},
 					"behaviors": {
 						"MoveTo": {
 							"properties": {
-								"max-speed": 200,
+								"max-speed": 100,
 								"acceleration": 100000000000000000000,
 								"deceleration": 1e+22,
 								"rotate-speed": 0,
-								"set-angle": true,
+								"set-angle": false,
 								"stop-on-solids": false,
 								"enabled": true
 							}
 						}
 					},
 					"world": {
-						"x": 440,
-						"y": 182,
-						"width": 82.89104600558903,
-						"height": 72.14289465712363,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 65,
+						"y": 67,
+						"width": 65.79171431484866,
+						"height": 55.20641374439032,
+						"originX": 0.4839108910891089,
+						"originY": 0.4882005899705015,
 						"color": [
 							1,
 							1,
@@ -184,19 +187,20 @@
 					"type": "Slug",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Idle",
+						"initial-animation": "Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 3,
 					"instanceVariables": {
-						"Health": 3
+						"Health": 3,
+						"Damage": 1
 					},
 					"behaviors": {
 						"8Direction": {
 							"properties": {
-								"max-speed": 125,
+								"max-speed": 130,
 								"acceleration": 100000000000,
 								"deceleration": 100000000000,
 								"directions": "dir-8",
@@ -222,13 +226,21 @@
 						},
 						"MoveTo": {
 							"properties": {
-								"max-speed": 200,
+								"max-speed": 130,
 								"acceleration": 1000000000,
 								"deceleration": 1000000000,
 								"rotate-speed": 0,
-								"set-angle": true,
+								"set-angle": false,
 								"stop-on-solids": false,
 								"enabled": true
+							}
+						},
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 10000,
+								"cone-of-view": 360,
+								"use-collision-cells": true
 							}
 						}
 					},
@@ -246,8 +258,8 @@
 						}
 					},
 					"world": {
-						"x": 255,
-						"y": 306,
+						"x": 75.21022387631814,
+						"y": 421.9556058014673,
 						"width": 53.64080231221882,
 						"height": 60.00496529841427,
 						"originX": 0.4406779661016949,
@@ -304,12 +316,56 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 123.5132711264202,
-						"y": 100.5676214973237,
+						"x": 104.77298473841552,
+						"y": 98.81071964844827,
 						"width": 89.36118939389587,
 						"height": 89.36118939389587,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Ant",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Walk",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 7,
+					"instanceVariables": {
+						"Damage": 1,
+						"Health": 1
+					},
+					"behaviors": {
+						"MoveTo": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": true,
+								"stop-on-solids": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 596,
+						"y": 157,
+						"width": 48.82238744965321,
+						"height": 50.664741693036355,
+						"originX": 0.39622641509433965,
+						"originY": 0.5636363636363636,
 						"color": [
 							1,
 							1,
@@ -357,7 +413,7 @@
 				{
 					"type": "DeathScreen",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"origin": "top-left",
 						"wrap-horizontal": "repeat",
 						"wrap-vertical": "repeat",
@@ -392,7 +448,7 @@
 							0,
 							0,
 							0,
-							0
+							1
 						],
 						"angle": 0,
 						"zElevation": 0
@@ -454,11 +510,11 @@
 					"behaviors": {
 						"Fade": {
 							"properties": {
-								"fade-in-time": 4,
+								"fade-in-time": 3,
 								"wait-time": 3,
 								"fade-out-time": 1,
 								"destroy": true,
-								"enabled": true,
+								"enabled": false,
 								"live-preview": false
 							}
 						},
@@ -482,7 +538,7 @@
 							1
 						],
 						"angle": 0,
-						"zElevation": 1
+						"zElevation": 2
 					}
 				}
 			],

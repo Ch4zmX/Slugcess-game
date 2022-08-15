@@ -14,14 +14,14 @@
 						{
 							"id": "on-start-of-layout",
 							"objectClass": "System",
-							"sid": 783861539734720
+							"sid": 871152733829677
 						}
 					],
 					"actions": [
 						{
 							"id": "save",
 							"objectClass": "System",
-							"sid": 953370806734414,
+							"sid": 874921931000373,
 							"parameters": {
 								"slot": "\"Start\""
 							}
@@ -29,7 +29,7 @@
 						{
 							"id": "create-object",
 							"objectClass": "System",
-							"sid": 161849194412161,
+							"sid": 768912343173237,
 							"parameters": {
 								"object-to-create": "BubbleGun",
 								"layer": "0",
@@ -42,7 +42,7 @@
 						{
 							"id": "set-scale",
 							"objectClass": "BubbleGun",
-							"sid": 488777209958977,
+							"sid": 850591904349916,
 							"parameters": {
 								"scale": ".25"
 							}
@@ -50,7 +50,7 @@
 						{
 							"id": "pin-to-object-imagepoint",
 							"objectClass": "BubbleGun",
-							"sid": 596331651880093,
+							"sid": 477746107826446,
 							"behaviorType": "Pin",
 							"parameters": {
 								"pin-to": "Player",
@@ -62,10 +62,10 @@
 							}
 						}
 					],
-					"sid": 101708366532738
+					"sid": 254006999756456
 				}
 			],
-			"sid": 105453859178087
+			"sid": 974131916669649
 		},
 		{
 			"eventType": "group",
@@ -80,7 +80,7 @@
 						{
 							"id": "key-is-down",
 							"objectClass": "Keyboard",
-							"sid": 560388137546197,
+							"sid": 770659684728728,
 							"parameters": {
 								"key": 87
 							}
@@ -90,7 +90,7 @@
 						{
 							"id": "simulate-control",
 							"objectClass": "Player",
-							"sid": 221764334295891,
+							"sid": 544797273658445,
 							"behaviorType": "8Direction",
 							"parameters": {
 								"control": "up"
@@ -99,14 +99,14 @@
 						{
 							"id": "set-animation",
 							"objectClass": "Player",
-							"sid": 274636144124503,
+							"sid": 518500408033081,
 							"parameters": {
 								"animation": "\"Walk\"",
 								"from": "current-frame"
 							}
 						}
 					],
-					"sid": 939353953067111
+					"sid": 840247354123247
 				},
 				{
 					"eventType": "block",
@@ -114,7 +114,7 @@
 						{
 							"id": "key-is-down",
 							"objectClass": "Keyboard",
-							"sid": 727894937850347,
+							"sid": 968042506362811,
 							"parameters": {
 								"key": 65
 							}
@@ -124,7 +124,7 @@
 						{
 							"id": "simulate-control",
 							"objectClass": "Player",
-							"sid": 922745937800198,
+							"sid": 305233152395057,
 							"behaviorType": "8Direction",
 							"parameters": {
 								"control": "left"
@@ -133,7 +133,7 @@
 						{
 							"id": "set-mirrored",
 							"objectClass": "Player",
-							"sid": 536249291951282,
+							"sid": 726231930233582,
 							"parameters": {
 								"state": "mirrored"
 							}
@@ -141,14 +141,14 @@
 						{
 							"id": "set-animation",
 							"objectClass": "Player",
-							"sid": 168325208571347,
+							"sid": 154993083226996,
 							"parameters": {
 								"animation": "\"Walk\"",
 								"from": "current-frame"
 							}
 						}
 					],
-					"sid": 113652449773854
+					"sid": 127318769524042
 				},
 				{
 					"eventType": "block",
@@ -156,7 +156,7 @@
 						{
 							"id": "key-is-down",
 							"objectClass": "Keyboard",
-							"sid": 218554068299181,
+							"sid": 522603712046006,
 							"parameters": {
 								"key": 83
 							}
@@ -166,7 +166,7 @@
 						{
 							"id": "simulate-control",
 							"objectClass": "Player",
-							"sid": 225489526658301,
+							"sid": 403275678445526,
 							"behaviorType": "8Direction",
 							"parameters": {
 								"control": "down"
@@ -175,14 +175,14 @@
 						{
 							"id": "set-animation",
 							"objectClass": "Player",
-							"sid": 962082746571051,
+							"sid": 555257501264680,
 							"parameters": {
 								"animation": "\"Walk\"",
 								"from": "current-frame"
 							}
 						}
 					],
-					"sid": 915308519920123
+					"sid": 288928059623162
 				},
 				{
 					"eventType": "block",
@@ -190,7 +190,7 @@
 						{
 							"id": "key-is-down",
 							"objectClass": "Keyboard",
-							"sid": 568799038952964,
+							"sid": 877595667496087,
 							"parameters": {
 								"key": 68
 							}
@@ -200,7 +200,7 @@
 						{
 							"id": "simulate-control",
 							"objectClass": "Player",
-							"sid": 598500869053778,
+							"sid": 537584227814311,
 							"behaviorType": "8Direction",
 							"parameters": {
 								"control": "right"
@@ -209,7 +209,7 @@
 						{
 							"id": "set-mirrored",
 							"objectClass": "Player",
-							"sid": 213398474082932,
+							"sid": 935929180178946,
 							"parameters": {
 								"state": "not-mirrored"
 							}
@@ -217,14 +217,14 @@
 						{
 							"id": "set-animation",
 							"objectClass": "Player",
-							"sid": 317976209449974,
+							"sid": 973468600543576,
 							"parameters": {
 								"animation": "\"Walk\"",
 								"from": "current-frame"
 							}
 						}
 					],
-					"sid": 920476835183556
+					"sid": 967671927952131
 				},
 				{
 					"eventType": "block",
@@ -232,24 +232,24 @@
 						{
 							"id": "on-any-key-released",
 							"objectClass": "Keyboard",
-							"sid": 388132146003571
+							"sid": 785181975420906
 						}
 					],
 					"actions": [
 						{
 							"id": "set-animation",
 							"objectClass": "Player",
-							"sid": 898518929414185,
+							"sid": 352822730269668,
 							"parameters": {
 								"animation": "\"Idle\"",
 								"from": "beginning"
 							}
 						}
 					],
-					"sid": 667616265685314
+					"sid": 585233602476853
 				}
 			],
-			"sid": 979969363392062
+			"sid": 849698987995208
 		},
 		{
 			"eventType": "block",
@@ -257,14 +257,14 @@
 				{
 					"id": "every-tick",
 					"objectClass": "System",
-					"sid": 738364767080675
+					"sid": 282722633952560
 				}
 			],
 			"actions": [
 				{
 					"id": "set-angle-toward-position",
 					"objectClass": "BubbleGun",
-					"sid": 366659929465044,
+					"sid": 164555547302341,
 					"parameters": {
 						"x": "Mouse.X",
 						"y": "Mouse.Y"
@@ -273,7 +273,7 @@
 				{
 					"id": "set-angle-toward-position",
 					"objectClass": "BubbleGun2",
-					"sid": 258310899512640,
+					"sid": 570984836708993,
 					"parameters": {
 						"x": "Mouse.X",
 						"y": "Mouse.Y"
@@ -282,14 +282,56 @@
 				{
 					"id": "set-angle-toward-position",
 					"objectClass": "BubbleGun3",
-					"sid": 609604729789292,
+					"sid": 252478337907793,
 					"parameters": {
 						"x": "Mouse.X",
 						"y": "Mouse.Y"
 					}
+				},
+				{
+					"id": "move-to-object",
+					"objectClass": "Slug",
+					"sid": 686696089758006,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"object": "Player",
+						"image-point": "0",
+						"mode": "direct"
+					}
+				},
+				{
+					"id": "move-to-object",
+					"objectClass": "Snail",
+					"sid": 656146439390046,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"object": "Player",
+						"image-point": "0",
+						"mode": "direct"
+					}
+				},
+				{
+					"id": "set-angle-toward-position",
+					"objectClass": "Ant",
+					"sid": 304452161697884,
+					"parameters": {
+						"x": "Player.X",
+						"y": "Player.Y"
+					}
+				},
+				{
+					"id": "move-to-object",
+					"objectClass": "Ant",
+					"sid": 636020375800713,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"object": "Player",
+						"image-point": "0",
+						"mode": "direct"
+					}
 				}
 			],
-			"sid": 891017871534338
+			"sid": 699836800528352
 		},
 		{
 			"eventType": "block",
@@ -326,9 +368,9 @@
 				{
 					"id": "set-scale",
 					"objectClass": "Bubble",
-					"sid": 379518643943796,
+					"sid": 664297760316045,
 					"parameters": {
-						"scale": "0.06"
+						"scale": "0.08"
 					}
 				},
 				{
@@ -364,115 +406,26 @@
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "Bubble",
-					"sid": 662496694145672,
-					"parameters": {
-						"object": "Slug"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "subtract-from-instvar",
-					"objectClass": "Slug",
-					"sid": 362006050151298,
-					"parameters": {
-						"instance-variable": "Health",
-						"value": "1"
-					}
-				},
-				{
-					"id": "set-animation",
-					"objectClass": "Bubble",
-					"sid": 827975788550951,
-					"parameters": {
-						"animation": "\"Pop\"",
-						"from": "beginning"
-					}
-				},
-				{
-					"id": "set-effect-enabled",
-					"objectClass": "Slug",
-					"sid": 568366965209496,
-					"parameters": {
-						"mode": "enable",
-						"effect": "\"Tint\""
-					}
-				},
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 414937302755001,
-					"parameters": {
-						"seconds": "0.1"
-					}
-				},
-				{
-					"id": "set-effect-enabled",
-					"objectClass": "Slug",
-					"sid": 210628516703579,
-					"parameters": {
-						"mode": "disable",
-						"effect": "\"Tint\""
-					}
-				},
-				{
-					"id": "destroy",
-					"objectClass": "Bubble",
-					"sid": 140166970854595
-				}
-			],
-			"sid": 920587464935776
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "compare-speed",
-					"objectClass": "Bubble",
-					"sid": 733267415916776,
-					"behaviorType": "Bullet",
-					"parameters": {
-						"comparison": 0,
-						"speed": "0"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "Bubble",
-					"sid": 274256042050293,
-					"parameters": {
-						"animation": "\"Pop\"",
-						"from": "beginning"
-					}
-				},
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 720315819016080,
-					"parameters": {
-						"seconds": "0.06666"
-					}
-				},
-				{
-					"id": "destroy",
-					"objectClass": "Bubble",
-					"sid": 201030622096219
-				}
-			],
-			"sid": 914738026947830
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
 					"objectClass": "Player",
 					"sid": 915115821690033,
 					"parameters": {
 						"object": "Slug"
+					}
+				},
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 606441571725413,
+					"parameters": {
+						"object": "Ant"
+					}
+				},
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 582627093174954,
+					"parameters": {
+						"object": "Snail"
 					}
 				}
 			],
@@ -555,12 +508,18 @@
 					"sid": 691585977887792
 				},
 				{
-					"id": "set-opacity",
+					"id": "set-visible",
 					"objectClass": "DeathScreen",
-					"sid": 763402936729240,
+					"sid": 705687104671245,
 					"parameters": {
-						"opacity": "100"
+						"visibility": "visible"
 					}
+				},
+				{
+					"id": "start-fade",
+					"objectClass": "YouDied",
+					"sid": 273262586635768,
+					"behaviorType": "Fade"
 				},
 				{
 					"id": "set-visible",
@@ -571,30 +530,11 @@
 					}
 				},
 				{
-					"id": "create-object",
-					"objectClass": "System",
-					"sid": 738623337187551,
-					"parameters": {
-						"object-to-create": "YouDied",
-						"layer": "0",
-						"x": "215",
-						"y": "170",
-						"create-hierarchy": false,
-						"template-name": "\"\""
-					}
-				},
-				{
-					"id": "start-fade",
-					"objectClass": "YouDied",
-					"sid": 206206126797089,
-					"behaviorType": "Fade"
-				},
-				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 897326433108787,
+					"sid": 678062424414774,
 					"parameters": {
-						"seconds": "7"
+						"seconds": "5"
 					}
 				},
 				{
@@ -607,38 +547,6 @@
 				}
 			],
 			"sid": 834621395321125
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "compare-instance-variable",
-					"objectClass": "Slug",
-					"sid": 215948622100243,
-					"parameters": {
-						"instance-variable": "Health",
-						"comparison": 0,
-						"value": "0"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "Slug",
-					"sid": 867574255820384
-				},
-				{
-					"id": "add-to-instvar",
-					"objectClass": "Player",
-					"sid": 740424645401466,
-					"parameters": {
-						"instance-variable": "Kills",
-						"value": "1"
-					}
-				}
-			],
-			"sid": 277715642246401
 		},
 		{
 			"eventType": "block",
@@ -779,6 +687,279 @@
 				}
 			],
 			"sid": 260474621044311
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Bubble Collisions",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-speed",
+							"objectClass": "Bubble",
+							"sid": 264977778882481,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"comparison": 0,
+								"speed": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Bubble",
+							"sid": 770521741596271,
+							"parameters": {
+								"animation": "\"Pop\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 615411769093368,
+							"parameters": {
+								"seconds": "0.06666"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Bubble",
+							"sid": 839519631605810
+						}
+					],
+					"sid": 475369340661078
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Bubble",
+							"sid": 659206297965623,
+							"parameters": {
+								"object": "Slug"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Slug",
+							"sid": 286088178105807,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Bubble",
+							"sid": 297668900323683,
+							"parameters": {
+								"animation": "\"Pop\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Bubble",
+							"sid": 798881458806779
+						}
+					],
+					"sid": 745625493384155
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Bubble",
+							"sid": 744532163230378,
+							"parameters": {
+								"object": "Snail"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Snail",
+							"sid": 235096188529862,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Bubble",
+							"sid": 458786461826643,
+							"parameters": {
+								"animation": "\"Pop\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Bubble",
+							"sid": 104686372417624
+						}
+					],
+					"sid": 756389495245766
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Bubble",
+							"sid": 282425254646163,
+							"parameters": {
+								"object": "Ant"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Ant",
+							"sid": 749542830152122,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Bubble",
+							"sid": 371101264041304,
+							"parameters": {
+								"animation": "\"Pop\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Bubble",
+							"sid": 978589586104155
+						}
+					],
+					"sid": 992778444234478
+				}
+			],
+			"sid": 959263917301673
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Enemy Deaths",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Snail",
+							"sid": 422543449814731,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Snail",
+							"sid": 897283324714559
+						},
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Player",
+							"sid": 447980035694187,
+							"parameters": {
+								"instance-variable": "Kills",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 310580993711600
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Slug",
+							"sid": 295313796460831,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Slug",
+							"sid": 582251695651537
+						},
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Player",
+							"sid": 443866048015287,
+							"parameters": {
+								"instance-variable": "Kills",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 573324971161989
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Ant",
+							"sid": 273516318156124,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Ant",
+							"sid": 102114654966382
+						},
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Player",
+							"sid": 822269318570800,
+							"parameters": {
+								"instance-variable": "Kills",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 821087907931540
+				}
+			],
+			"sid": 260546308058480
 		}
 	],
 	"sid": 335250269904769

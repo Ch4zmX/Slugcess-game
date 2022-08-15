@@ -72,6 +72,14 @@
 		},
 		{
 			"type": "behavior",
+			"id": "LOS",
+			"name": "Line of sight",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Pin",
 			"name": "Pin",
 			"author": "Scirra",
@@ -128,7 +136,8 @@
 			"BubbleGun2",
 			"GunUpgrader",
 			"BubbleGun3",
-			"GunUpgrader2"
+			"GunUpgrader2",
+			"Ant"
 		],
 		"subfolders": []
 	},
