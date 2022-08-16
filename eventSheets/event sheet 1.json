@@ -311,15 +311,6 @@
 					}
 				},
 				{
-					"id": "set-angle-toward-position",
-					"objectClass": "Ant",
-					"sid": 304452161697884,
-					"parameters": {
-						"x": "Player.X",
-						"y": "Player.Y"
-					}
-				},
-				{
 					"id": "move-to-object",
 					"objectClass": "Ant",
 					"sid": 636020375800713,
@@ -532,9 +523,9 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 678062424414774,
+					"sid": 629009355089742,
 					"parameters": {
-						"seconds": "5"
+						"seconds": "7"
 					}
 				},
 				{
@@ -854,6 +845,154 @@
 				}
 			],
 			"sid": 959263917301673
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Mirror Enemies",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-x",
+							"objectClass": "Ant",
+							"sid": 517488270100461,
+							"parameters": {
+								"comparison": 4,
+								"x-co-ordinate": "Player.X"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "Ant",
+							"sid": 688190876829893,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 855514472772464
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 405382514175726
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "Ant",
+							"sid": 979355670084263,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 233217722864235
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-x",
+							"objectClass": "Slug",
+							"sid": 699082624494557,
+							"parameters": {
+								"comparison": 4,
+								"x-co-ordinate": "Player.X"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "Slug",
+							"sid": 854867782818203,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 990780758886857
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 816789952634707
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "Slug",
+							"sid": 469874533358137,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 148814118947559
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-x",
+							"objectClass": "Snail",
+							"sid": 924370292682753,
+							"parameters": {
+								"comparison": 4,
+								"x-co-ordinate": "Player.X"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "Snail",
+							"sid": 347223461678204,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 414722952740628
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 752225435544638
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "Snail",
+							"sid": 261235794958602,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 866318379676958
+				}
+			],
+			"sid": 397941639659219
 		},
 		{
 			"eventType": "group",

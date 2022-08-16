@@ -47,6 +47,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Particles",
+			"name": "Particles",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "EightDir",
 			"name": "8 Direction",
@@ -111,6 +119,14 @@
 			"bundled": false
 		},
 		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
 			"type": "effect",
 			"id": "tint",
 			"name": "Tint",
@@ -137,7 +153,10 @@
 			"GunUpgrader",
 			"BubbleGun3",
 			"GunUpgrader2",
-			"Ant"
+			"Ant",
+			"Sprite2",
+			"Particles",
+			"Sprite3"
 		],
 		"subfolders": []
 	},

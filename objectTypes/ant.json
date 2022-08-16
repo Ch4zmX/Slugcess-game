@@ -15,6 +15,12 @@
 			"type": "number",
 			"desc": "",
 			"sid": 320378894184714
+		},
+		{
+			"name": "Facing",
+			"type": "number",
+			"desc": "",
+			"sid": 223469265979415
 		}
 	],
 	"behaviorTypes": [
