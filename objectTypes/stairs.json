@@ -1,33 +1,10 @@
 {
-	"name": "Enemy",
+	"name": "stairs",
 	"plugin-id": "Sprite",
-	"sid": 919183770669761,
+	"sid": 214664764401040,
 	"isGlobal": false,
-	"instanceVariables": [
-		{
-			"name": "Health",
-			"type": "number",
-			"desc": "",
-			"sid": 186286554856831
-		}
-	],
-	"behaviorTypes": [
-		{
-			"behaviorId": "Pin",
-			"name": "Pin",
-			"sid": 840129749773944
-		},
-		{
-			"behaviorId": "LOS",
-			"name": "LineOfSight",
-			"sid": 317621350215351
-		},
-		{
-			"behaviorId": "MoveTo",
-			"name": "MoveTo",
-			"sid": 357441951261112
-		}
-	],
+	"instanceVariables": [],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -41,7 +18,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6880819,
+						"imageSpriteId": 2627338,
 						"collisionPoly": {
 							"points": [
 								0.003968253968253968,
@@ -58,7 +35,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 543920982705560,
+				"sid": 656542707540707,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

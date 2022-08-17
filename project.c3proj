@@ -56,8 +56,8 @@
 		},
 		{
 			"type": "plugin",
-			"id": "Audio",
-			"name": "Audio",
+			"id": "NinePatch",
+			"name": "9-patch",
 			"author": "Scirra",
 			"version": "r302",
 			"bundled": false
@@ -98,6 +98,14 @@
 			"type": "behavior",
 			"id": "scrollto",
 			"name": "Scroll To",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "bound",
+			"name": "Bound to layout",
 			"author": "Scirra",
 			"version": "r302",
 			"bundled": false
@@ -156,19 +164,36 @@
 			"Snail",
 			"YouDied",
 			"DeathScreen",
-			"HealthBar",
+			"stairwall",
 			"BubbleGun2",
 			"GunUpgrader",
 			"BubbleGun3",
 			"GunUpgrader2",
 			"Ant",
-			"Sprite2",
 			"Particles",
-			"Sprite3",
 			"Wasp",
 			"Enemy",
 			"Stinger",
-			"DeathSound"
+			"startGround",
+			"lv1",
+			"bookstore",
+			"lv2",
+			"Text",
+			"concrete",
+			"9patch",
+			"trail",
+			"stairs",
+			"bush",
+			"wall",
+			"table",
+			"longTable",
+			"volleyballNet",
+			"building",
+			"pathway",
+			"crownKeyCard",
+			"gate",
+			"cowelKeyCard",
+			"Sprite2"
 		],
 		"subfolders": []
 	},
@@ -180,7 +205,11 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"test",
+			"start",
+			"lv1",
+			"lv2",
+			"bookstore"
 		],
 		"subfolders": []
 	},
@@ -196,16 +225,7 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [
-				{
-					"name": "Elden Ring - YOU DIED [Sound Effect].webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 720496898602863,
-					"file-info": {
-						"purpose": "none"
-					}
-				}
-			],
+			"items": [],
 			"subfolders": []
 		},
 		"music": {
@@ -348,5 +368,5 @@
 	},
 	"viewportWidth": 854,
 	"viewportHeight": 480,
-	"firstLayout": null
+	"firstLayout": "start"
 }

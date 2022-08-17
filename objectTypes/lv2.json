@@ -1,31 +1,21 @@
 {
-	"name": "Enemy",
+	"name": "lv2",
 	"plugin-id": "Sprite",
-	"sid": 919183770669761,
+	"sid": 313728241715971,
 	"isGlobal": false,
 	"instanceVariables": [
 		{
-			"name": "Health",
-			"type": "number",
+			"name": "unlocked",
+			"type": "boolean",
 			"desc": "",
-			"sid": 186286554856831
+			"sid": 465236200052584
 		}
 	],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Pin",
-			"name": "Pin",
-			"sid": 840129749773944
-		},
-		{
-			"behaviorId": "LOS",
-			"name": "LineOfSight",
-			"sid": 317621350215351
-		},
-		{
-			"behaviorId": "MoveTo",
-			"name": "MoveTo",
-			"sid": 357441951261112
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 566203074447169
 		}
 	],
 	"effectTypes": [],
@@ -35,30 +25,30 @@
 				"frames": [
 					{
 						"width": 252,
-						"height": 252,
+						"height": 77,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 0.5324675324675324,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6880819,
+						"imageSpriteId": 1661957,
 						"collisionPoly": {
 							"points": [
 								0.003968253968253968,
-								0.003968253968253968,
+								0,
 								0.996031746031746,
-								0.003968253968253968,
+								0,
 								0.996031746031746,
-								0.996031746031746,
+								1,
 								0.003968253968253968,
-								0.996031746031746
+								1
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 543920982705560,
+				"sid": 243420525705894,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

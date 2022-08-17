@@ -1,29 +1,35 @@
 {
-	"name": "Sprite2",
+	"name": "volleyballNet",
 	"plugin-id": "Sprite",
-	"sid": 547550842097108,
+	"sid": 138427317555363,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 829108623837249
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
+						"width": 14,
+						"height": 214,
+						"originX": 3.4285714285714284,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7514915,
+						"imageSpriteId": 477608,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 349474560780129,
+				"sid": 579922040189971,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

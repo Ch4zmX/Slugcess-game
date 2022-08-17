@@ -1,29 +1,35 @@
 {
-	"name": "Sprite2",
+	"name": "gate",
 	"plugin-id": "Sprite",
-	"sid": 547550842097108,
+	"sid": 960738289745953,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 966201822752035
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 188,
+						"height": 23,
+						"originX": 0.46808510638297873,
+						"originY": 2.782608695652174,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7514915,
+						"imageSpriteId": 3785460,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 349474560780129,
+				"sid": 454325259213914,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

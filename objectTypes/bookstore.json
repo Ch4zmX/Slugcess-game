@@ -1,31 +1,21 @@
 {
-	"name": "Enemy",
+	"name": "bookstore",
 	"plugin-id": "Sprite",
-	"sid": 919183770669761,
+	"sid": 189816958146761,
 	"isGlobal": false,
 	"instanceVariables": [
 		{
-			"name": "Health",
-			"type": "number",
+			"name": "unlocked",
+			"type": "boolean",
 			"desc": "",
-			"sid": 186286554856831
+			"sid": 868351383461081
 		}
 	],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Pin",
-			"name": "Pin",
-			"sid": 840129749773944
-		},
-		{
-			"behaviorId": "LOS",
-			"name": "LineOfSight",
-			"sid": 317621350215351
-		},
-		{
-			"behaviorId": "MoveTo",
-			"name": "MoveTo",
-			"sid": 357441951261112
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 915743230691349
 		}
 	],
 	"effectTypes": [],
@@ -35,30 +25,30 @@
 				"frames": [
 					{
 						"width": 252,
-						"height": 252,
+						"height": 85,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 0.9529411764705882,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6880819,
+						"imageSpriteId": 4870441,
 						"collisionPoly": {
 							"points": [
 								0.003968253968253968,
-								0.003968253968253968,
+								0,
 								0.996031746031746,
-								0.003968253968253968,
+								0,
 								0.996031746031746,
-								0.996031746031746,
+								1,
 								0.003968253968253968,
-								0.996031746031746
+								1
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 543920982705560,
+				"sid": 339567331602742,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -1,7 +1,7 @@
 {
-	"name": "Sprite2",
+	"name": "crownKeyCard",
 	"plugin-id": "Sprite",
-	"sid": 547550842097108,
+	"sid": 973266685503883,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7514915,
+						"imageSpriteId": 9114825,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 349474560780129,
+				"sid": 564255574113054,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

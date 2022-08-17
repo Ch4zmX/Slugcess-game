@@ -1,7 +1,7 @@
 {
-	"name": "Sprite2",
+	"name": "cowelKeyCard",
 	"plugin-id": "Sprite",
-	"sid": 547550842097108,
+	"sid": 798061758130861,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7514915,
+						"imageSpriteId": 4787534,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 349474560780129,
+				"sid": 860354382303247,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -32,7 +32,12 @@
 		{
 			"behaviorId": "scrollto",
 			"name": "ScrollTo",
-			"sid": 968440615966621
+			"sid": 531282731226082
+		},
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 658380710634770
 		}
 	],
 	"effectTypes": [
@@ -67,6 +72,13 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 1.7076923076923076,
+								"y": 0.5321100917431193
+							}
+						],
 						"duration": 1
 					}
 				],
@@ -102,6 +114,13 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 1.7076923076923076,
+								"y": 0.5321100917431193
+							}
+						],
 						"duration": 1
 					},
 					{
@@ -126,6 +145,13 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 1.7076923076923076,
+								"y": 0.5321100917431193
+							}
+						],
 						"duration": 1
 					},
 					{
@@ -150,6 +176,13 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 1.7076923076923076,
+								"y": 0.5321100917431193
+							}
+						],
 						"duration": 1
 					},
 					{
@@ -174,6 +207,13 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 1.7076923076923076,
+								"y": 0.5321100917431193
+							}
+						],
 						"duration": 1
 					}
 				],
