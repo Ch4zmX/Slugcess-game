@@ -1,0 +1,231 @@
+{
+	"name": "Player",
+	"plugin-id": "Sprite",
+	"sid": 543395048267214,
+	"isGlobal": true,
+	"instanceVariables": [
+		{
+			"name": "Health",
+			"type": "number",
+			"desc": "",
+			"sid": 920953756641341
+		},
+		{
+			"name": "Kills",
+			"type": "number",
+			"desc": "",
+			"sid": 312504591014797
+		},
+		{
+			"name": "ShotsPerSecond",
+			"type": "number",
+			"desc": "1.333 is default bubble gun, 3 is bubble pistol, 5 is bubble assault rifle",
+			"sid": 816063868567920
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direction",
+			"sid": 998223234593080
+		},
+		{
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 531282731226082
+		},
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 658380710634770
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "tint",
+			"name": "Tint"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 65,
+						"height": 218,
+						"originX": 0.4,
+						"originY": 0.48623853211009177,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3576878,
+						"collisionPoly": {
+							"points": [
+								1,
+								1,
+								0,
+								1,
+								0,
+								0,
+								1,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 1.7076923076923076,
+								"y": 0.5321100917431193
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 958459039819348,
+				"name": "Idle",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 65,
+						"height": 218,
+						"originX": 0.07692307692307693,
+						"originY": 0.47706422018348627,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4060888,
+						"collisionPoly": {
+							"points": [
+								1,
+								1,
+								0,
+								1,
+								0,
+								0,
+								1,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 1.7076923076923076,
+								"y": 0.5321100917431193
+							}
+						],
+						"duration": 1
+					},
+					{
+						"width": 65,
+						"height": 218,
+						"originX": 0.07692307692307693,
+						"originY": 0.5091743119266054,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7157735,
+						"collisionPoly": {
+							"points": [
+								1,
+								1,
+								0,
+								1,
+								0,
+								0,
+								1,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 1.7076923076923076,
+								"y": 0.5321100917431193
+							}
+						],
+						"duration": 1
+					},
+					{
+						"width": 65,
+						"height": 218,
+						"originX": 0.07692307692307693,
+						"originY": 0.536697247706422,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3148550,
+						"collisionPoly": {
+							"points": [
+								1,
+								1,
+								0,
+								1,
+								0,
+								0,
+								1,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 1.7076923076923076,
+								"y": 0.5321100917431193
+							}
+						],
+						"duration": 1
+					},
+					{
+						"width": 65,
+						"height": 218,
+						"originX": 0.07692307692307693,
+						"originY": 0.5091743119266054,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4260632,
+						"collisionPoly": {
+							"points": [
+								1,
+								1,
+								0,
+								1,
+								0,
+								0,
+								1,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 1.7076923076923076,
+								"y": 0.5321100917431193
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 964825230098195,
+				"name": "Walk",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 20
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"name": "YouDied",
+	"plugin-id": "Text",
+	"sid": 890428545313311,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Fade",
+			"name": "Fade",
+			"sid": 893237738962787
+		},
+		{
+			"behaviorId": "Tween",
+			"name": "Tween",
+			"sid": 663557919874303
+		}
+	],
+	"effectTypes": []
+}

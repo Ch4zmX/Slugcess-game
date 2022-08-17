@@ -1,0 +1,43 @@
+{
+	"name": "table",
+	"plugin-id": "Sprite",
+	"sid": 780217346337945,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 622350346164584
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 155,
+						"height": 143,
+						"originX": 0.5032258064516129,
+						"originY": 0.5454545454545454,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4209795,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 469413158840296,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

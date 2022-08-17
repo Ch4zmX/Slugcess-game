@@ -1,0 +1,1685 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Startup",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 871152733829677
+						}
+					],
+					"actions": [
+						{
+							"id": "save",
+							"objectClass": "System",
+							"sid": 874921931000373,
+							"parameters": {
+								"slot": "\"Start\""
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 768912343173237,
+							"parameters": {
+								"object-to-create": "BubbleGun",
+								"layer": "0",
+								"x": "0",
+								"y": "0",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "set-scale",
+							"objectClass": "BubbleGun",
+							"sid": 850591904349916,
+							"parameters": {
+								"scale": ".25"
+							}
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "BubbleGun",
+							"sid": 477746107826446,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Player",
+								"image-point": "0",
+								"angle": true,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 495169549568015,
+							"parameters": {
+								"object-to-create": "Enemy",
+								"layer": "0",
+								"x": "random(0, ViewportWidth(0))",
+								"y": "50",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 657396658163907,
+							"parameters": {
+								"object-to-create": "Slug",
+								"layer": "0",
+								"x": "0",
+								"y": "0",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "set-size",
+							"objectClass": "Enemy",
+							"sid": 805539159569548,
+							"parameters": {
+								"width": "Slug.Width",
+								"height": "Slug.Height"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Slug",
+							"sid": 892529309862917,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "add-child",
+							"objectClass": "Enemy",
+							"sid": 503358474611387,
+							"parameters": {
+								"child": "Slug",
+								"transform-x": true,
+								"transform-y": true,
+								"transform-w": true,
+								"transform-h": true,
+								"transform-a": true,
+								"transform-z-elevation": true,
+								"destroy-with-parent": true
+							}
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "Slug",
+							"sid": 999960922071072,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Enemy",
+								"image-point": "0",
+								"angle": false,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "Enemy",
+							"sid": 570090509773297,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Slug",
+								"image-point": "0",
+								"angle": false,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 840880342920809,
+							"parameters": {
+								"object-to-create": "Enemy",
+								"layer": "0",
+								"x": "random(0, ViewportWidth(0))",
+								"y": "50",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 113745351323315,
+							"parameters": {
+								"object-to-create": "Wasp",
+								"layer": "0",
+								"x": "0",
+								"y": "0",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "set-size",
+							"objectClass": "Enemy",
+							"sid": 526902996362612,
+							"parameters": {
+								"width": "Wasp.Width",
+								"height": "Wasp.Height"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Wasp",
+							"sid": 914476963541450,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "add-child",
+							"objectClass": "Enemy",
+							"sid": 234357561889033,
+							"parameters": {
+								"child": "Wasp",
+								"transform-x": true,
+								"transform-y": true,
+								"transform-w": true,
+								"transform-h": true,
+								"transform-a": true,
+								"transform-z-elevation": true,
+								"destroy-with-parent": true
+							}
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "Wasp",
+							"sid": 554065233877108,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Enemy",
+								"image-point": "0",
+								"angle": false,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "Enemy",
+							"sid": 653649937647616,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Wasp",
+								"image-point": "0",
+								"angle": false,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Enemy",
+							"sid": 710264231125928,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"enabled": false
+							}
+						}
+					],
+					"sid": 254006999756456
+				}
+			],
+			"sid": 974131916669649
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Player Movement",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 770659684728728,
+							"parameters": {
+								"key": 87
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Player",
+							"sid": 544797273658445,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "up"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 518500408033081,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "current-frame"
+							}
+						}
+					],
+					"sid": 840247354123247
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 968042506362811,
+							"parameters": {
+								"key": 65
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Player",
+							"sid": 305233152395057,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "left"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Player",
+							"sid": 726231930233582,
+							"parameters": {
+								"state": "mirrored"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 154993083226996,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "current-frame"
+							}
+						}
+					],
+					"sid": 127318769524042
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 522603712046006,
+							"parameters": {
+								"key": 83
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Player",
+							"sid": 403275678445526,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "down"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 555257501264680,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "current-frame"
+							}
+						}
+					],
+					"sid": 288928059623162
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 877595667496087,
+							"parameters": {
+								"key": 68
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Player",
+							"sid": 537584227814311,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "right"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Player",
+							"sid": 935929180178946,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 973468600543576,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "current-frame"
+							}
+						}
+					],
+					"sid": 967671927952131
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-any-key-released",
+							"objectClass": "Keyboard",
+							"sid": 785181975420906
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 352822730269668,
+							"parameters": {
+								"animation": "\"Idle\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 585233602476853
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "Enemy",
+							"sid": 588741724192454,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-to-object",
+							"objectClass": "Enemy",
+							"sid": 270572610169410,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0",
+								"mode": "direct"
+							}
+						}
+					],
+					"sid": 342249363252724
+				}
+			],
+			"sid": 849698987995208
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 282722633952560
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle-toward-position",
+					"objectClass": "BubbleGun",
+					"sid": 164555547302341,
+					"parameters": {
+						"x": "Mouse.X",
+						"y": "Mouse.Y"
+					}
+				},
+				{
+					"id": "set-angle-toward-position",
+					"objectClass": "BubbleGun2",
+					"sid": 570984836708993,
+					"parameters": {
+						"x": "Mouse.X",
+						"y": "Mouse.Y"
+					}
+				},
+				{
+					"id": "set-angle-toward-position",
+					"objectClass": "BubbleGun3",
+					"sid": 252478337907793,
+					"parameters": {
+						"x": "Mouse.X",
+						"y": "Mouse.Y"
+					}
+				}
+			],
+			"sid": 699836800528352
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "mouse-button-is-down",
+					"objectClass": "Mouse",
+					"sid": 658675613155511,
+					"parameters": {
+						"mouse-button": "left"
+					}
+				},
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 737926149680395,
+					"parameters": {
+						"interval-seconds": "1/Player.ShotsPerSecond"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Player",
+					"sid": 313531013378416,
+					"parameters": {
+						"object": "Bubble",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "set-scale",
+					"objectClass": "Bubble",
+					"sid": 664297760316045,
+					"parameters": {
+						"scale": "0.08"
+					}
+				},
+				{
+					"id": "set-angle-of-motion",
+					"objectClass": "Bubble",
+					"sid": 418531102749558,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"angle": "angle(Player.X, Player.Y, Mouse.X, Mouse.Y)"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Bubble",
+					"sid": 515389640971979,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Bubble",
+					"sid": 697700455334001,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 562426021512745
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 117238452094682,
+					"parameters": {
+						"object": "Enemy"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Player",
+					"sid": 274699577806829,
+					"parameters": {
+						"instance-variable": "Health",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-effect-enabled",
+					"objectClass": "Player",
+					"sid": 410668335172340,
+					"parameters": {
+						"mode": "enable",
+						"effect": "\"Tint\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 242867457520694,
+					"parameters": {
+						"seconds": "0.1"
+					}
+				},
+				{
+					"id": "set-effect-enabled",
+					"objectClass": "Player",
+					"sid": 992147399435195,
+					"parameters": {
+						"mode": "disable",
+						"effect": "\"Tint\""
+					}
+				},
+				{
+					"id": "set-width",
+					"objectClass": "stairwall",
+					"sid": 728029236280446,
+					"parameters": {
+						"width": "Player.Health*60"
+					}
+				}
+			],
+			"sid": 629608774465293,
+			"isOrBlock": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player",
+					"sid": 339210641054089,
+					"parameters": {
+						"instance-variable": "Health",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "stairwall",
+					"sid": 201404946575103
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Player",
+					"sid": 631698452258878
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Slug",
+					"sid": 691585977887792
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "DeathScreen",
+					"sid": 705687104671245,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "start-fade",
+					"objectClass": "YouDied",
+					"sid": 273262586635768,
+					"behaviorType": "Fade"
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "YouDied",
+					"sid": 154892633033650,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 629009355089742,
+					"parameters": {
+						"seconds": "7"
+					}
+				},
+				{
+					"id": "load",
+					"objectClass": "System",
+					"sid": 546929215067834,
+					"parameters": {
+						"slot": "\"Start\""
+					}
+				}
+			],
+			"sid": 834621395321125
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 344027528734493,
+					"parameters": {
+						"object": "GunUpgrader"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Player",
+					"sid": 468102570718006,
+					"parameters": {
+						"instance-variable": "ShotsPerSecond",
+						"value": "1.25"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "BubbleGun",
+					"sid": 154122169200762
+				},
+				{
+					"id": "destroy",
+					"objectClass": "BubbleGun3",
+					"sid": 813996138575477
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 932558211352035,
+					"parameters": {
+						"object-to-create": "BubbleGun2",
+						"layer": "0",
+						"x": "0",
+						"y": "0",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "set-scale",
+					"objectClass": "BubbleGun2",
+					"sid": 431035277762832,
+					"parameters": {
+						"scale": "0.25"
+					}
+				},
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "BubbleGun2",
+					"sid": 794088272910220,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "Player",
+						"image-point": "0",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 287628504861580
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 606117761870593,
+					"parameters": {
+						"object": "GunUpgrader2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Player",
+					"sid": 683856164037612,
+					"parameters": {
+						"instance-variable": "ShotsPerSecond",
+						"value": "3"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "BubbleGun",
+					"sid": 463511662663754
+				},
+				{
+					"id": "destroy",
+					"objectClass": "BubbleGun2",
+					"sid": 700424072535377
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 335947909745597,
+					"parameters": {
+						"object-to-create": "BubbleGun3",
+						"layer": "0",
+						"x": "0",
+						"y": "0",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "set-scale",
+					"objectClass": "BubbleGun3",
+					"sid": 102081999549214,
+					"parameters": {
+						"scale": ".25"
+					}
+				},
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "BubbleGun3",
+					"sid": 434096963154653,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "Player",
+						"image-point": "0",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 260474621044311
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 942366776190282,
+					"parameters": {
+						"object": "lv1"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 891158062866563,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "lv1",
+							"sid": 639193936897310,
+							"parameters": {
+								"instance-variable": "unlocked"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 676579057938301,
+							"parameters": {
+								"layout": "lv1"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "cowelKeyCard",
+							"sid": 734625934088699,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 250397438967157
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "lv1",
+							"sid": 146514743363620,
+							"parameters": {
+								"instance-variable": "unlocked"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Text",
+							"sid": 985650362798135,
+							"parameters": {
+								"visibility": "visible"
+							}
+						}
+					],
+					"sid": 652625763792327
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 501162541797335,
+					"parameters": {
+						"object": "crownKeyCard"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 259086079399169,
+					"parameters": {
+						"layout": "start"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "lv2",
+					"sid": 968216041228946,
+					"parameters": {
+						"instance-variable": "unlocked",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "bookstore",
+					"sid": 255710817638512,
+					"parameters": {
+						"instance-variable": "unlocked",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 325514252789635
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 187542373466524,
+					"parameters": {
+						"object": "lv2"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 790983453584306,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "lv2",
+							"sid": 475421449570547,
+							"parameters": {
+								"instance-variable": "unlocked"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 647782288048388,
+							"parameters": {
+								"layout": "lv2"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "crownKeyCard",
+							"sid": 243358274258231,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 267165308015680
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "lv2",
+							"sid": 955772928534632,
+							"parameters": {
+								"instance-variable": "unlocked"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Text",
+							"sid": 831680571328003,
+							"parameters": {
+								"visibility": "visible"
+							}
+						}
+					],
+					"sid": 526556839316956
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 754361070920553,
+					"parameters": {
+						"object": "bookstore"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 242429772093452,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "bookstore",
+							"sid": 703099655147463,
+							"parameters": {
+								"instance-variable": "unlocked"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 475357674393883,
+							"parameters": {
+								"layout": "bookstore"
+							}
+						}
+					],
+					"sid": 682138389251929
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "bookstore",
+							"sid": 548482458667151,
+							"parameters": {
+								"instance-variable": "unlocked"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Text",
+							"sid": 412282431367409,
+							"parameters": {
+								"visibility": "visible"
+							}
+						}
+					],
+					"sid": 415456317200362
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-at-offset",
+					"objectClass": "Player",
+					"sid": 798738005062897,
+					"parameters": {
+						"object": "cowelKeyCard",
+						"offset-x": "0",
+						"offset-y": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "cowelKeyCard",
+					"sid": 679876983917544,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "lv1",
+					"sid": 296202996526885,
+					"parameters": {
+						"instance-variable": "unlocked",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 779741239231822
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Bubble Collisions",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Bubble",
+							"sid": 563155214288800,
+							"parameters": {
+								"object": "Stinger"
+							}
+						},
+						{
+							"id": "compare-speed",
+							"objectClass": "Bubble",
+							"sid": 264977778882481,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"comparison": 0,
+								"speed": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Bubble",
+							"sid": 770521741596271,
+							"parameters": {
+								"animation": "\"Pop\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 615411769093368,
+							"parameters": {
+								"seconds": "0.06666"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Bubble",
+							"sid": 839519631605810
+						}
+					],
+					"sid": 475369340661078,
+					"isOrBlock": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Bubble",
+							"sid": 282110994477465,
+							"parameters": {
+								"object": "Enemy"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Enemy",
+							"sid": 597850376050081,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Bubble",
+							"sid": 297668900323683,
+							"parameters": {
+								"animation": "\"Pop\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Bubble",
+							"sid": 798881458806779
+						}
+					],
+					"sid": 745625493384155
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Bubble",
+							"sid": 744532163230378,
+							"parameters": {
+								"object": "Snail"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Snail",
+							"sid": 235096188529862,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Bubble",
+							"sid": 458786461826643,
+							"parameters": {
+								"animation": "\"Pop\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Bubble",
+							"sid": 104686372417624
+						}
+					],
+					"sid": 756389495245766
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Bubble",
+							"sid": 282425254646163,
+							"parameters": {
+								"object": "Ant"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Ant",
+							"sid": 170811842244928
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Bubble",
+							"sid": 371101264041304,
+							"parameters": {
+								"animation": "\"Pop\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Bubble",
+							"sid": 978589586104155
+						}
+					],
+					"sid": 992778444234478
+				}
+			],
+			"sid": 959263917301673
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Mirror Enemies",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-x",
+							"objectClass": "Enemy",
+							"sid": 995619104728793,
+							"parameters": {
+								"comparison": 2,
+								"x-co-ordinate": "Player.X"
+							}
+						},
+						{
+							"id": "has-los-to-object",
+							"objectClass": "Enemy",
+							"sid": 946348421699093,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "Enemy",
+							"sid": 387236680942110,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 444246230085034
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-x",
+							"objectClass": "Enemy",
+							"sid": 357494174729529,
+							"parameters": {
+								"comparison": 5,
+								"x-co-ordinate": "Player.X"
+							}
+						},
+						{
+							"id": "has-los-to-object",
+							"objectClass": "Enemy",
+							"sid": 192642862499650,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "Enemy",
+							"sid": 262509875992985,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 649534904845071
+				}
+			],
+			"sid": 397941639659219
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Enemy Deaths",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Snail",
+							"sid": 422543449814731,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Snail",
+							"sid": 897283324714559
+						},
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Player",
+							"sid": 447980035694187,
+							"parameters": {
+								"instance-variable": "Kills",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 310580993711600
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Enemy",
+							"sid": 428064617349116,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Enemy",
+							"sid": 838536716562218
+						},
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Player",
+							"sid": 630850958401455,
+							"parameters": {
+								"instance-variable": "Kills",
+								"value": "1"
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 144841279718412,
+							"parameters": {
+								"object-to-create": "Enemy",
+								"layer": "0",
+								"x": "random(0, ViewportWidth(0))",
+								"y": "50",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 743865097032150,
+							"parameters": {
+								"object-to-create": "Slug",
+								"layer": "0",
+								"x": "0",
+								"y": "0",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "set-size",
+							"objectClass": "Enemy",
+							"sid": 994901471808589,
+							"parameters": {
+								"width": "Slug.Width",
+								"height": "Slug.Height"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Slug",
+							"sid": 436079568725535,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "add-child",
+							"objectClass": "Enemy",
+							"sid": 471795486825403,
+							"parameters": {
+								"child": "Slug",
+								"transform-x": true,
+								"transform-y": true,
+								"transform-w": true,
+								"transform-h": true,
+								"transform-a": true,
+								"transform-z-elevation": true,
+								"destroy-with-parent": true
+							}
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "Slug",
+							"sid": 698334748218968,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Enemy",
+								"image-point": "0",
+								"angle": false,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "Enemy",
+							"sid": 122598110050009,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Slug",
+								"image-point": "0",
+								"angle": false,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						}
+					],
+					"sid": 418786797682117
+				}
+			],
+			"sid": 260546308058480
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Wasp",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 928109333180191,
+							"parameters": {
+								"interval-seconds": "1.5"
+							}
+						},
+						{
+							"id": "has-los-to-object",
+							"objectClass": "Wasp",
+							"sid": 372715471821551,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Wasp",
+							"sid": 792609970134229,
+							"parameters": {
+								"object": "Stinger",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "set-angle-of-motion",
+							"objectClass": "Stinger",
+							"sid": 669014525258962,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"angle": "angle(Wasp.X, Wasp.Y, Player.X, Player.Y)"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Stinger",
+							"sid": 405852823548674,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Wasp",
+							"sid": 968068038708935,
+							"parameters": {
+								"animation": "\"Spotted\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 109509225480726
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Stinger",
+							"sid": 963731869553522,
+							"parameters": {
+								"object": "Player"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 717059551343123,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-effect-enabled",
+							"objectClass": "Player",
+							"sid": 246494803209486,
+							"parameters": {
+								"mode": "enable",
+								"effect": "\"Tint\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 903255387910850,
+							"parameters": {
+								"seconds": "0.1"
+							}
+						},
+						{
+							"id": "set-effect-enabled",
+							"objectClass": "Player",
+							"sid": 686402591789912,
+							"parameters": {
+								"mode": "disable",
+								"effect": "\"Tint\""
+							}
+						},
+						{
+							"id": "set-width",
+							"objectClass": "stairwall",
+							"sid": 124613390733102,
+							"parameters": {
+								"width": "Player.Health*60"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Stinger",
+							"sid": 435147261072844
+						}
+					],
+					"sid": 849767347790483
+				}
+			],
+			"sid": 661900907103790
+		}
+	],
+	"sid": 335250269904769
+}
