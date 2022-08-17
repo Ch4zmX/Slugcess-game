@@ -1,0 +1,43 @@
+{
+	"name": "longTable",
+	"plugin-id": "Sprite",
+	"sid": 514376560312531,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 290237674721517
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 213,
+						"height": 181,
+						"originX": 0.5633802816901409,
+						"originY": 0.4419889502762431,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6122529,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 441342763440711,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
