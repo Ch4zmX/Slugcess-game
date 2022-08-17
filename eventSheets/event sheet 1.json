@@ -160,6 +160,7 @@
 							"id": "set-speed",
 							"objectClass": "Enemy",
 							"sid": 800641088570079,
+							"behaviorType": "MoveTo",
 							"parameters": {
 								"speed": "130"
 							}
