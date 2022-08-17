@@ -365,15 +365,6 @@
 							}
 						},
 						{
-							"id": "set-speed",
-							"objectClass": "Enemy",
-							"sid": 342561073431708,
-							"behaviorType": "MoveTo",
-							"parameters": {
-								"speed": "300"
-							}
-						},
-						{
 							"id": "create-object",
 							"objectClass": "System",
 							"sid": 321306778026379,
@@ -907,6 +898,17 @@
 					"behaviorType": "Fade"
 				},
 				{
+					"id": "play",
+					"objectClass": "DeathSound",
+					"sid": 334091502774846,
+					"parameters": {
+						"audio-file": "Elden Ring - YOU DIED [Sound Effect]",
+						"loop": "not-looping",
+						"volume": "-10",
+						"tag-optional": "\"\""
+					}
+				},
+				{
 					"id": "set-visible",
 					"objectClass": "YouDied",
 					"sid": 154892633033650,
@@ -1255,6 +1257,23 @@
 						}
 					],
 					"sid": 649534904845071
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-speed",
+							"objectClass": "Enemy",
+							"sid": 458491548484829,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"comparison": 0,
+								"speed": "0"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 412640331478124
 				}
 			],
 			"sid": 397941639659219
@@ -1298,7 +1317,7 @@
 						{
 							"id": "create-object",
 							"objectClass": "System",
-							"sid": 144841279718412,
+							"sid": 173130065466765,
 							"parameters": {
 								"object-to-create": "Enemy",
 								"layer": "0",
@@ -1311,7 +1330,7 @@
 						{
 							"id": "create-object",
 							"objectClass": "System",
-							"sid": 743865097032150,
+							"sid": 632099744971100,
 							"parameters": {
 								"object-to-create": "Slug",
 								"layer": "0",
@@ -1324,7 +1343,7 @@
 						{
 							"id": "set-size",
 							"objectClass": "Enemy",
-							"sid": 994901471808589,
+							"sid": 688764588574377,
 							"parameters": {
 								"width": "Slug.Width",
 								"height": "Slug.Height"
@@ -1333,7 +1352,7 @@
 						{
 							"id": "set-visible",
 							"objectClass": "Slug",
-							"sid": 436079568725535,
+							"sid": 506298307558564,
 							"parameters": {
 								"visibility": "visible"
 							}
@@ -1341,7 +1360,7 @@
 						{
 							"id": "add-child",
 							"objectClass": "Enemy",
-							"sid": 471795486825403,
+							"sid": 560982354378470,
 							"parameters": {
 								"child": "Slug",
 								"transform-x": true,
@@ -1356,7 +1375,7 @@
 						{
 							"id": "pin-to-object-imagepoint",
 							"objectClass": "Slug",
-							"sid": 698334748218968,
+							"sid": 615453719889963,
 							"behaviorType": "Pin",
 							"parameters": {
 								"pin-to": "Enemy",
@@ -1370,7 +1389,7 @@
 						{
 							"id": "pin-to-object-imagepoint",
 							"objectClass": "Enemy",
-							"sid": 122598110050009,
+							"sid": 196939024020186,
 							"behaviorType": "Pin",
 							"parameters": {
 								"pin-to": "Slug",
@@ -1379,6 +1398,24 @@
 								"width-type": "no",
 								"height-type": "no",
 								"z": false
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Enemy",
+							"sid": 866462583941994,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "3"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Enemy",
+							"sid": 551232394381089,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"speed": "130"
 							}
 						}
 					],
