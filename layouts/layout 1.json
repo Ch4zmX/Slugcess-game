@@ -563,9 +563,9 @@
 					"behaviors": {
 						"Fade": {
 							"properties": {
-								"fade-in-time": 1,
-								"wait-time": 3,
-								"fade-out-time": 2,
+								"fade-in-time": 1.5,
+								"wait-time": 7,
+								"fade-out-time": 1,
 								"destroy": true,
 								"enabled": false,
 								"live-preview": false
@@ -583,7 +583,7 @@
 							0,
 							0,
 							0,
-							0.7
+							0.65
 						],
 						"angle": 0,
 						"zElevation": 0

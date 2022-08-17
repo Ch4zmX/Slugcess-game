@@ -894,6 +894,12 @@
 					"sid": 434713637846355
 				},
 				{
+					"id": "start-fade",
+					"objectClass": "DeathScreen",
+					"sid": 903834976510744,
+					"behaviorType": "Fade"
+				},
+				{
 					"id": "set-visible",
 					"objectClass": "DeathScreen",
 					"sid": 705687104671245,
@@ -929,9 +935,9 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 629009355089742,
+					"sid": 912139580162156,
 					"parameters": {
-						"seconds": "7"
+						"seconds": "8"
 					}
 				},
 				{
