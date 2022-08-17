@@ -298,7 +298,7 @@
 						{
 							"id": "set-size",
 							"objectClass": "Enemy",
-							"sid": 539287062710520,
+							"sid": 969732345346907,
 							"parameters": {
 								"width": "Snail.Width",
 								"height": "Snail.Height"
@@ -353,14 +353,6 @@
 								"width-type": "no",
 								"height-type": "no",
 								"z": false
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "Enemy",
-							"sid": 598476864602559,
-							"parameters": {
-								"visibility": "visible"
 							}
 						},
 						{
@@ -465,14 +457,6 @@
 								"width-type": "no",
 								"height-type": "no",
 								"z": false
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "Enemy",
-							"sid": 897163203644097,
-							"parameters": {
-								"visibility": "visible"
 							}
 						},
 						{
@@ -815,11 +799,19 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-collision-with-another-object",
+					"id": "is-overlapping-another-object",
 					"objectClass": "Player",
-					"sid": 117238452094682,
+					"sid": 237288967150238,
 					"parameters": {
 						"object": "Enemy"
+					}
+				},
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 549895352184713,
+					"parameters": {
+						"interval-seconds": "1.0"
 					}
 				}
 			],
@@ -868,8 +860,7 @@
 					}
 				}
 			],
-			"sid": 629608774465293,
-			"isOrBlock": true
+			"sid": 629608774465293
 		},
 		{
 			"eventType": "block",
@@ -1167,6 +1158,14 @@
 							"parameters": {
 								"animation": "\"Pop\"",
 								"from": "beginning"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 242209611176236,
+							"parameters": {
+								"seconds": "0.06666"
 							}
 						},
 						{
