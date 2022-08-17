@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "TempBackground",
+					"type": "Level1Background",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -23,10 +23,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -3.5454545454545325,
-						"y": -2.9090909090909065,
-						"width": 1706,
-						"height": 965,
+						"x": -4,
+						"y": -28,
+						"width": 1710.4885769685163,
+						"height": 466.4750649972766,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -36,7 +36,7 @@
 							1
 						],
 						"angle": 0,
-						"zElevation": 0
+						"zElevation": -1
 					}
 				},
 				{
@@ -206,8 +206,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 364,
-						"y": 394,
+						"x": 225,
+						"y": 239,
 						"width": 132.9661611087573,
 						"height": 132.9661611087573,
 						"originX": 0.5,
@@ -235,8 +235,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 104.77298473841552,
-						"y": 98.81071964844827,
+						"x": 810,
+						"y": 95,
 						"width": 89.36118939389587,
 						"height": 89.36118939389587,
 						"originX": 0.5,
@@ -563,8 +563,8 @@
 					"behaviors": {
 						"Fade": {
 							"properties": {
-								"fade-in-time": 0,
-								"wait-time": 5,
+								"fade-in-time": 1,
+								"wait-time": 3,
 								"fade-out-time": 2,
 								"destroy": true,
 								"enabled": false,
@@ -573,17 +573,17 @@
 						}
 					},
 					"world": {
-						"x": -13,
-						"y": -5.172280354095136,
-						"width": 867,
-						"height": 485.68934904763006,
+						"x": -14.618547183969241,
+						"y": 170.3757070264749,
+						"width": 2002,
+						"height": 104.68934904763,
 						"originX": 0,
 						"originY": 0,
 						"color": [
 							0,
 							0,
 							0,
-							1
+							0.7
 						],
 						"angle": 0,
 						"zElevation": 0
@@ -630,7 +630,7 @@
 						"text": "YOU DIED",
 						"enable-bbcode": true,
 						"font": "Times New Roman",
-						"size": 69,
+						"size": 50,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -640,7 +640,7 @@
 							0.043137254901960784,
 							1
 						],
-						"horizontal-alignment": "left",
+						"horizontal-alignment": "center",
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": false,
@@ -663,13 +663,22 @@
 							"properties": {
 								"enabled": false
 							}
+						},
+						"Anchor": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "window-right",
+								"bottom-edge": "window-bottom",
+								"enabled": true
+							}
 						}
 					},
 					"world": {
-						"x": 217,
-						"y": 160,
-						"width": 448,
-						"height": 114,
+						"x": 237,
+						"y": 176,
+						"width": 352.69073057761756,
+						"height": 89.74719483448304,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -709,14 +718,14 @@
 			"useRenderCells": false,
 			"blendMode": "normal",
 			"zElevation": 0,
-			"global": false
+			"global": true
 		}
 	],
 	"sid": 866198599938889,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 1708,
-	"height": 960,
+	"width": 1710,
+	"height": 435,
 	"unboundedScrolling": false,
 	"vpX": 0.5,
 	"vpY": 0.5,

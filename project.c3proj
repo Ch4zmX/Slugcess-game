@@ -128,6 +128,14 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Anchor",
+			"name": "Anchor",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
@@ -168,7 +176,9 @@
 			"Wasp",
 			"Enemy",
 			"Stinger",
-			"DeathSound"
+			"DeathSound",
+			"TiledBackground",
+			"Level1Background"
 		],
 		"subfolders": []
 	},
@@ -180,7 +190,11 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Layout 1",
+			"Layout 2",
+			"Layout 3",
+			"Layout 4",
+			"Layout 5"
 		],
 		"subfolders": []
 	},

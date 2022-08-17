@@ -880,8 +880,18 @@
 				},
 				{
 					"id": "destroy",
-					"objectClass": "Slug",
-					"sid": 691585977887792
+					"objectClass": "BubbleGun",
+					"sid": 679909633464185
+				},
+				{
+					"id": "destroy",
+					"objectClass": "BubbleGun2",
+					"sid": 798758130088619
+				},
+				{
+					"id": "destroy",
+					"objectClass": "BubbleGun3",
+					"sid": 434713637846355
 				},
 				{
 					"id": "set-visible",
@@ -900,11 +910,11 @@
 				{
 					"id": "play",
 					"objectClass": "DeathSound",
-					"sid": 334091502774846,
+					"sid": 406207454759262,
 					"parameters": {
 						"audio-file": "Elden Ring - YOU DIED [Sound Effect]",
 						"loop": "not-looping",
-						"volume": "-10",
+						"volume": "-15",
 						"tag-optional": "\"\""
 					}
 				},

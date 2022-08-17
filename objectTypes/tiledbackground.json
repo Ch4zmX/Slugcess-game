@@ -1,16 +1,10 @@
 {
-	"name": "DeathScreen",
+	"name": "TiledBackground",
 	"plugin-id": "TiledBg",
-	"sid": 388347925150610,
-	"isGlobal": true,
+	"sid": 835143299130489,
+	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "Fade",
-			"name": "Fade",
-			"sid": 799594741787670
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"image": {
 		"width": 250,
@@ -20,7 +14,7 @@
 		"originalSource": "",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 6119302,
+		"imageSpriteId": 348735,
 		"useCollisionPoly": true
 	}
 }
