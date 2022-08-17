@@ -156,14 +156,7 @@
 			"Ant",
 			"Sprite2",
 			"Particles",
-<<<<<<< Updated upstream
 			"Sprite3"
-=======
-			"Sprite3",
-			"Enemy",
-			"Wasp",
-			"Stinger"
->>>>>>> Stashed changes
 		],
 		"subfolders": []
 	},
