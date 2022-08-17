@@ -60,6 +60,103 @@
 								"height-type": "no",
 								"z": false
 							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 921300238103072,
+							"parameters": {
+								"object-to-create": "Enemy",
+								"layer": "0",
+								"x": "0",
+								"y": "0",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 150442673684626,
+							"parameters": {
+								"object-to-create": "Slug",
+								"layer": "0",
+								"x": "100",
+								"y": "100",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Slug",
+							"sid": 892529309862917,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "move-to-object",
+							"objectClass": "Slug",
+							"sid": 267605081234597,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "add-child",
+							"objectClass": "Enemy",
+							"sid": 835698680966974,
+							"parameters": {
+								"child": "Slug",
+								"transform-x": true,
+								"transform-y": true,
+								"transform-w": true,
+								"transform-h": true,
+								"transform-a": true,
+								"transform-z-elevation": true,
+								"destroy-with-parent": false
+							}
+						},
+						{
+							"id": "set-size",
+							"objectClass": "Enemy",
+							"sid": 261648328589658,
+							"parameters": {
+								"width": "Slug.Width",
+								"height": "Slug.Height"
+							}
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "Slug",
+							"sid": 507533244454353,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Enemy",
+								"image-point": "0",
+								"angle": true,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "Enemy",
+							"sid": 176212927551948,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Slug",
+								"image-point": "0",
+								"angle": true,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
 						}
 					],
 					"sid": 254006999756456
@@ -247,6 +344,35 @@
 						}
 					],
 					"sid": 585233602476853
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "Enemy",
+							"sid": 588741724192454,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-to-object",
+							"objectClass": "Enemy",
+							"sid": 270572610169410,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0",
+								"mode": "direct"
+							}
+						}
+					],
+					"sid": 342249363252724
 				}
 			],
 			"sid": 849698987995208
@@ -286,39 +412,6 @@
 					"parameters": {
 						"x": "Mouse.X",
 						"y": "Mouse.Y"
-					}
-				},
-				{
-					"id": "move-to-object",
-					"objectClass": "Slug",
-					"sid": 686696089758006,
-					"behaviorType": "MoveTo",
-					"parameters": {
-						"object": "Player",
-						"image-point": "0",
-						"mode": "direct"
-					}
-				},
-				{
-					"id": "move-to-object",
-					"objectClass": "Snail",
-					"sid": 656146439390046,
-					"behaviorType": "MoveTo",
-					"parameters": {
-						"object": "Player",
-						"image-point": "0",
-						"mode": "direct"
-					}
-				},
-				{
-					"id": "move-to-object",
-					"objectClass": "Ant",
-					"sid": 636020375800713,
-					"behaviorType": "MoveTo",
-					"parameters": {
-						"object": "Player",
-						"image-point": "0",
-						"mode": "direct"
 					}
 				}
 			],
@@ -858,138 +951,70 @@
 					"conditions": [
 						{
 							"id": "compare-x",
-							"objectClass": "Ant",
-							"sid": 517488270100461,
+							"objectClass": "Enemy",
+							"sid": 995619104728793,
 							"parameters": {
-								"comparison": 4,
+								"comparison": 2,
 								"x-co-ordinate": "Player.X"
+							}
+						},
+						{
+							"id": "has-los-to-object",
+							"objectClass": "Enemy",
+							"sid": 946348421699093,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
 							}
 						}
 					],
 					"actions": [
 						{
 							"id": "set-mirrored",
-							"objectClass": "Ant",
-							"sid": 688190876829893,
+							"objectClass": "Enemy",
+							"sid": 328800468202385,
 							"parameters": {
 								"state": "mirrored"
 							}
 						}
 					],
-					"sid": 855514472772464
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "else",
-							"objectClass": "System",
-							"sid": 405382514175726
-						}
-					],
-					"actions": [
-						{
-							"id": "set-mirrored",
-							"objectClass": "Ant",
-							"sid": 979355670084263,
-							"parameters": {
-								"state": "not-mirrored"
-							}
-						}
-					],
-					"sid": 233217722864235
+					"sid": 444246230085034
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
 							"id": "compare-x",
-							"objectClass": "Slug",
-							"sid": 699082624494557,
+							"objectClass": "Enemy",
+							"sid": 357494174729529,
 							"parameters": {
-								"comparison": 4,
+								"comparison": 5,
 								"x-co-ordinate": "Player.X"
+							}
+						},
+						{
+							"id": "has-los-to-object",
+							"objectClass": "Enemy",
+							"sid": 192642862499650,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
 							}
 						}
 					],
 					"actions": [
 						{
 							"id": "set-mirrored",
-							"objectClass": "Slug",
-							"sid": 854867782818203,
+							"objectClass": "Enemy",
+							"sid": 892415769881577,
 							"parameters": {
 								"state": "not-mirrored"
 							}
 						}
 					],
-					"sid": 990780758886857
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "else",
-							"objectClass": "System",
-							"sid": 816789952634707
-						}
-					],
-					"actions": [
-						{
-							"id": "set-mirrored",
-							"objectClass": "Slug",
-							"sid": 469874533358137,
-							"parameters": {
-								"state": "mirrored"
-							}
-						}
-					],
-					"sid": 148814118947559
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-x",
-							"objectClass": "Snail",
-							"sid": 924370292682753,
-							"parameters": {
-								"comparison": 4,
-								"x-co-ordinate": "Player.X"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-mirrored",
-							"objectClass": "Snail",
-							"sid": 347223461678204,
-							"parameters": {
-								"state": "not-mirrored"
-							}
-						}
-					],
-					"sid": 414722952740628
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "else",
-							"objectClass": "System",
-							"sid": 752225435544638
-						}
-					],
-					"actions": [
-						{
-							"id": "set-mirrored",
-							"objectClass": "Snail",
-							"sid": 261235794958602,
-							"parameters": {
-								"state": "mirrored"
-							}
-						}
-					],
-					"sid": 866318379676958
+					"sid": 649534904845071
 				}
 			],
 			"sid": 397941639659219
