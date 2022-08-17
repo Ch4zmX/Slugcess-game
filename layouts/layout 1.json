@@ -66,6 +66,11 @@
 								"default-controls": false,
 								"enabled": true
 							}
+						},
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
+							}
 						}
 					},
 					"effects": {
@@ -123,8 +128,8 @@
 						}
 					},
 					"world": {
-						"x": 122,
-						"y": -896,
+						"x": 139,
+						"y": -840,
 						"width": 23.823069975021063,
 						"height": 23.823069975021063,
 						"originX": 0.5,
@@ -164,15 +169,20 @@
 								"stop-on-solids": true,
 								"enabled": true
 							}
+						},
+						"Pin": {
+							"properties": {
+								"destroy": true
+							}
 						}
 					},
 					"world": {
-						"x": 277,
-						"y": -1013,
-						"width": 52.33895231856924,
-						"height": 52.338952318569234,
-						"originX": 0.4839108910891089,
-						"originY": 0.4882005899705015,
+						"x": 280.03899271851344,
+						"y": -940.3427305979961,
+						"width": 74.97554533438667,
+						"height": 51.29905733405404,
+						"originX": 0.4788301198540907,
+						"originY": 0.6119242114817336,
 						"color": [
 							1,
 							1,
@@ -254,7 +264,8 @@
 					"instanceVariables": {
 						"Damage": 0,
 						"Health": 0,
-						"Facing": 0
+						"Facing": 0,
+						"Speed": 0
 					},
 					"behaviors": {
 						"MoveTo": {
@@ -267,11 +278,16 @@
 								"stop-on-solids": false,
 								"enabled": true
 							}
+						},
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
 						}
 					},
 					"world": {
-						"x": 339,
-						"y": -1008,
+						"x": 356,
+						"y": -952,
 						"width": 38.160306061499284,
 						"height": 39.60031761098982,
 						"originX": 0.39622641509433965,
@@ -327,8 +343,8 @@
 						}
 					},
 					"world": {
-						"x": 406,
-						"y": -1008,
+						"x": 423,
+						"y": -952,
 						"width": 44.73126298783068,
 						"height": 50.03836198638686,
 						"originX": 0.5593220338983051,
@@ -381,8 +397,8 @@
 						}
 					},
 					"world": {
-						"x": 202,
-						"y": -1027,
+						"x": 208,
+						"y": -946,
 						"width": 88.78394534419509,
 						"height": 83.78203293043762,
 						"originX": 0.5,
@@ -408,12 +424,13 @@
 					},
 					"uid": 15,
 					"instanceVariables": {
-						"Health": 5
+						"Health": 5,
+						"Speed": 130
 					},
 					"behaviors": {
 						"Pin": {
 							"properties": {
-								"destroy": false
+								"destroy": true
 							}
 						},
 						"LineOfSight": {
@@ -421,7 +438,7 @@
 								"obstacles": "solids",
 								"range": 300,
 								"cone-of-view": 360,
-								"use-collision-cells": true
+								"use-collision-cells": false
 							}
 						},
 						"MoveTo": {
@@ -437,8 +454,8 @@
 						}
 					},
 					"world": {
-						"x": 3,
-						"y": -998,
+						"x": 262,
+						"y": -785,
 						"width": 43.12515640512461,
 						"height": 43.12515640512461,
 						"originX": 0.5,
@@ -478,8 +495,8 @@
 						}
 					},
 					"world": {
-						"x": 113,
-						"y": -1014,
+						"x": 130,
+						"y": -958,
 						"width": 39.70118238673485,
 						"height": 30.678186389749655,
 						"originX": 0.6363636363636364,
@@ -573,7 +590,7 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "HealthBar",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -583,7 +600,13 @@
 					},
 					"uid": 9,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 166.5,
 						"y": 24.5,

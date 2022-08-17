@@ -88,6 +88,14 @@
 		},
 		{
 			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Bullet",
 			"name": "Bullet",
 			"author": "Scirra",
@@ -140,7 +148,7 @@
 			"Snail",
 			"YouDied",
 			"DeathScreen",
-			"Sprite",
+			"HealthBar",
 			"BubbleGun2",
 			"GunUpgrader",
 			"BubbleGun3",

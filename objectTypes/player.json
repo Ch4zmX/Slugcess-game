@@ -28,6 +28,11 @@
 			"behaviorId": "EightDir",
 			"name": "8Direction",
 			"sid": 998223234593080
+		},
+		{
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 968440615966621
 		}
 	],
 	"effectTypes": [
