@@ -21,6 +21,12 @@
 			"type": "number",
 			"desc": "",
 			"sid": 223469265979415
+		},
+		{
+			"name": "Speed",
+			"type": "number",
+			"desc": "",
+			"sid": 979902474312642
 		}
 	],
 	"behaviorTypes": [
@@ -28,6 +34,11 @@
 			"behaviorId": "MoveTo",
 			"name": "MoveTo",
 			"sid": 975353266508861
+		},
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 700837054904971
 		}
 	],
 	"effectTypes": [],

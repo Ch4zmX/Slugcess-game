@@ -1,10 +1,16 @@
 {
-	"name": "Sprite",
+	"name": "HealthBar",
 	"plugin-id": "Sprite",
 	"sid": 355820370909254,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 326070224310738
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
