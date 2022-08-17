@@ -60,6 +60,181 @@
 								"height-type": "no",
 								"z": false
 							}
+<<<<<<< Updated upstream
+=======
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 613935338138381,
+							"parameters": {
+								"object-to-create": "Enemy",
+								"layer": "0",
+								"x": "random(0, ViewportWidth(0)/2)",
+								"y": "20",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "set-size",
+							"objectClass": "Enemy",
+							"sid": 775841165034254,
+							"parameters": {
+								"width": "Slug.Width",
+								"height": "Slug.Height"
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 694835263630863,
+							"parameters": {
+								"object-to-create": "Slug",
+								"layer": "0",
+								"x": "random(0, ViewportWidth(0)/2)",
+								"y": "30",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Slug",
+							"sid": 333457478670653,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "add-child",
+							"objectClass": "Enemy",
+							"sid": 208094283728845,
+							"parameters": {
+								"child": "Slug",
+								"transform-x": false,
+								"transform-y": false,
+								"transform-w": true,
+								"transform-h": true,
+								"transform-a": true,
+								"transform-z-elevation": true,
+								"destroy-with-parent": true
+							}
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "Enemy",
+							"sid": 521614453907105,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Slug",
+								"image-point": "0",
+								"angle": false,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "Slug",
+							"sid": 360747075951654,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Enemy",
+								"image-point": "0",
+								"angle": true,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 454978679116784,
+							"parameters": {
+								"object-to-create": "Enemy",
+								"layer": "0",
+								"x": "random(0, ViewportWidth(0)/2)",
+								"y": "20",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "set-size",
+							"objectClass": "Enemy",
+							"sid": 775033399277583,
+							"parameters": {
+								"width": "Wasp.Width",
+								"height": "Wasp.Height"
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 543743858440949,
+							"parameters": {
+								"object-to-create": "Wasp",
+								"layer": "0",
+								"x": "random(0, ViewportWidth(0))",
+								"y": "100",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Wasp",
+							"sid": 747268418084518,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "add-child",
+							"objectClass": "Enemy",
+							"sid": 533107131750976,
+							"parameters": {
+								"child": "Wasp",
+								"transform-x": false,
+								"transform-y": false,
+								"transform-w": true,
+								"transform-h": true,
+								"transform-a": true,
+								"transform-z-elevation": true,
+								"destroy-with-parent": true
+							}
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "Enemy",
+							"sid": 456622735103679,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Wasp",
+								"image-point": "0",
+								"angle": false,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "Wasp",
+							"sid": 223197335575222,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Enemy",
+								"image-point": "0",
+								"angle": true,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+>>>>>>> Stashed changes
 						}
 					],
 					"sid": 254006999756456
@@ -70,6 +245,89 @@
 		{
 			"eventType": "group",
 			"disabled": false,
+<<<<<<< Updated upstream
+=======
+			"title": "Mirror Enemies",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-x",
+							"objectClass": "Enemy",
+							"sid": 775497697811144,
+							"parameters": {
+								"comparison": 2,
+								"x-co-ordinate": "Player.X"
+							}
+						},
+						{
+							"id": "has-los-to-position",
+							"objectClass": "Enemy",
+							"sid": 960040055013679,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"x": "Player.X",
+								"y": "Player.Y"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "Enemy",
+							"sid": 877031586908785,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 557274656092979
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-x",
+							"objectClass": "Enemy",
+							"sid": 434182773893511,
+							"parameters": {
+								"comparison": 5,
+								"x-co-ordinate": "Player.X"
+							}
+						},
+						{
+							"id": "has-los-to-position",
+							"objectClass": "Enemy",
+							"sid": 387575844909432,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"x": "Player.X",
+								"y": "Player.Y"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "Enemy",
+							"sid": 356463225189121,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 554648232135021
+				}
+			],
+			"sid": 657908431965193
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+>>>>>>> Stashed changes
 			"title": "Player Movement",
 			"description": "",
 			"isActiveOnStart": true,
@@ -1099,6 +1357,221 @@
 				}
 			],
 			"sid": 260546308058480
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Wasp",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "Wasp",
+							"sid": 283266797166869,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 775865634013735,
+							"parameters": {
+								"interval-seconds": "2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Wasp",
+							"sid": 526122308911298,
+							"parameters": {
+								"object": "Stinger",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Stinger",
+							"sid": 209782530260700,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "Stinger",
+							"sid": 272590972918948,
+							"parameters": {
+								"angle": "angle(Wasp.X, Wasp.Y, Player.X, Player.Y)"
+							}
+						}
+					],
+					"sid": 723658983237208
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Stinger",
+							"sid": 543985245185367,
+							"parameters": {
+								"object": "Player"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Stinger",
+							"sid": 581798247919299,
+							"parameters": {
+								"animation": "\"Break\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 772936843351885,
+							"parameters": {
+								"seconds": "0.06666"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Stinger",
+							"sid": 887596367078643
+						},
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 588585903627348,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-effect-enabled",
+							"objectClass": "Player",
+							"sid": 130309365704354,
+							"parameters": {
+								"mode": "enable",
+								"effect": "\"Tint\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 841028849511999,
+							"parameters": {
+								"seconds": "0.1"
+							}
+						},
+						{
+							"id": "set-effect-enabled",
+							"objectClass": "Player",
+							"sid": 704260580359242,
+							"parameters": {
+								"mode": "disable",
+								"effect": "\"Tint\""
+							}
+						},
+						{
+							"id": "set-width",
+							"objectClass": "Sprite",
+							"sid": 322665537685562,
+							"parameters": {
+								"width": "Player.Health*60"
+							}
+						}
+					],
+					"sid": 362338264085477
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-x",
+							"objectClass": "Wasp",
+							"sid": 263088747248514,
+							"parameters": {
+								"comparison": 2,
+								"x-co-ordinate": "Player.X"
+							}
+						},
+						{
+							"id": "has-los-to-position",
+							"objectClass": "Wasp",
+							"sid": 117434361881478,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"x": "Player.X",
+								"y": "Player.Y"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "Wasp",
+							"sid": 543136446925128,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 279622959801844
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-x",
+							"objectClass": "Wasp",
+							"sid": 706499682740993,
+							"parameters": {
+								"comparison": 5,
+								"x-co-ordinate": "Player.X"
+							}
+						},
+						{
+							"id": "has-los-to-position",
+							"objectClass": "Wasp",
+							"sid": 470904033781133,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"x": "Player.X",
+								"y": "Player.Y"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "Wasp",
+							"sid": 289084994470484,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 111542448981495
+				}
+			],
+			"sid": 781681642417193
 		}
 	],
 	"sid": 335250269904769
