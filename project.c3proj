@@ -56,22 +56,6 @@
 		},
 		{
 			"type": "behavior",
-			"id": "EightDir",
-			"name": "8 Direction",
-			"author": "Scirra",
-			"version": "r302",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Pathfinding",
-			"name": "Pathfinding",
-			"author": "Scirra",
-			"version": "r302",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
 			"id": "MoveTo",
 			"name": "Move To",
 			"author": "Scirra",
@@ -90,6 +74,14 @@
 			"type": "behavior",
 			"id": "Pin",
 			"name": "Pin",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direction",
 			"author": "Scirra",
 			"version": "r302",
 			"bundled": false
@@ -156,7 +148,10 @@
 			"Ant",
 			"Sprite2",
 			"Particles",
-			"Sprite3"
+			"Sprite3",
+			"Wasp",
+			"Enemy",
+			"Stinger"
 		],
 		"subfolders": []
 	},

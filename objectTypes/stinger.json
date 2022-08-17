@@ -1,0 +1,63 @@
+{
+	"name": "Stinger",
+	"plugin-id": "Sprite",
+	"sid": 624472920253070,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 271776129154050
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 44,
+						"height": 34,
+						"originX": 0.6363636363636364,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6991113,
+						"collisionPoly": {
+							"points": [
+								0.2727272727272727,
+								0.9705882352941176,
+								0.022727272727272728,
+								0.5,
+								0.2727272727272727,
+								0.05882352941176472,
+								0.6363636363636364,
+								0.20588235294117652,
+								0.7500000000000001,
+								0.352941176470588,
+								0.9318181818181818,
+								0.5,
+								0.7727272727272729,
+								0.7058823529411764,
+								0.6363636363636364,
+								0.7941176470588236
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 841985553048788,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
