@@ -56,8 +56,8 @@
 		},
 		{
 			"type": "plugin",
-			"id": "NinePatch",
-			"name": "9-patch",
+			"id": "Audio",
+			"name": "Audio",
 			"author": "Scirra",
 			"version": "r302",
 			"bundled": false
@@ -104,14 +104,6 @@
 		},
 		{
 			"type": "behavior",
-			"id": "bound",
-			"name": "Bound to layout",
-			"author": "Scirra",
-			"version": "r302",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
 			"id": "Bullet",
 			"name": "Bullet",
 			"author": "Scirra",
@@ -130,6 +122,14 @@
 			"type": "behavior",
 			"id": "Tween",
 			"name": "Tween",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Anchor",
+			"name": "Anchor",
 			"author": "Scirra",
 			"version": "r302",
 			"bundled": false
@@ -164,36 +164,21 @@
 			"Snail",
 			"YouDied",
 			"DeathScreen",
-			"stairwall",
+			"HealthBar",
 			"BubbleGun2",
 			"GunUpgrader",
 			"BubbleGun3",
 			"GunUpgrader2",
 			"Ant",
+			"Sprite2",
 			"Particles",
+			"Sprite3",
 			"Wasp",
 			"Enemy",
 			"Stinger",
-			"startGround",
-			"lv1",
-			"bookstore",
-			"lv2",
-			"Text",
-			"concrete",
-			"9patch",
-			"trail",
-			"stairs",
-			"bush",
-			"wall",
-			"table",
-			"longTable",
-			"volleyballNet",
-			"building",
-			"pathway",
-			"crownKeyCard",
-			"gate",
-			"cowelKeyCard",
-			"Sprite2"
+			"DeathSound",
+			"TiledBackground",
+			"Level1Background"
 		],
 		"subfolders": []
 	},
@@ -205,11 +190,11 @@
 	},
 	"layouts": {
 		"items": [
-			"test",
-			"start",
-			"lv1",
-			"lv2",
-			"bookstore"
+			"Layout 1",
+			"Layout 2",
+			"Layout 3",
+			"Layout 4",
+			"Layout 5"
 		],
 		"subfolders": []
 	},
@@ -225,7 +210,16 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "Elden Ring - YOU DIED [Sound Effect].webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 720496898602863,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
@@ -368,5 +362,5 @@
 	},
 	"viewportWidth": 854,
 	"viewportHeight": 480,
-	"firstLayout": "start"
+	"firstLayout": null
 }

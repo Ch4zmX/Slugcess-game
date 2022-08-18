@@ -2,7 +2,7 @@
 	"name": "YouDied",
 	"plugin-id": "Text",
 	"sid": 890428545313311,
-	"isGlobal": false,
+	"isGlobal": true,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
@@ -14,6 +14,11 @@
 			"behaviorId": "Tween",
 			"name": "Tween",
 			"sid": 663557919874303
+		},
+		{
+			"behaviorId": "Anchor",
+			"name": "Anchor",
+			"sid": 207572011703066
 		}
 	],
 	"effectTypes": []

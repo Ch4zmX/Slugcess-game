@@ -9,6 +9,12 @@
 			"type": "number",
 			"desc": "",
 			"sid": 186286554856831
+		},
+		{
+			"name": "Speed",
+			"type": "number",
+			"desc": "",
+			"sid": 512728464879629
 		}
 	],
 	"behaviorTypes": [
