@@ -1,0 +1,20 @@
+{
+	"name": "finalbossArea",
+	"plugin-id": "TiledBg",
+	"sid": 646786898362044,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 250,
+		"height": 250,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 6590479,
+		"useCollisionPoly": true
+	}
+}

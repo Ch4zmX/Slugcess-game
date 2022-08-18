@@ -78,34 +78,6 @@
 								"height-type": "no",
 								"z": false
 							}
-						},
-						{
-							"id": "pin-to-object-imagepoint",
-							"objectClass": "BubbleGun2",
-							"sid": 539143077289271,
-							"behaviorType": "Pin",
-							"parameters": {
-								"pin-to": "Player",
-								"image-point": "0",
-								"angle": true,
-								"width-type": "no",
-								"height-type": "no",
-								"z": false
-							}
-						},
-						{
-							"id": "pin-to-object-imagepoint",
-							"objectClass": "BubbleGun3",
-							"sid": 520897745334572,
-							"behaviorType": "Pin",
-							"parameters": {
-								"pin-to": "Player",
-								"image-point": "0",
-								"angle": true,
-								"width-type": "no",
-								"height-type": "no",
-								"z": false
-							}
 						}
 					],
 					"sid": 594053834148689

@@ -209,12 +209,50 @@
 			"crownKeyCard",
 			"gate",
 			"cowelKeyCard",
-			"Sprite2",
 			"HealthBar",
 			"DeathSound",
 			"Block",
 			"Spawner",
-			"SlugBoss"
+			"SlugBoss",
+			"Text2",
+			"sky",
+			"sidewalk",
+			"funScenery",
+			"finalbossArea",
+			"street",
+			"crosswalk",
+			"9patch2",
+			"bookstoreBuild",
+			"storeBeams",
+			"stairsBackground",
+			"midStair",
+			"stairSide",
+			"storeBeams2",
+			"bookstoreRoof",
+			"storeBackWall",
+			"upgradeSign",
+			"crownDiningHall",
+			"wall2",
+			"fountain",
+			"dininghallFloor",
+			"stage",
+			"diningTables",
+			"diningRestaurants",
+			"trashcan",
+			"brick",
+			"grass4",
+			"grass3",
+			"grass2",
+			"tree",
+			"viva",
+			"viva2",
+			"910ID",
+			"coverforDH",
+			"busstop2",
+			"busStop",
+			"bussign",
+			"TiledBackground",
+			"Sprite2"
 		],
 		"subfolders": []
 	},
@@ -227,10 +265,7 @@
 	"layouts": {
 		"items": [
 			"Full Map",
-			"test",
-			"start",
-			"lv1",
-			"bookstore"
+			"start"
 		],
 		"subfolders": []
 	},
@@ -398,5 +433,5 @@
 	},
 	"viewportWidth": 854,
 	"viewportHeight": 480,
-	"firstLayout": "start"
+	"firstLayout": null
 }

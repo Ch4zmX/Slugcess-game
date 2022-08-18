@@ -1,14 +1,14 @@
 {
-	"name": "Sprite2",
+	"name": "fountain",
 	"plugin-id": "Sprite",
-	"sid": 328108185263141,
+	"sid": 801408925176840,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",
 			"name": "Solid",
-			"sid": 357907897624918
+			"sid": 103812659393649
 		}
 	],
 	"effectTypes": [],
@@ -17,31 +17,19 @@
 			{
 				"frames": [
 					{
-						"width": 48,
-						"height": 252,
-						"originX": 0.5416666666666666,
-						"originY": 0.5,
+						"width": 209,
+						"height": 189,
+						"originX": 0.49760765550239233,
+						"originY": 0.5502645502645502,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1284928,
-						"collisionPoly": {
-							"points": [
-								0,
-								0.003968253968253968,
-								1,
-								0.003968253968253968,
-								1,
-								0.996031746031746,
-								0,
-								0.996031746031746
-							]
-						},
+						"imageSpriteId": 4816259,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 252223388964834,
+				"sid": 147474574940140,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

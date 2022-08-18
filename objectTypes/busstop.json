@@ -1,47 +1,41 @@
 {
-	"name": "Sprite2",
+	"name": "busStop",
 	"plugin-id": "Sprite",
-	"sid": 328108185263141,
+	"sid": 263397149858245,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 357907897624918
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 48,
-						"height": 252,
-						"originX": 0.5416666666666666,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1284928,
+						"imageSpriteId": 2522082,
 						"collisionPoly": {
 							"points": [
-								0,
-								0.003968253968253968,
-								1,
-								0.003968253968253968,
-								1,
-								0.996031746031746,
-								0,
-								0.996031746031746
+								0.20400000000000013,
+								0.22800000000000015,
+								0.8599999999999999,
+								0.23200000000000007,
+								0.7959999999999998,
+								0.7079999999999997,
+								0.088,
+								0.7119999999999997
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 252223388964834,
+				"sid": 883086446277292,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

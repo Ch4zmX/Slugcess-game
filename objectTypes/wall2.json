@@ -1,14 +1,14 @@
 {
-	"name": "Sprite2",
+	"name": "wall2",
 	"plugin-id": "Sprite",
-	"sid": 328108185263141,
+	"sid": 335703653297387,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",
 			"name": "Solid",
-			"sid": 357907897624918
+			"sid": 589022591494039
 		}
 	],
 	"effectTypes": [],
@@ -17,14 +17,14 @@
 			{
 				"frames": [
 					{
-						"width": 48,
+						"width": 89,
 						"height": 252,
-						"originX": 0.5416666666666666,
+						"originX": 0.550561797752809,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1284928,
+						"imageSpriteId": 8385270,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -41,7 +41,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 252223388964834,
+				"sid": 405795810476265,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
