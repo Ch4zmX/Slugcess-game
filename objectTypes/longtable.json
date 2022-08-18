@@ -9,6 +9,11 @@
 			"behaviorId": "solid",
 			"name": "Solid",
 			"sid": 484808337790725
+		},
+		{
+			"behaviorId": "LOS",
+			"name": "LineOfSight",
+			"sid": 264217747519137
 		}
 	],
 	"effectTypes": [],

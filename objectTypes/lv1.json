@@ -1,21 +1,21 @@
 {
 	"name": "lv1",
 	"plugin-id": "Sprite",
-	"sid": 598009369432878,
+	"sid": 313728241715971,
 	"isGlobal": false,
 	"instanceVariables": [
 		{
 			"name": "unlocked",
 			"type": "boolean",
 			"desc": "",
-			"sid": 704234367957684
+			"sid": 465236200052584
 		}
 	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",
 			"name": "Solid",
-			"sid": 705111937469214
+			"sid": 566203074447169
 		}
 	],
 	"effectTypes": [],
@@ -25,13 +25,13 @@
 				"frames": [
 					{
 						"width": 252,
-						"height": 85,
+						"height": 77,
 						"originX": 0.5,
-						"originY": 0.8823529411764706,
+						"originY": 0.5324675324675324,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3637992,
+						"imageSpriteId": 1661957,
 						"collisionPoly": {
 							"points": [
 								0.003968253968253968,
@@ -48,7 +48,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 490627341553845,
+				"sid": 243420525705894,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -63,6 +63,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "MoveTo",
 			"name": "Move To",
@@ -136,6 +144,14 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Anchor",
+			"name": "Anchor",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
@@ -175,9 +191,9 @@
 			"Enemy",
 			"Stinger",
 			"startGround",
-			"lv1",
-			"bookstore",
 			"lv2",
+			"bookstore",
+			"lv1",
 			"Text",
 			"concrete",
 			"9patch",
@@ -193,6 +209,46 @@
 			"crownKeyCard",
 			"gate",
 			"cowelKeyCard",
+			"stairSide",
+			"HealthBar",
+			"DeathSound",
+			"stairsBackground",
+			"midStair",
+			"9patch2",
+			"bookstoreBuild",
+			"storeBeams2",
+			"bookstoreRoof",
+			"Text2",
+			"storeBeams",
+			"storeBackWall",
+			"upgradeSign",
+			"wall2",
+			"fountain",
+			"crownDiningHall",
+			"grass3",
+			"grass4",
+			"grass2",
+			"brick",
+			"viva",
+			"viva2",
+			"tree",
+			"910ID",
+			"street",
+			"sidewalk",
+			"crosswalk",
+			"coverforDH",
+			"dininghallFloor",
+			"diningRestaurants",
+			"trashcan",
+			"stage",
+			"diningTables",
+			"funScenery",
+			"busstop2",
+			"busStop",
+			"bussign",
+			"finalbossArea",
+			"TiledBackground",
+			"sky",
 			"Sprite2"
 		],
 		"subfolders": []
@@ -209,7 +265,8 @@
 			"start",
 			"lv1",
 			"lv2",
-			"bookstore"
+			"bookstore",
+			"Full Map"
 		],
 		"subfolders": []
 	},
@@ -225,7 +282,16 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "Elden Ring - YOU DIED [Sound Effect].webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 599436420099504,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"music": {

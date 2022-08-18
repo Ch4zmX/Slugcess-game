@@ -1,0 +1,43 @@
+{
+	"name": "trashcan",
+	"plugin-id": "Sprite",
+	"sid": 957836159719084,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 619577578784923
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 129,
+						"height": 121,
+						"originX": 0.5193798449612403,
+						"originY": 0.5785123966942148,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4531320,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 615314089128334,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

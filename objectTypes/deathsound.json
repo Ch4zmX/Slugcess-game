@@ -1,7 +1,7 @@
 {
 	"name": "DeathSound",
 	"plugin-id": "Audio",
-	"sid": 715846373501400,
+	"sid": 248998270813564,
 	"singleglobal-inst": {
 		"type": "DeathSound",
 		"properties": {
@@ -16,6 +16,6 @@
 			"maximum-distance": 10000,
 			"roll-off-factor": 1
 		},
-		"uid": 18
+		"uid": 59
 	}
 }

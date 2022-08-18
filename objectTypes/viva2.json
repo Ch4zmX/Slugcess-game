@@ -1,0 +1,49 @@
+{
+	"name": "viva2",
+	"plugin-id": "Sprite",
+	"sid": 686002114849168,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 252,
+						"height": 98,
+						"originX": 0.5,
+						"originY": 1.2857142857142858,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9169692,
+						"collisionPoly": {
+							"points": [
+								0.003968253968253968,
+								0.01020408163265306,
+								0.996031746031746,
+								0.01020408163265306,
+								0.996031746031746,
+								1,
+								0.003968253968253968,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 329887633155906,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

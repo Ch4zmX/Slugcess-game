@@ -28,6 +28,11 @@
 			"behaviorId": "MoveTo",
 			"name": "MoveTo",
 			"sid": 975353266508861
+		},
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 119297160110656
 		}
 	],
 	"effectTypes": [],

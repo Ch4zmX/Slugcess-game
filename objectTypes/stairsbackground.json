@@ -1,0 +1,20 @@
+{
+	"name": "stairsBackground",
+	"plugin-id": "TiledBg",
+	"sid": 436492533849216,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 250,
+		"height": 250,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 1805754,
+		"useCollisionPoly": true
+	}
+}

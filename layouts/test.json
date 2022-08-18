@@ -174,15 +174,20 @@
 								"stop-on-solids": true,
 								"enabled": true
 							}
+						},
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
 						}
 					},
 					"world": {
 						"x": 277,
 						"y": -1013,
-						"width": 52.33895231856924,
-						"height": 52.338952318569234,
-						"originX": 0.4839108910891089,
-						"originY": 0.4882005899705015,
+						"width": 39.777603762112626,
+						"height": 27.216255205656,
+						"originX": 0.4788301198540907,
+						"originY": 0.6119242114817336,
 						"color": [
 							1,
 							1,
@@ -276,6 +281,11 @@
 								"set-angle": true,
 								"stop-on-solids": false,
 								"enabled": true
+							}
+						},
+						"Pin": {
+							"properties": {
+								"destroy": false
 							}
 						}
 					},
@@ -656,6 +666,15 @@
 						"Tween": {
 							"properties": {
 								"enabled": false
+							}
+						},
+						"Anchor": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "none",
+								"bottom-edge": "none",
+								"enabled": true
 							}
 						}
 					},
