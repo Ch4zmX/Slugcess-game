@@ -1,7 +1,7 @@
 {
 	"name": "startGround",
 	"plugin-id": "TiledBg",
-	"sid": 188240974987416,
+	"sid": 740264258142785,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -14,7 +14,7 @@
 		"originalSource": "",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 8896935,
+		"imageSpriteId": 8892288,
 		"useCollisionPoly": true
 	}
 }

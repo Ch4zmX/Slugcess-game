@@ -1568,50 +1568,9 @@
 							"id": "destroy",
 							"objectClass": "cowelKeyCard",
 							"sid": 197243857188114
-						},
-						{
-							"id": "set-boolean-instvar",
-							"objectClass": "lv1",
-							"sid": 405779398237768,
-							"parameters": {
-								"instance-variable": "unlocked",
-								"value": "true"
-							}
 						}
 					],
 					"sid": 361773654615110
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Player",
-							"sid": 663400164739668,
-							"parameters": {
-								"object": "lv1"
-							}
-						},
-						{
-							"id": "is-boolean-instance-variable-set",
-							"objectClass": "lv1",
-							"sid": 195527854877276,
-							"parameters": {
-								"instance-variable": "unlocked"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-angle",
-							"objectClass": "lv1",
-							"sid": 638446928263512,
-							"parameters": {
-								"angle": "-60"
-							}
-						}
-					],
-					"sid": 937487832448305
 				},
 				{
 					"eventType": "block",
@@ -1633,15 +1592,6 @@
 						},
 						{
 							"id": "set-boolean-instvar",
-							"objectClass": "lv2",
-							"sid": 962212225383457,
-							"parameters": {
-								"instance-variable": "unlocked",
-								"value": "true"
-							}
-						},
-						{
-							"id": "set-boolean-instvar",
 							"objectClass": "bookstore",
 							"sid": 286625233817218,
 							"parameters": {
@@ -1651,29 +1601,6 @@
 						}
 					],
 					"sid": 103822480403608
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Player",
-							"sid": 370953074195795,
-							"parameters": {
-								"object": "lv2"
-							}
-						},
-						{
-							"id": "is-boolean-instance-variable-set",
-							"objectClass": "lv2",
-							"sid": 860454167968676,
-							"parameters": {
-								"instance-variable": "unlocked"
-							}
-						}
-					],
-					"actions": [],
-					"sid": 784604894574107
 				},
 				{
 					"eventType": "block",

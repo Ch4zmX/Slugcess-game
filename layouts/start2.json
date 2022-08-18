@@ -1,5 +1,5 @@
 {
-	"name": "start",
+	"name": "start2",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -19,7 +19,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 18,
+					"uid": 834,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -52,7 +52,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 19,
+					"uid": 835,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -81,7 +81,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 52,
+					"uid": 836,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -114,7 +114,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 53,
+					"uid": 837,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -143,7 +143,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 64,
+					"uid": 838,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -172,7 +172,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 90,
+					"uid": 839,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -201,7 +201,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 92,
+					"uid": 840,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -230,7 +230,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 93,
+					"uid": 841,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -263,7 +263,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 113,
+					"uid": 842,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -296,7 +296,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 115,
+					"uid": 843,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -329,7 +329,7 @@
 						"origin": "top-left",
 						"seams": "overlap"
 					},
-					"uid": 116,
+					"uid": 844,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -362,7 +362,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 118,
+					"uid": 845,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -391,7 +391,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 152,
+					"uid": 846,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -424,7 +424,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 161,
+					"uid": 847,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -453,7 +453,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 169,
+					"uid": 848,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -482,7 +482,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 171,
+					"uid": 849,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -511,7 +511,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 172,
+					"uid": 850,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -540,7 +540,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 306,
+					"uid": 851,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -569,7 +569,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 349,
+					"uid": 852,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -598,7 +598,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 358,
+					"uid": 853,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -627,7 +627,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 366,
+					"uid": 854,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -656,7 +656,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 368,
+					"uid": 855,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -685,7 +685,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 369,
+					"uid": 856,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -714,7 +714,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 477,
+					"uid": 857,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -743,7 +743,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 485,
+					"uid": 858,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -779,7 +779,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 487,
+					"uid": 859,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -815,7 +815,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 488,
+					"uid": 860,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -851,7 +851,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 630,
+					"uid": 861,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -887,7 +887,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 639,
+					"uid": 862,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -916,7 +916,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 647,
+					"uid": 863,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -949,7 +949,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 649,
+					"uid": 864,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -982,7 +982,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 650,
+					"uid": 865,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1024,7 +1024,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 871,
+					"uid": 866,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1053,7 +1053,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 880,
+					"uid": 867,
 					"instanceVariables": {},
 					"behaviors": {
 						"Pin": {
@@ -1088,7 +1088,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 888,
+					"uid": 868,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1117,7 +1117,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 890,
+					"uid": 869,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1150,7 +1150,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 891,
+					"uid": 870,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1171,39 +1171,6 @@
 					}
 				},
 				{
-					"type": "concrete",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 1075,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 4365.000565684903,
-						"y": 1368.0000000290909,
-						"width": 1019.0000002644624,
-						"height": 522.9999999854546,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0.00005142590038076378,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "crownDiningHall",
 					"properties": {
 						"initially-visible": true,
@@ -1212,7 +1179,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1076,
+					"uid": 872,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1241,7 +1208,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1077,
+					"uid": 873,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1270,7 +1237,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1078,
+					"uid": 874,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1299,7 +1266,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1079,
+					"uid": 875,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1328,7 +1295,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1080,
+					"uid": 876,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1357,7 +1324,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1081,
+					"uid": 877,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1386,7 +1353,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1082,
+					"uid": 878,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1415,7 +1382,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1083,
+					"uid": 879,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1436,39 +1403,6 @@
 					}
 				},
 				{
-					"type": "concrete",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 1084,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 4890,
-						"y": 2452,
-						"width": 1238.751314800902,
-						"height": 508,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "9patch",
 					"properties": {
 						"left-margin": 16,
@@ -1481,7 +1415,7 @@
 						"origin": "top-left",
 						"seams": "overlap"
 					},
-					"uid": 1085,
+					"uid": 881,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1510,7 +1444,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1086,
+					"uid": 882,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -1546,7 +1480,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1087,
+					"uid": 883,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1575,7 +1509,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1088,
+					"uid": 884,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1604,7 +1538,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1089,
+					"uid": 885,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -1640,7 +1574,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1090,
+					"uid": 886,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -1676,7 +1610,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1091,
+					"uid": 887,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1686,39 +1620,6 @@
 						"height": 380.32375815716694,
 						"originX": 0.5,
 						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "startGround",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 1092,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 4004,
-						"y": 2450,
-						"width": 886.6719316984377,
-						"height": 510.6213447180455,
-						"originX": 0,
-						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -1751,7 +1652,7 @@
 						"initially-visible": false,
 						"origin": "top-left"
 					},
-					"uid": 1093,
+					"uid": 889,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1772,82 +1673,6 @@
 					}
 				},
 				{
-					"type": "lv2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1094,
-					"instanceVariables": {
-						"unlocked": false
-					},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 4614,
-						"y": 2496,
-						"width": 123.18238419514375,
-						"height": 29.81795807898321,
-						"originX": 0.5,
-						"originY": 0.8823529411764706,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "lv1",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1095,
-					"instanceVariables": {
-						"unlocked": false
-					},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 4872,
-						"y": 2706,
-						"width": 127.11265440218676,
-						"height": 36.000010936306346,
-						"originX": 0.5,
-						"originY": 0.5324675324675324,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 1.5680961647021419,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "bookstore",
 					"properties": {
 						"initially-visible": true,
@@ -1856,7 +1681,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1096,
+					"uid": 892,
 					"instanceVariables": {
 						"unlocked": false
 					},
@@ -1894,7 +1719,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1097,
+					"uid": 893,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1936,7 +1761,7 @@
 						"initially-visible": false,
 						"origin": "top-left"
 					},
-					"uid": 1098,
+					"uid": 894,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1965,7 +1790,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1106,
+					"uid": 895,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1994,7 +1819,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1107,
+					"uid": 896,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -2023,7 +1848,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1108,
+					"uid": 897,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -2059,7 +1884,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1109,
+					"uid": 898,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -2095,7 +1920,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1110,
+					"uid": 899,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -2124,7 +1949,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1111,
+					"uid": 900,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -2153,7 +1978,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1112,
+					"uid": 901,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -2189,7 +2014,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1113,
+					"uid": 902,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -2233,7 +2058,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1114,
+					"uid": 903,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -2277,7 +2102,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1115,
+					"uid": 904,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -2313,7 +2138,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1116,
+					"uid": 905,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -2353,7 +2178,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 1117,
+					"uid": 906,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -2386,7 +2211,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 1118,
+					"uid": 907,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -2415,7 +2240,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1119,
+					"uid": 908,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -2444,7 +2269,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1120,
+					"uid": 909,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -2480,7 +2305,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1121,
+					"uid": 910,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -2516,7 +2341,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1122,
+					"uid": 911,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -2552,7 +2377,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1123,
+					"uid": 912,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -2588,7 +2413,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1124,
+					"uid": 913,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -2624,7 +2449,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1125,
+					"uid": 914,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -2653,7 +2478,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1126,
+					"uid": 915,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -2682,7 +2507,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1127,
+					"uid": 916,
 					"instanceVariables": {},
 					"behaviors": {
 						"Pin": {
@@ -2717,7 +2542,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1128,
+					"uid": 917,
 					"instanceVariables": {},
 					"behaviors": {
 						"Pin": {
@@ -2752,7 +2577,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1129,
+					"uid": 918,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -2788,7 +2613,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1130,
+					"uid": 919,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -2824,7 +2649,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1131,
+					"uid": 920,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -2860,7 +2685,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1132,
+					"uid": 921,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -2904,7 +2729,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1133,
+					"uid": 922,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -2948,7 +2773,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1134,
+					"uid": 923,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -2992,7 +2817,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1135,
+					"uid": 924,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -3036,7 +2861,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1136,
+					"uid": 925,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -3072,7 +2897,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1137,
+					"uid": 926,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -3108,7 +2933,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1138,
+					"uid": 927,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -3148,7 +2973,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 1139,
+					"uid": 928,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -3181,7 +3006,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 1140,
+					"uid": 929,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -3214,7 +3039,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 1141,
+					"uid": 930,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -3247,7 +3072,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 1142,
+					"uid": 931,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -3280,7 +3105,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 1143,
+					"uid": 932,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -3313,7 +3138,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 1144,
+					"uid": 933,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -3342,7 +3167,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1145,
+					"uid": 934,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -3371,7 +3196,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1146,
+					"uid": 935,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -3400,7 +3225,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1147,
+					"uid": 936,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -3440,7 +3265,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 1148,
+					"uid": 937,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -3473,7 +3298,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 1149,
+					"uid": 938,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -3506,7 +3331,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 1150,
+					"uid": 939,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -3535,7 +3360,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1151,
+					"uid": 940,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -3571,7 +3396,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1152,
+					"uid": 941,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -3607,7 +3432,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1153,
+					"uid": 942,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -3643,7 +3468,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1154,
+					"uid": 943,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -3679,7 +3504,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1155,
+					"uid": 944,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -3715,7 +3540,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1156,
+					"uid": 945,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -3751,7 +3576,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1157,
+					"uid": 946,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -3787,7 +3612,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1158,
+					"uid": 947,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -3823,7 +3648,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1159,
+					"uid": 948,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -3859,7 +3684,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1160,
+					"uid": 949,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -3895,7 +3720,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1161,
+					"uid": 950,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -3931,7 +3756,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1162,
+					"uid": 951,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -3967,7 +3792,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1163,
+					"uid": 952,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -4003,7 +3828,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1164,
+					"uid": 953,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -4039,7 +3864,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1165,
+					"uid": 954,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -4079,7 +3904,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 1166,
+					"uid": 955,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -4108,7 +3933,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1167,
+					"uid": 956,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -4137,7 +3962,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1168,
+					"uid": 957,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -4170,7 +3995,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 1169,
+					"uid": 958,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -4199,7 +4024,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1170,
+					"uid": 959,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -4228,7 +4053,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1171,
+					"uid": 960,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -4257,7 +4082,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1172,
+					"uid": 961,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -4293,7 +4118,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1173,
+					"uid": 962,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -4322,7 +4147,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1174,
+					"uid": 963,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -4343,50 +4168,6 @@
 					}
 				},
 				{
-					"type": "HealthBar",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1175,
-					"instanceVariables": {},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						},
-						"Anchor": {
-							"properties": {
-								"left-edge": "window-left",
-								"top-edge": "window-top",
-								"right-edge": "none",
-								"bottom-edge": "none",
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 4193,
-						"y": 2490,
-						"width": 300,
-						"height": 25,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "wall2",
 					"properties": {
 						"initially-visible": true,
@@ -4395,7 +4176,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1176,
+					"uid": 964,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -4431,7 +4212,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1177,
+					"uid": 965,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -4464,7 +4245,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 1178,
+					"uid": 966,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -4497,7 +4278,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 1179,
+					"uid": 967,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -4530,7 +4311,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 1180,
+					"uid": 968,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -4559,7 +4340,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1181,
+					"uid": 969,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -4588,7 +4369,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1182,
+					"uid": 970,
 					"instanceVariables": {
 						"Health": 5,
 						"Kills": 0,
@@ -4661,7 +4442,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 1183,
+					"uid": 971,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -4690,7 +4471,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1184,
+					"uid": 972,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -4726,7 +4507,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1185,
+					"uid": 973,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -4762,7 +4543,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1186,
+					"uid": 974,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -4798,7 +4579,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1187,
+					"uid": 975,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -4834,7 +4615,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1188,
+					"uid": 976,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -4870,7 +4651,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1189,
+					"uid": 977,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -4906,7 +4687,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1190,
+					"uid": 978,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -4942,7 +4723,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1191,
+					"uid": 979,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -4971,7 +4752,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1192,
+					"uid": 980,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -5000,7 +4781,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1193,
+					"uid": 981,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -5029,7 +4810,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1194,
+					"uid": 982,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -5058,7 +4839,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1195,
+					"uid": 983,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -5087,7 +4868,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1196,
+					"uid": 984,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -5116,7 +4897,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1197,
+					"uid": 985,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -5145,7 +4926,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1198,
+					"uid": 986,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -5178,7 +4959,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 1199,
+					"uid": 987,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -5207,7 +4988,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1200,
+					"uid": 988,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -5243,7 +5024,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1201,
+					"uid": 989,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -5279,7 +5060,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1202,
+					"uid": 990,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -5315,7 +5096,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1203,
+					"uid": 991,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -5351,7 +5132,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1204,
+					"uid": 992,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -5387,7 +5168,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1205,
+					"uid": 993,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -5423,7 +5204,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1206,
+					"uid": 994,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -5459,7 +5240,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1207,
+					"uid": 995,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -5495,7 +5276,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1208,
+					"uid": 996,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -5531,7 +5312,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1209,
+					"uid": 997,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -5567,7 +5348,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1210,
+					"uid": 998,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -5603,7 +5384,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1211,
+					"uid": 999,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -5639,7 +5420,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1212,
+					"uid": 1000,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -5675,7 +5456,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1213,
+					"uid": 1001,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -5711,7 +5492,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1214,
+					"uid": 1002,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -5747,7 +5528,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1215,
+					"uid": 1003,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -5783,7 +5564,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1216,
+					"uid": 1004,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -5819,7 +5600,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1217,
+					"uid": 1005,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -5855,7 +5636,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1218,
+					"uid": 1006,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -5891,7 +5672,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1219,
+					"uid": 1007,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -5927,7 +5708,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1220,
+					"uid": 1008,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -5963,7 +5744,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1221,
+					"uid": 1009,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -5999,7 +5780,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1222,
+					"uid": 1010,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -6035,7 +5816,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1223,
+					"uid": 1011,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -6071,7 +5852,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1224,
+					"uid": 1012,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -6107,7 +5888,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1225,
+					"uid": 1013,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -6143,7 +5924,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1226,
+					"uid": 1014,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -6179,7 +5960,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1227,
+					"uid": 1015,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -6215,7 +5996,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1228,
+					"uid": 1016,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -6251,7 +6032,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1229,
+					"uid": 1017,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -6287,7 +6068,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1230,
+					"uid": 1018,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -6323,7 +6104,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1231,
+					"uid": 1019,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -6359,7 +6140,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1232,
+					"uid": 1020,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -6395,7 +6176,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1233,
+					"uid": 1021,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -6431,7 +6212,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1234,
+					"uid": 1022,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -6459,7 +6240,7 @@
 					}
 				}
 			],
-			"sid": 733180514478962,
+			"sid": 976381662632234,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -6493,1085 +6274,53 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Spawner",
+					"type": "DeathScreen",
 					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
+						"initially-visible": false,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
 					},
-					"uid": 1240,
-					"instanceVariables": {
-						"EnemyName": "Slug"
+					"uid": 1023,
+					"instanceVariables": {},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 1.5,
+								"wait-time": 7,
+								"fade-out-time": 1,
+								"destroy": true,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Anchor": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "none",
+								"bottom-edge": "none",
+								"enabled": true
+							}
+						}
 					},
-					"behaviors": {},
 					"world": {
-						"x": 5261,
-						"y": 1482,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": -15,
+						"y": 184,
+						"width": 2077,
+						"height": 104.68934904763,
+						"originX": 0,
+						"originY": 0,
 						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1241,
-					"instanceVariables": {
-						"EnemyName": "Slug"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 5232,
-						"y": 1815,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1242,
-					"instanceVariables": {
-						"EnemyName": "Slug"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 5086,
-						"y": 1611,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1243,
-					"instanceVariables": {
-						"EnemyName": "Ant"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 5698,
-						"y": 1556,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1244,
-					"instanceVariables": {
-						"EnemyName": "Ant"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 5945,
-						"y": 1605,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1245,
-					"instanceVariables": {
-						"EnemyName": "Ant"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 5711,
-						"y": 1824,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1246,
-					"instanceVariables": {
-						"EnemyName": "Ant"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 5950,
-						"y": 1847,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1247,
-					"instanceVariables": {
-						"EnemyName": "Ant"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 5814,
-						"y": 1690,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1248,
-					"instanceVariables": {
-						"EnemyName": "Ant"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 5619,
-						"y": 1711,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1249,
-					"instanceVariables": {
-						"EnemyName": "Snail"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 5985,
-						"y": 2198,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1250,
-					"instanceVariables": {
-						"EnemyName": "Wasp"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 6478,
-						"y": 2565,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1251,
-					"instanceVariables": {
-						"EnemyName": "Wasp"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 6700,
-						"y": 2808,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1252,
-					"instanceVariables": {
-						"EnemyName": "Slug"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 5005,
-						"y": 2535,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1253,
-					"instanceVariables": {
-						"EnemyName": "Slug"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 5136,
-						"y": 2698,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1254,
-					"instanceVariables": {
-						"EnemyName": "Slug"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 5542,
-						"y": 2700,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1255,
-					"instanceVariables": {
-						"EnemyName": "Slug"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 5496,
-						"y": 2892,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1256,
-					"instanceVariables": {
-						"EnemyName": "Slug"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 5831,
-						"y": 2894,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1257,
-					"instanceVariables": {
-						"EnemyName": "Ant"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 5829,
-						"y": 2626,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1258,
-					"instanceVariables": {
-						"EnemyName": "Ant"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 6070,
-						"y": 2595,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1259,
-					"instanceVariables": {
-						"EnemyName": "Ant"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 6092,
-						"y": 2808,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1260,
-					"instanceVariables": {
-						"EnemyName": "Snail"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 6220,
-						"y": 2727,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1261,
-					"instanceVariables": {
-						"EnemyName": "Ant"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 2314,
-						"y": 446,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1262,
-					"instanceVariables": {
-						"EnemyName": "Ant"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 2476,
-						"y": 462,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1263,
-					"instanceVariables": {
-						"EnemyName": "Ant"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 2369,
-						"y": 598,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1264,
-					"instanceVariables": {
-						"EnemyName": "Ant"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 3267,
-						"y": 171,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1265,
-					"instanceVariables": {
-						"EnemyName": "Ant"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 3244,
-						"y": 386,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1266,
-					"instanceVariables": {
-						"EnemyName": "Ant"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 3329,
-						"y": 633,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1267,
-					"instanceVariables": {
-						"EnemyName": "Slug"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 2298,
-						"y": 1345,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1268,
-					"instanceVariables": {
-						"EnemyName": "Slug"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 2273,
-						"y": 1507,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1269,
-					"instanceVariables": {
-						"EnemyName": "Slug"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 2555,
-						"y": 1482,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1270,
-					"instanceVariables": {
-						"EnemyName": "Slug"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 2340,
-						"y": 953,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1271,
-					"instanceVariables": {
-						"EnemyName": "Slug"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 2790,
-						"y": 970,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1272,
-					"instanceVariables": {
-						"EnemyName": "Snail"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 4044,
-						"y": 1117,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1273,
-					"instanceVariables": {
-						"EnemyName": "Snail"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 4046,
-						"y": 1472,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spawner",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1274,
-					"instanceVariables": {
-						"EnemyName": "Wasp"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 3442,
-						"y": 1280,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
+							0,
+							0,
+							0,
+							0.65
 						],
 						"angle": 0,
 						"zElevation": 0
@@ -7586,7 +6335,7 @@
 						"enable-collisions": false,
 						"live-preview": false
 					},
-					"uid": 1099,
+					"uid": 1024,
 					"instanceVariables": {},
 					"behaviors": {
 						"Bullet": {
@@ -7602,8 +6351,8 @@
 						}
 					},
 					"world": {
-						"x": 1000,
-						"y": -669,
+						"x": 1015,
+						"y": -698,
 						"width": 23.823069975021063,
 						"height": 23.823069975021063,
 						"originX": 0.5,
@@ -7627,7 +6376,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1100,
+					"uid": 1025,
 					"instanceVariables": {
 						"Damage": 1,
 						"Health": 20
@@ -7651,8 +6400,8 @@
 						}
 					},
 					"world": {
-						"x": 1307,
-						"y": -663,
+						"x": 1322,
+						"y": -692,
 						"width": 48.41752958712131,
 						"height": 33.12778333373799,
 						"originX": 0.4788301198540907,
@@ -7676,7 +6425,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1101,
+					"uid": 1026,
 					"instanceVariables": {
 						"Damage": 0,
 						"Health": 0,
@@ -7701,8 +6450,8 @@
 						}
 					},
 					"world": {
-						"x": 1396,
-						"y": -666,
+						"x": 1411,
+						"y": -695,
 						"width": 27.833774561623297,
 						"height": 28.884105677156253,
 						"originX": 0.39622641509433965,
@@ -7726,7 +6475,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1102,
+					"uid": 1027,
 					"instanceVariables": {},
 					"behaviors": {
 						"LineOfSight": {
@@ -7755,8 +6504,8 @@
 						}
 					},
 					"world": {
-						"x": 1214,
-						"y": -670,
+						"x": 1229,
+						"y": -699,
 						"width": 81.41864918591922,
 						"height": 76.83168303459983,
 						"originX": 0.5,
@@ -7780,7 +6529,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1103,
+					"uid": 1028,
 					"instanceVariables": {},
 					"behaviors": {
 						"Bullet": {
@@ -7796,8 +6545,8 @@
 						}
 					},
 					"world": {
-						"x": 1229,
-						"y": -600,
+						"x": 1244,
+						"y": -629,
 						"width": 39.70118238673485,
 						"height": 30.678186389749655,
 						"originX": 0.6363636363636364,
@@ -7821,7 +6570,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1104,
+					"uid": 1029,
 					"instanceVariables": {
 						"Health": 0,
 						"Damage": 0
@@ -7853,8 +6602,8 @@
 						}
 					},
 					"world": {
-						"x": 1113,
-						"y": -661,
+						"x": 1128,
+						"y": -690,
 						"width": 30.5914923766763,
 						"height": 34.22099147221416,
 						"originX": 0.5593220338983051,
@@ -7878,7 +6627,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1105,
+					"uid": 1030,
 					"instanceVariables": {
 						"Health": 5,
 						"EnemyName": "Ant"
@@ -7910,8 +6659,8 @@
 						}
 					},
 					"world": {
-						"x": 1240,
-						"y": -449,
+						"x": 1255,
+						"y": -478,
 						"width": 43.12515640512461,
 						"height": 43.12515640512461,
 						"originX": 0.5,
@@ -7935,14 +6684,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1235,
+					"uid": 1031,
 					"instanceVariables": {
 						"EnemyName": ""
 					},
 					"behaviors": {},
 					"world": {
-						"x": 984,
-						"y": -448,
+						"x": 999,
+						"y": -477,
 						"width": 56.435804238089844,
 						"height": 56.435804238089844,
 						"originX": 0.5,
@@ -7966,14 +6715,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1236,
+					"uid": 1032,
 					"instanceVariables": {
 						"EnemyName": "Ant"
 					},
 					"behaviors": {},
 					"world": {
-						"x": 1408,
-						"y": -743,
+						"x": 1423,
+						"y": -772,
 						"width": 56.435804238089844,
 						"height": 56.435804238089844,
 						"originX": 0.5,
@@ -7997,14 +6746,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1237,
+					"uid": 1033,
 					"instanceVariables": {
 						"EnemyName": "Snail"
 					},
 					"behaviors": {},
 					"world": {
-						"x": 1319,
-						"y": -742,
+						"x": 1334,
+						"y": -771,
 						"width": 56.435804238089844,
 						"height": 56.435804238089844,
 						"originX": 0.5,
@@ -8028,14 +6777,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1238,
+					"uid": 1034,
 					"instanceVariables": {
 						"EnemyName": "Wasp"
 					},
 					"behaviors": {},
 					"world": {
-						"x": 1227,
-						"y": -758,
+						"x": 1242,
+						"y": -787,
 						"width": 56.435804238089844,
 						"height": 56.435804238089844,
 						"originX": 0.5,
@@ -8059,14 +6808,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1239,
+					"uid": 1035,
 					"instanceVariables": {
 						"EnemyName": "Slug"
 					},
 					"behaviors": {},
 					"world": {
-						"x": 1126,
-						"y": -753,
+						"x": 1141,
+						"y": -782,
 						"width": 56.435804238089844,
 						"height": 56.435804238089844,
 						"originX": 0.5,
@@ -8090,12 +6839,12 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1275,
+					"uid": 1036,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1671,
-						"y": -651,
+						"x": 1686,
+						"y": -680,
 						"width": 182.65867833498723,
 						"height": 153.13808385660545,
 						"originX": 0.494949494949495,
@@ -8111,59 +6860,6 @@
 					}
 				},
 				{
-					"type": "DeathScreen",
-					"properties": {
-						"initially-visible": false,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 1037,
-					"instanceVariables": {},
-					"behaviors": {
-						"Fade": {
-							"properties": {
-								"fade-in-time": 1.5,
-								"wait-time": 7,
-								"fade-out-time": 1,
-								"destroy": true,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
-						"Anchor": {
-							"properties": {
-								"left-edge": "window-left",
-								"top-edge": "window-top",
-								"right-edge": "none",
-								"bottom-edge": "none",
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": -15,
-						"y": 182,
-						"width": 2077,
-						"height": 104.68934904763,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							0,
-							0,
-							0,
-							0.65
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "HealthBar",
 					"properties": {
 						"initially-visible": true,
@@ -8172,7 +6868,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1276,
+					"uid": 1038,
 					"instanceVariables": {},
 					"behaviors": {
 						"Pin": {
@@ -8192,9 +6888,1094 @@
 					},
 					"world": {
 						"x": 159,
-						"y": 22,
+						"y": 24,
 						"width": 300,
 						"height": 25,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1039,
+					"instanceVariables": {
+						"EnemyName": "Slug"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 5255,
+						"y": 1474,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1040,
+					"instanceVariables": {
+						"EnemyName": "Slug"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 5226,
+						"y": 1807,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1041,
+					"instanceVariables": {
+						"EnemyName": "Slug"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 5080,
+						"y": 1603,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1042,
+					"instanceVariables": {
+						"EnemyName": "Ant"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 5692,
+						"y": 1548,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1043,
+					"instanceVariables": {
+						"EnemyName": "Ant"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 5939,
+						"y": 1597,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1044,
+					"instanceVariables": {
+						"EnemyName": "Ant"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 5705,
+						"y": 1816,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1045,
+					"instanceVariables": {
+						"EnemyName": "Ant"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 5944,
+						"y": 1839,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1046,
+					"instanceVariables": {
+						"EnemyName": "Ant"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 5808,
+						"y": 1682,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1047,
+					"instanceVariables": {
+						"EnemyName": "Ant"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 5613,
+						"y": 1703,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1048,
+					"instanceVariables": {
+						"EnemyName": "Snail"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 5979,
+						"y": 2190,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1049,
+					"instanceVariables": {
+						"EnemyName": "Wasp"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 6472,
+						"y": 2557,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1050,
+					"instanceVariables": {
+						"EnemyName": "Wasp"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 6694,
+						"y": 2800,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1051,
+					"instanceVariables": {
+						"EnemyName": "Slug"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 4999,
+						"y": 2527,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1052,
+					"instanceVariables": {
+						"EnemyName": "Slug"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 5130,
+						"y": 2690,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1053,
+					"instanceVariables": {
+						"EnemyName": "Slug"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 5536,
+						"y": 2692,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1054,
+					"instanceVariables": {
+						"EnemyName": "Slug"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 5490,
+						"y": 2884,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1055,
+					"instanceVariables": {
+						"EnemyName": "Slug"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 5825,
+						"y": 2886,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1056,
+					"instanceVariables": {
+						"EnemyName": "Ant"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 5823,
+						"y": 2618,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1057,
+					"instanceVariables": {
+						"EnemyName": "Ant"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 6064,
+						"y": 2587,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1058,
+					"instanceVariables": {
+						"EnemyName": "Ant"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 6086,
+						"y": 2800,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1059,
+					"instanceVariables": {
+						"EnemyName": "Snail"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 6214,
+						"y": 2719,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1060,
+					"instanceVariables": {
+						"EnemyName": "Ant"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2308,
+						"y": 438,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1061,
+					"instanceVariables": {
+						"EnemyName": "Ant"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2470,
+						"y": 454,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1062,
+					"instanceVariables": {
+						"EnemyName": "Ant"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2363,
+						"y": 590,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1063,
+					"instanceVariables": {
+						"EnemyName": "Ant"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 3261,
+						"y": 163,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1064,
+					"instanceVariables": {
+						"EnemyName": "Ant"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 3238,
+						"y": 378,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1065,
+					"instanceVariables": {
+						"EnemyName": "Ant"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 3323,
+						"y": 625,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1066,
+					"instanceVariables": {
+						"EnemyName": "Slug"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2292,
+						"y": 1337,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1067,
+					"instanceVariables": {
+						"EnemyName": "Slug"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2267,
+						"y": 1499,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1068,
+					"instanceVariables": {
+						"EnemyName": "Slug"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2549,
+						"y": 1474,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1069,
+					"instanceVariables": {
+						"EnemyName": "Slug"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2334,
+						"y": 945,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1070,
+					"instanceVariables": {
+						"EnemyName": "Slug"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2784,
+						"y": 962,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1071,
+					"instanceVariables": {
+						"EnemyName": "Snail"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 4038,
+						"y": 1109,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1072,
+					"instanceVariables": {
+						"EnemyName": "Snail"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 4040,
+						"y": 1464,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1073,
+					"instanceVariables": {
+						"EnemyName": "Wasp"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 3436,
+						"y": 1272,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -8229,7 +8010,7 @@
 						"initially-visible": false,
 						"origin": "top-left"
 					},
-					"uid": 1277,
+					"uid": 1074,
 					"instanceVariables": {},
 					"behaviors": {
 						"Fade": {
@@ -8259,7 +8040,7 @@
 					},
 					"world": {
 						"x": 280,
-						"y": 191,
+						"y": 193,
 						"width": 321.44497897061103,
 						"height": 89.74719483448304,
 						"originX": 0,
@@ -8275,7 +8056,7 @@
 					}
 				}
 			],
-			"sid": 765898017550641,
+			"sid": 896882914270416,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -8304,7 +8085,7 @@
 			"global": false
 		}
 	],
-	"sid": 849142972588254,
+	"sid": 874415535521229,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 7000,

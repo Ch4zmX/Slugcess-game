@@ -190,12 +190,8 @@
 			"Wasp",
 			"Enemy",
 			"Stinger",
-			"startGround",
-			"lv1",
 			"bookstore",
-			"lv2",
 			"Text",
-			"concrete",
 			"9patch",
 			"trail",
 			"stairs",
@@ -211,7 +207,6 @@
 			"cowelKeyCard",
 			"HealthBar",
 			"DeathSound",
-			"Block",
 			"Spawner",
 			"SlugBoss",
 			"Text2",
@@ -252,7 +247,11 @@
 			"busStop",
 			"bussign",
 			"TiledBackground",
-			"Sprite2"
+			"Sprite2",
+			"concrete",
+			"startGround",
+			"lv2",
+			"lv1"
 		],
 		"subfolders": []
 	},
