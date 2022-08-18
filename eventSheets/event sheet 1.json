@@ -111,6 +111,7 @@
 							"id": "create-object",
 							"objectClass": "System",
 							"sid": 190270566141745,
+							"disabled": true,
 							"parameters": {
 								"object-to-create": "Enemy",
 								"layer": "0",
@@ -124,6 +125,7 @@
 							"id": "create-object",
 							"objectClass": "System",
 							"sid": 906553317129841,
+							"disabled": true,
 							"parameters": {
 								"object-to-create": "Slug",
 								"layer": "0",
@@ -137,6 +139,7 @@
 							"id": "set-size",
 							"objectClass": "Enemy",
 							"sid": 323920138689273,
+							"disabled": true,
 							"parameters": {
 								"width": "Slug.Width",
 								"height": "Slug.Height"
@@ -146,6 +149,7 @@
 							"id": "set-visible",
 							"objectClass": "Slug",
 							"sid": 969485943577672,
+							"disabled": true,
 							"parameters": {
 								"visibility": "visible"
 							}
@@ -154,6 +158,7 @@
 							"id": "add-child",
 							"objectClass": "Enemy",
 							"sid": 956302638733324,
+							"disabled": true,
 							"parameters": {
 								"child": "Slug",
 								"transform-x": true,
@@ -169,6 +174,7 @@
 							"id": "pin-to-object-imagepoint",
 							"objectClass": "Slug",
 							"sid": 829718328842861,
+							"disabled": true,
 							"behaviorType": "Pin",
 							"parameters": {
 								"pin-to": "Enemy",
@@ -183,6 +189,7 @@
 							"id": "pin-to-object-imagepoint",
 							"objectClass": "Enemy",
 							"sid": 714317537926604,
+							"disabled": true,
 							"behaviorType": "Pin",
 							"parameters": {
 								"pin-to": "Slug",
@@ -197,6 +204,7 @@
 							"id": "set-instvar-value",
 							"objectClass": "Enemy",
 							"sid": 190995146904677,
+							"disabled": true,
 							"parameters": {
 								"instance-variable": "Health",
 								"value": "3"
@@ -206,6 +214,7 @@
 							"id": "set-speed",
 							"objectClass": "Enemy",
 							"sid": 125889696333190,
+							"disabled": true,
 							"behaviorType": "MoveTo",
 							"parameters": {
 								"speed": "130"
@@ -215,6 +224,7 @@
 							"id": "create-object",
 							"objectClass": "System",
 							"sid": 321859059058846,
+							"disabled": true,
 							"parameters": {
 								"object-to-create": "Enemy",
 								"layer": "0",
@@ -228,6 +238,7 @@
 							"id": "create-object",
 							"objectClass": "System",
 							"sid": 524096679923546,
+							"disabled": true,
 							"parameters": {
 								"object-to-create": "Wasp",
 								"layer": "0",
@@ -241,6 +252,7 @@
 							"id": "set-size",
 							"objectClass": "Enemy",
 							"sid": 983445000638272,
+							"disabled": true,
 							"parameters": {
 								"width": "Wasp.Width",
 								"height": "Wasp.Height"
@@ -250,6 +262,7 @@
 							"id": "set-visible",
 							"objectClass": "Wasp",
 							"sid": 671936951243161,
+							"disabled": true,
 							"parameters": {
 								"visibility": "visible"
 							}
@@ -258,6 +271,7 @@
 							"id": "add-child",
 							"objectClass": "Enemy",
 							"sid": 106825197765037,
+							"disabled": true,
 							"parameters": {
 								"child": "Wasp",
 								"transform-x": true,
@@ -273,6 +287,7 @@
 							"id": "set-instvar-value",
 							"objectClass": "Enemy",
 							"sid": 723329976508207,
+							"disabled": true,
 							"parameters": {
 								"instance-variable": "Health",
 								"value": "10"
@@ -282,6 +297,7 @@
 							"id": "pin-to-object-imagepoint",
 							"objectClass": "Wasp",
 							"sid": 497477279470068,
+							"disabled": true,
 							"behaviorType": "Pin",
 							"parameters": {
 								"pin-to": "Enemy",
@@ -296,6 +312,7 @@
 							"id": "pin-to-object-imagepoint",
 							"objectClass": "Enemy",
 							"sid": 303264811610244,
+							"disabled": true,
 							"behaviorType": "Pin",
 							"parameters": {
 								"pin-to": "Wasp",
@@ -310,6 +327,7 @@
 							"id": "set-enabled",
 							"objectClass": "Enemy",
 							"sid": 466261883138883,
+							"disabled": true,
 							"behaviorType": "MoveTo",
 							"parameters": {
 								"enabled": false
@@ -319,6 +337,7 @@
 							"id": "create-object",
 							"objectClass": "System",
 							"sid": 271691742784077,
+							"disabled": true,
 							"parameters": {
 								"object-to-create": "Enemy",
 								"layer": "0",
@@ -332,6 +351,7 @@
 							"id": "create-object",
 							"objectClass": "System",
 							"sid": 386896354598929,
+							"disabled": true,
 							"parameters": {
 								"object-to-create": "Snail",
 								"layer": "0",
@@ -345,6 +365,7 @@
 							"id": "set-size",
 							"objectClass": "Enemy",
 							"sid": 139510911789182,
+							"disabled": true,
 							"parameters": {
 								"width": "Snail.Width",
 								"height": "Snail.Height"
@@ -354,6 +375,7 @@
 							"id": "set-visible",
 							"objectClass": "Snail",
 							"sid": 680159980538554,
+							"disabled": true,
 							"parameters": {
 								"visibility": "visible"
 							}
@@ -362,6 +384,7 @@
 							"id": "add-child",
 							"objectClass": "Enemy",
 							"sid": 642436600141154,
+							"disabled": true,
 							"parameters": {
 								"child": "Snail",
 								"transform-x": true,
@@ -377,6 +400,7 @@
 							"id": "pin-to-object-imagepoint",
 							"objectClass": "Snail",
 							"sid": 527652448178428,
+							"disabled": true,
 							"behaviorType": "Pin",
 							"parameters": {
 								"pin-to": "Enemy",
@@ -391,6 +415,7 @@
 							"id": "pin-to-object-imagepoint",
 							"objectClass": "Enemy",
 							"sid": 669499798252384,
+							"disabled": true,
 							"behaviorType": "Pin",
 							"parameters": {
 								"pin-to": "Snail",
@@ -405,6 +430,7 @@
 							"id": "set-instvar-value",
 							"objectClass": "Enemy",
 							"sid": 614403247161830,
+							"disabled": true,
 							"parameters": {
 								"instance-variable": "Health",
 								"value": "20"
@@ -414,6 +440,7 @@
 							"id": "create-object",
 							"objectClass": "System",
 							"sid": 136215457187038,
+							"disabled": true,
 							"parameters": {
 								"object-to-create": "Enemy",
 								"layer": "0",
@@ -427,6 +454,7 @@
 							"id": "create-object",
 							"objectClass": "System",
 							"sid": 355636507948598,
+							"disabled": true,
 							"parameters": {
 								"object-to-create": "Ant",
 								"layer": "0",
@@ -440,6 +468,7 @@
 							"id": "set-size",
 							"objectClass": "Enemy",
 							"sid": 232553141033857,
+							"disabled": true,
 							"parameters": {
 								"width": "Ant.Width-15",
 								"height": "Ant.Height-25"
@@ -449,6 +478,7 @@
 							"id": "set-visible",
 							"objectClass": "Ant",
 							"sid": 424330333216298,
+							"disabled": true,
 							"parameters": {
 								"visibility": "visible"
 							}
@@ -457,6 +487,7 @@
 							"id": "add-child",
 							"objectClass": "Enemy",
 							"sid": 708645727722462,
+							"disabled": true,
 							"parameters": {
 								"child": "Ant",
 								"transform-x": true,
@@ -472,6 +503,7 @@
 							"id": "pin-to-object-imagepoint",
 							"objectClass": "Ant",
 							"sid": 912102104489282,
+							"disabled": true,
 							"behaviorType": "Pin",
 							"parameters": {
 								"pin-to": "Enemy",
@@ -486,6 +518,7 @@
 							"id": "pin-to-object-imagepoint",
 							"objectClass": "Enemy",
 							"sid": 464223212413945,
+							"disabled": true,
 							"behaviorType": "Pin",
 							"parameters": {
 								"pin-to": "Ant",
@@ -500,6 +533,7 @@
 							"id": "set-instvar-value",
 							"objectClass": "Enemy",
 							"sid": 222424592106627,
+							"disabled": true,
 							"parameters": {
 								"instance-variable": "Health",
 								"value": "1"
@@ -507,6 +541,88 @@
 						}
 					],
 					"sid": 426547719902170
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "for-each",
+							"objectClass": "System",
+							"sid": 176908316001459,
+							"parameters": {
+								"object": "Enemy"
+							}
+						},
+						{
+							"id": "pick-last-created",
+							"objectClass": "System",
+							"sid": 182970501831586,
+							"parameters": {
+								"object": "Ant"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Ant",
+							"sid": 649094957117250,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "create-object-by-name",
+							"objectClass": "System",
+							"sid": 975424369079300,
+							"parameters": {
+								"object-name": "Enemy.EnemyName",
+								"layer": "0",
+								"x": "Enemy.X",
+								"y": "Enemy.Y",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "Enemy",
+							"sid": 834818375146832,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Ant",
+								"image-point": "0",
+								"angle": true,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						},
+						{
+							"id": "add-child",
+							"objectClass": "Enemy",
+							"sid": 986072081360686,
+							"parameters": {
+								"child": "Ant",
+								"transform-x": true,
+								"transform-y": true,
+								"transform-w": true,
+								"transform-h": true,
+								"transform-a": true,
+								"transform-z-elevation": true,
+								"destroy-with-parent": true
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Enemy",
+							"sid": 721542458038890,
+							"parameters": {
+								"visibility": "visible"
+							}
+						}
+					],
+					"sid": 288762864948226
 				}
 			],
 			"sid": 974131916669649
@@ -1746,14 +1862,6 @@
 								}
 							],
 							"actions": [
-								{
-									"id": "go-to-layout",
-									"objectClass": "System",
-									"sid": 781134169880564,
-									"parameters": {
-										"layout": "lv2"
-									}
-								},
 								{
 									"id": "set-visible",
 									"objectClass": "crownKeyCard",

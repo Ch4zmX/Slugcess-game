@@ -528,7 +528,8 @@
 					},
 					"uid": 57,
 					"instanceVariables": {
-						"Health": 5
+						"Health": 5,
+						"EnemyName": "Slug"
 					},
 					"behaviors": {
 						"Pin": {
