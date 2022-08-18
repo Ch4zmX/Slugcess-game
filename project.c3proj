@@ -212,7 +212,8 @@
 			"Sprite2",
 			"HealthBar",
 			"DeathSound",
-			"Block"
+			"Block",
+			"Spawner"
 		],
 		"subfolders": []
 	},

@@ -106,438 +106,6 @@
 								"height-type": "no",
 								"z": false
 							}
-						},
-						{
-							"id": "create-object",
-							"objectClass": "System",
-							"sid": 190270566141745,
-							"disabled": true,
-							"parameters": {
-								"object-to-create": "Enemy",
-								"layer": "0",
-								"x": "random(0, ViewportWidth(0))",
-								"y": "50",
-								"create-hierarchy": false,
-								"template-name": "\"\""
-							}
-						},
-						{
-							"id": "create-object",
-							"objectClass": "System",
-							"sid": 906553317129841,
-							"disabled": true,
-							"parameters": {
-								"object-to-create": "Slug",
-								"layer": "0",
-								"x": "0",
-								"y": "0",
-								"create-hierarchy": false,
-								"template-name": "\"\""
-							}
-						},
-						{
-							"id": "set-size",
-							"objectClass": "Enemy",
-							"sid": 323920138689273,
-							"disabled": true,
-							"parameters": {
-								"width": "Slug.Width",
-								"height": "Slug.Height"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "Slug",
-							"sid": 969485943577672,
-							"disabled": true,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "add-child",
-							"objectClass": "Enemy",
-							"sid": 956302638733324,
-							"disabled": true,
-							"parameters": {
-								"child": "Slug",
-								"transform-x": true,
-								"transform-y": true,
-								"transform-w": true,
-								"transform-h": true,
-								"transform-a": true,
-								"transform-z-elevation": true,
-								"destroy-with-parent": true
-							}
-						},
-						{
-							"id": "pin-to-object-imagepoint",
-							"objectClass": "Slug",
-							"sid": 829718328842861,
-							"disabled": true,
-							"behaviorType": "Pin",
-							"parameters": {
-								"pin-to": "Enemy",
-								"image-point": "0",
-								"angle": false,
-								"width-type": "no",
-								"height-type": "no",
-								"z": false
-							}
-						},
-						{
-							"id": "pin-to-object-imagepoint",
-							"objectClass": "Enemy",
-							"sid": 714317537926604,
-							"disabled": true,
-							"behaviorType": "Pin",
-							"parameters": {
-								"pin-to": "Slug",
-								"image-point": "0",
-								"angle": false,
-								"width-type": "no",
-								"height-type": "no",
-								"z": false
-							}
-						},
-						{
-							"id": "set-instvar-value",
-							"objectClass": "Enemy",
-							"sid": 190995146904677,
-							"disabled": true,
-							"parameters": {
-								"instance-variable": "Health",
-								"value": "3"
-							}
-						},
-						{
-							"id": "set-speed",
-							"objectClass": "Enemy",
-							"sid": 125889696333190,
-							"disabled": true,
-							"behaviorType": "MoveTo",
-							"parameters": {
-								"speed": "130"
-							}
-						},
-						{
-							"id": "create-object",
-							"objectClass": "System",
-							"sid": 321859059058846,
-							"disabled": true,
-							"parameters": {
-								"object-to-create": "Enemy",
-								"layer": "0",
-								"x": "random(0, ViewportWidth(0))",
-								"y": "50",
-								"create-hierarchy": false,
-								"template-name": "\"\""
-							}
-						},
-						{
-							"id": "create-object",
-							"objectClass": "System",
-							"sid": 524096679923546,
-							"disabled": true,
-							"parameters": {
-								"object-to-create": "Wasp",
-								"layer": "0",
-								"x": "0",
-								"y": "0",
-								"create-hierarchy": false,
-								"template-name": "\"\""
-							}
-						},
-						{
-							"id": "set-size",
-							"objectClass": "Enemy",
-							"sid": 983445000638272,
-							"disabled": true,
-							"parameters": {
-								"width": "Wasp.Width",
-								"height": "Wasp.Height"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "Wasp",
-							"sid": 671936951243161,
-							"disabled": true,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "add-child",
-							"objectClass": "Enemy",
-							"sid": 106825197765037,
-							"disabled": true,
-							"parameters": {
-								"child": "Wasp",
-								"transform-x": true,
-								"transform-y": true,
-								"transform-w": true,
-								"transform-h": true,
-								"transform-a": true,
-								"transform-z-elevation": true,
-								"destroy-with-parent": true
-							}
-						},
-						{
-							"id": "set-instvar-value",
-							"objectClass": "Enemy",
-							"sid": 723329976508207,
-							"disabled": true,
-							"parameters": {
-								"instance-variable": "Health",
-								"value": "10"
-							}
-						},
-						{
-							"id": "pin-to-object-imagepoint",
-							"objectClass": "Wasp",
-							"sid": 497477279470068,
-							"disabled": true,
-							"behaviorType": "Pin",
-							"parameters": {
-								"pin-to": "Enemy",
-								"image-point": "0",
-								"angle": false,
-								"width-type": "no",
-								"height-type": "no",
-								"z": false
-							}
-						},
-						{
-							"id": "pin-to-object-imagepoint",
-							"objectClass": "Enemy",
-							"sid": 303264811610244,
-							"disabled": true,
-							"behaviorType": "Pin",
-							"parameters": {
-								"pin-to": "Wasp",
-								"image-point": "0",
-								"angle": false,
-								"width-type": "no",
-								"height-type": "no",
-								"z": false
-							}
-						},
-						{
-							"id": "set-enabled",
-							"objectClass": "Enemy",
-							"sid": 466261883138883,
-							"disabled": true,
-							"behaviorType": "MoveTo",
-							"parameters": {
-								"enabled": false
-							}
-						},
-						{
-							"id": "create-object",
-							"objectClass": "System",
-							"sid": 271691742784077,
-							"disabled": true,
-							"parameters": {
-								"object-to-create": "Enemy",
-								"layer": "0",
-								"x": "random(0, ViewportWidth(0))",
-								"y": "50",
-								"create-hierarchy": false,
-								"template-name": "\"\""
-							}
-						},
-						{
-							"id": "create-object",
-							"objectClass": "System",
-							"sid": 386896354598929,
-							"disabled": true,
-							"parameters": {
-								"object-to-create": "Snail",
-								"layer": "0",
-								"x": "0",
-								"y": "0",
-								"create-hierarchy": false,
-								"template-name": "\"\""
-							}
-						},
-						{
-							"id": "set-size",
-							"objectClass": "Enemy",
-							"sid": 139510911789182,
-							"disabled": true,
-							"parameters": {
-								"width": "Snail.Width",
-								"height": "Snail.Height"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "Snail",
-							"sid": 680159980538554,
-							"disabled": true,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "add-child",
-							"objectClass": "Enemy",
-							"sid": 642436600141154,
-							"disabled": true,
-							"parameters": {
-								"child": "Snail",
-								"transform-x": true,
-								"transform-y": true,
-								"transform-w": true,
-								"transform-h": true,
-								"transform-a": true,
-								"transform-z-elevation": true,
-								"destroy-with-parent": true
-							}
-						},
-						{
-							"id": "pin-to-object-imagepoint",
-							"objectClass": "Snail",
-							"sid": 527652448178428,
-							"disabled": true,
-							"behaviorType": "Pin",
-							"parameters": {
-								"pin-to": "Enemy",
-								"image-point": "0",
-								"angle": false,
-								"width-type": "no",
-								"height-type": "no",
-								"z": false
-							}
-						},
-						{
-							"id": "pin-to-object-imagepoint",
-							"objectClass": "Enemy",
-							"sid": 669499798252384,
-							"disabled": true,
-							"behaviorType": "Pin",
-							"parameters": {
-								"pin-to": "Snail",
-								"image-point": "0",
-								"angle": false,
-								"width-type": "no",
-								"height-type": "no",
-								"z": false
-							}
-						},
-						{
-							"id": "set-instvar-value",
-							"objectClass": "Enemy",
-							"sid": 614403247161830,
-							"disabled": true,
-							"parameters": {
-								"instance-variable": "Health",
-								"value": "20"
-							}
-						},
-						{
-							"id": "create-object",
-							"objectClass": "System",
-							"sid": 136215457187038,
-							"disabled": true,
-							"parameters": {
-								"object-to-create": "Enemy",
-								"layer": "0",
-								"x": "random(0, ViewportWidth(0))",
-								"y": "50",
-								"create-hierarchy": false,
-								"template-name": "\"\""
-							}
-						},
-						{
-							"id": "create-object",
-							"objectClass": "System",
-							"sid": 355636507948598,
-							"disabled": true,
-							"parameters": {
-								"object-to-create": "Ant",
-								"layer": "0",
-								"x": "0",
-								"y": "0",
-								"create-hierarchy": false,
-								"template-name": "\"\""
-							}
-						},
-						{
-							"id": "set-size",
-							"objectClass": "Enemy",
-							"sid": 232553141033857,
-							"disabled": true,
-							"parameters": {
-								"width": "Ant.Width-15",
-								"height": "Ant.Height-25"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "Ant",
-							"sid": 424330333216298,
-							"disabled": true,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "add-child",
-							"objectClass": "Enemy",
-							"sid": 708645727722462,
-							"disabled": true,
-							"parameters": {
-								"child": "Ant",
-								"transform-x": true,
-								"transform-y": true,
-								"transform-w": true,
-								"transform-h": true,
-								"transform-a": true,
-								"transform-z-elevation": true,
-								"destroy-with-parent": true
-							}
-						},
-						{
-							"id": "pin-to-object-imagepoint",
-							"objectClass": "Ant",
-							"sid": 912102104489282,
-							"disabled": true,
-							"behaviorType": "Pin",
-							"parameters": {
-								"pin-to": "Enemy",
-								"image-point": "0",
-								"angle": false,
-								"width-type": "no",
-								"height-type": "no",
-								"z": false
-							}
-						},
-						{
-							"id": "pin-to-object-imagepoint",
-							"objectClass": "Enemy",
-							"sid": 464223212413945,
-							"disabled": true,
-							"behaviorType": "Pin",
-							"parameters": {
-								"pin-to": "Ant",
-								"image-point": "0",
-								"angle": false,
-								"width-type": "no",
-								"height-type": "no",
-								"z": false
-							}
-						},
-						{
-							"id": "set-instvar-value",
-							"objectClass": "Enemy",
-							"sid": 222424592106627,
-							"disabled": true,
-							"parameters": {
-								"instance-variable": "Health",
-								"value": "1"
-							}
 						}
 					],
 					"sid": 426547719902170
@@ -548,17 +116,19 @@
 						{
 							"id": "for-each",
 							"objectClass": "System",
-							"sid": 176908316001459,
+							"sid": 537945981981568,
 							"parameters": {
-								"object": "Enemy"
+								"object": "Spawner"
 							}
 						},
 						{
-							"id": "pick-last-created",
+							"id": "compare-two-values",
 							"objectClass": "System",
-							"sid": 182970501831586,
+							"sid": 858385645885700,
 							"parameters": {
-								"object": "Ant"
+								"first-value": "Spawner.EnemyName",
+								"comparison": 0,
+								"second-value": "\"Ant\""
 							}
 						}
 					],
@@ -572,16 +142,67 @@
 							}
 						},
 						{
-							"id": "create-object-by-name",
+							"id": "create-object",
 							"objectClass": "System",
-							"sid": 975424369079300,
+							"sid": 828188290020434,
 							"parameters": {
-								"object-name": "Enemy.EnemyName",
+								"object-to-create": "Enemy",
 								"layer": "0",
-								"x": "Enemy.X",
-								"y": "Enemy.Y",
+								"x": "Spawner.X",
+								"y": "Spawner.Y",
 								"create-hierarchy": false,
 								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "create-object-by-name",
+							"objectClass": "System",
+							"sid": 140617302040155,
+							"parameters": {
+								"object-name": "Spawner.EnemyName",
+								"layer": "0",
+								"x": "Spawner.X",
+								"y": "Spawner.Y",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Enemy",
+							"sid": 321452495993809,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"speed": "200"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Enemy",
+							"sid": 892782761299099,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Spawner",
+							"sid": 273129810324769
+						},
+						{
+							"id": "add-child",
+							"objectClass": "Enemy",
+							"sid": 192191256085314,
+							"parameters": {
+								"child": "Ant",
+								"transform-x": true,
+								"transform-y": true,
+								"transform-w": true,
+								"transform-h": true,
+								"transform-a": true,
+								"transform-z-elevation": true,
+								"destroy-with-parent": true
 							}
 						},
 						{
@@ -597,13 +218,96 @@
 								"height-type": "no",
 								"z": false
 							}
+						}
+					],
+					"sid": 288762864948226
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "for-each",
+							"objectClass": "System",
+							"sid": 851163281329194,
+							"parameters": {
+								"object": "Spawner"
+							}
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 715826929047042,
+							"parameters": {
+								"first-value": "Spawner.EnemyName",
+								"comparison": 0,
+								"second-value": "\"Wasp\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Wasp",
+							"sid": 625157080697152,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 960255740349911,
+							"parameters": {
+								"object-to-create": "Enemy",
+								"layer": "0",
+								"x": "Spawner.X",
+								"y": "Spawner.Y",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "create-object-by-name",
+							"objectClass": "System",
+							"sid": 329330628941252,
+							"parameters": {
+								"object-name": "Spawner.EnemyName",
+								"layer": "0",
+								"x": "Spawner.X",
+								"y": "Spawner.Y",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Enemy",
+							"sid": 114826609227536,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "10"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Spawner",
+							"sid": 906692657430388
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Enemy",
+							"sid": 842438803549815,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"enabled": false
+							}
 						},
 						{
 							"id": "add-child",
 							"objectClass": "Enemy",
-							"sid": 986072081360686,
+							"sid": 177328059176283,
 							"parameters": {
-								"child": "Ant",
+								"child": "Wasp",
 								"transform-x": true,
 								"transform-y": true,
 								"transform-w": true,
@@ -614,15 +318,254 @@
 							}
 						},
 						{
-							"id": "set-visible",
+							"id": "pin-to-object-imagepoint",
 							"objectClass": "Enemy",
-							"sid": 721542458038890,
+							"sid": 829154840647176,
+							"behaviorType": "Pin",
 							"parameters": {
-								"visibility": "visible"
+								"pin-to": "Wasp",
+								"image-point": "0",
+								"angle": true,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						},
+						{
+							"id": "set-range",
+							"objectClass": "Enemy",
+							"sid": 480563172480155,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"range": "500"
 							}
 						}
 					],
-					"sid": 288762864948226
+					"sid": 442334786465331
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "for-each",
+							"objectClass": "System",
+							"sid": 184729945801739,
+							"parameters": {
+								"object": "Spawner"
+							}
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 550812071686772,
+							"parameters": {
+								"first-value": "Spawner.EnemyName",
+								"comparison": 0,
+								"second-value": "\"Slug\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Slug",
+							"sid": 765849579686196,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 587368976472512,
+							"parameters": {
+								"object-to-create": "Enemy",
+								"layer": "0",
+								"x": "Spawner.X",
+								"y": "Spawner.Y",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "create-object-by-name",
+							"objectClass": "System",
+							"sid": 735406473269540,
+							"parameters": {
+								"object-name": "Spawner.EnemyName",
+								"layer": "0",
+								"x": "Spawner.X",
+								"y": "Spawner.Y",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Enemy",
+							"sid": 447363708602266,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"speed": "130"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Enemy",
+							"sid": 291758312823723,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "3"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Spawner",
+							"sid": 431389422363047
+						},
+						{
+							"id": "add-child",
+							"objectClass": "Enemy",
+							"sid": 303501006121552,
+							"parameters": {
+								"child": "Slug",
+								"transform-x": true,
+								"transform-y": true,
+								"transform-w": true,
+								"transform-h": true,
+								"transform-a": true,
+								"transform-z-elevation": true,
+								"destroy-with-parent": true
+							}
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "Enemy",
+							"sid": 337857077293531,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Slug",
+								"image-point": "0",
+								"angle": true,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						}
+					],
+					"sid": 393105475955034
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "for-each",
+							"objectClass": "System",
+							"sid": 849614014610725,
+							"parameters": {
+								"object": "Spawner"
+							}
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 248823450083697,
+							"parameters": {
+								"first-value": "Spawner.EnemyName",
+								"comparison": 0,
+								"second-value": "\"Snail\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Snail",
+							"sid": 855278625686754,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 227473285559930,
+							"parameters": {
+								"object-to-create": "Enemy",
+								"layer": "0",
+								"x": "Spawner.X",
+								"y": "Spawner.Y",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "create-object-by-name",
+							"objectClass": "System",
+							"sid": 899858139630562,
+							"parameters": {
+								"object-name": "Spawner.EnemyName",
+								"layer": "0",
+								"x": "Spawner.X",
+								"y": "Spawner.Y",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Enemy",
+							"sid": 853072476060012,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"speed": "100"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Enemy",
+							"sid": 454139187552639,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "20"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Spawner",
+							"sid": 876320229235968
+						},
+						{
+							"id": "add-child",
+							"objectClass": "Enemy",
+							"sid": 317731196068105,
+							"parameters": {
+								"child": "Snail",
+								"transform-x": true,
+								"transform-y": true,
+								"transform-w": true,
+								"transform-h": true,
+								"transform-a": true,
+								"transform-z-elevation": true,
+								"destroy-with-parent": true
+							}
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "Enemy",
+							"sid": 873936460641602,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Snail",
+								"image-point": "0",
+								"angle": true,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						}
+					],
+					"sid": 801640652156199
 				}
 			],
 			"sid": 974131916669649
@@ -1463,110 +1406,6 @@
 								"instance-variable": "Kills",
 								"value": "1"
 							}
-						},
-						{
-							"id": "create-object",
-							"objectClass": "System",
-							"sid": 853956072676234,
-							"parameters": {
-								"object-to-create": "Enemy",
-								"layer": "0",
-								"x": "random(0, ViewportWidth(0))",
-								"y": "50",
-								"create-hierarchy": false,
-								"template-name": "\"\""
-							}
-						},
-						{
-							"id": "create-object",
-							"objectClass": "System",
-							"sid": 587358662781385,
-							"parameters": {
-								"object-to-create": "Slug",
-								"layer": "0",
-								"x": "0",
-								"y": "0",
-								"create-hierarchy": false,
-								"template-name": "\"\""
-							}
-						},
-						{
-							"id": "set-size",
-							"objectClass": "Enemy",
-							"sid": 495839814391918,
-							"parameters": {
-								"width": "Slug.Width",
-								"height": "Slug.Height"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "Slug",
-							"sid": 726866965397070,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "add-child",
-							"objectClass": "Enemy",
-							"sid": 566704525399539,
-							"parameters": {
-								"child": "Slug",
-								"transform-x": true,
-								"transform-y": true,
-								"transform-w": true,
-								"transform-h": true,
-								"transform-a": true,
-								"transform-z-elevation": true,
-								"destroy-with-parent": true
-							}
-						},
-						{
-							"id": "pin-to-object-imagepoint",
-							"objectClass": "Slug",
-							"sid": 905390648883744,
-							"behaviorType": "Pin",
-							"parameters": {
-								"pin-to": "Enemy",
-								"image-point": "0",
-								"angle": false,
-								"width-type": "no",
-								"height-type": "no",
-								"z": false
-							}
-						},
-						{
-							"id": "pin-to-object-imagepoint",
-							"objectClass": "Enemy",
-							"sid": 963734305265221,
-							"behaviorType": "Pin",
-							"parameters": {
-								"pin-to": "Slug",
-								"image-point": "0",
-								"angle": false,
-								"width-type": "no",
-								"height-type": "no",
-								"z": false
-							}
-						},
-						{
-							"id": "set-instvar-value",
-							"objectClass": "Enemy",
-							"sid": 713924895617682,
-							"parameters": {
-								"instance-variable": "Health",
-								"value": "3"
-							}
-						},
-						{
-							"id": "set-speed",
-							"objectClass": "Enemy",
-							"sid": 889749117090560,
-							"behaviorType": "MoveTo",
-							"parameters": {
-								"speed": "130"
-							}
 						}
 					],
 					"sid": 850727546980899
@@ -1806,12 +1645,9 @@
 					],
 					"actions": [
 						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 907090400054246,
-							"parameters": {
-								"layout": "start"
-							}
+							"id": "destroy",
+							"objectClass": "crownKeyCard",
+							"sid": 953047839064117
 						},
 						{
 							"id": "set-boolean-instvar",
@@ -1844,61 +1680,18 @@
 							"parameters": {
 								"object": "lv2"
 							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "lv2",
+							"sid": 860454167968676,
+							"parameters": {
+								"instance-variable": "unlocked"
+							}
 						}
 					],
 					"actions": [],
-					"sid": 784604894574107,
-					"children": [
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "lv2",
-									"sid": 212613109244393,
-									"parameters": {
-										"instance-variable": "unlocked"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-visible",
-									"objectClass": "crownKeyCard",
-									"sid": 648430000216905,
-									"parameters": {
-										"visibility": "invisible"
-									}
-								}
-							],
-							"sid": 521783523555861
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "lv2",
-									"sid": 527124476379058,
-									"parameters": {
-										"instance-variable": "unlocked"
-									},
-									"isInverted": true
-								}
-							],
-							"actions": [
-								{
-									"id": "set-visible",
-									"objectClass": "Text",
-									"sid": 391747658434471,
-									"parameters": {
-										"visibility": "visible"
-									}
-								}
-							],
-							"sid": 264830538064048
-						}
-					]
+					"sid": 784604894574107
 				},
 				{
 					"eventType": "block",
@@ -1910,61 +1703,18 @@
 							"parameters": {
 								"object": "bookstore"
 							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "bookstore",
+							"sid": 751063803835896,
+							"parameters": {
+								"instance-variable": "unlocked"
+							}
 						}
 					],
 					"actions": [],
-					"sid": 424572378354856,
-					"children": [
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "bookstore",
-									"sid": 640360589464326,
-									"parameters": {
-										"instance-variable": "unlocked"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "go-to-layout",
-									"objectClass": "System",
-									"sid": 523456407435146,
-									"parameters": {
-										"layout": "bookstore"
-									}
-								}
-							],
-							"sid": 606483175575610
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "bookstore",
-									"sid": 138319197479344,
-									"parameters": {
-										"instance-variable": "unlocked"
-									},
-									"isInverted": true
-								}
-							],
-							"actions": [
-								{
-									"id": "set-visible",
-									"objectClass": "Text",
-									"sid": 442537750619262,
-									"parameters": {
-										"visibility": "visible"
-									}
-								}
-							],
-							"sid": 171001292123941
-						}
-					]
+					"sid": 424572378354856
 				}
 			],
 			"sid": 769903946736739
