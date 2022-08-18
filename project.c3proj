@@ -232,7 +232,16 @@
 			"viva",
 			"viva2",
 			"tree",
-			"910ID"
+			"910ID",
+			"TiledBackground",
+			"TiledBackground2",
+			"TiledBackground3",
+			"TiledBackground4",
+			"TiledBackground5",
+			"diningRestaurants",
+			"trashcan",
+			"Sprite",
+			"Sprite2"
 		],
 		"subfolders": []
 	},

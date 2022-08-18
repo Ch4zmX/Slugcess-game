@@ -1,14 +1,14 @@
 {
-	"name": "Sprite2",
+	"name": "diningRestaurants",
 	"plugin-id": "Sprite",
-	"sid": 131502105926172,
+	"sid": 672597100160923,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",
 			"name": "Solid",
-			"sid": 776382884485048
+			"sid": 493983148631579
 		}
 	],
 	"effectTypes": [],
@@ -17,19 +17,19 @@
 			{
 				"frames": [
 					{
-						"width": 149,
-						"height": 204,
-						"originX": 0.5436241610738255,
-						"originY": 0.5098039215686274,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2802862,
+						"imageSpriteId": 9082889,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 370519534915024,
+				"sid": 702458443302373,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
