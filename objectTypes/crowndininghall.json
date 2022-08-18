@@ -1,7 +1,7 @@
 {
-	"name": "Sprite2",
+	"name": "crownDiningHall",
 	"plugin-id": "Sprite",
-	"sid": 440013056886791,
+	"sid": 817433519859292,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,31 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 252,
+						"height": 128,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 0.7109375,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8716133,
+						"imageSpriteId": 160423,
+						"collisionPoly": {
+							"points": [
+								0.003968253968253968,
+								0,
+								0.996031746031746,
+								0,
+								0.996031746031746,
+								1,
+								0.003968253968253968,
+								1
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 823944290662784,
+				"sid": 708919892045131,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

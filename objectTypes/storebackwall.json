@@ -1,7 +1,7 @@
 {
-	"name": "Sprite2",
+	"name": "storeBackWall",
 	"plugin-id": "Sprite",
-	"sid": 440013056886791,
+	"sid": 101760009193766,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8716133,
+						"imageSpriteId": 2784925,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 823944290662784,
+				"sid": 321949543759468,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

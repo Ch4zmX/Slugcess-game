@@ -1605,7 +1605,7 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Player",
-							"sid": 663400164739668,
+							"sid": 886337966221081,
 							"parameters": {
 								"object": "lv1"
 							}
@@ -1619,7 +1619,7 @@
 							"conditions": [
 								{
 									"id": "is-boolean-instance-variable-set",
-									"objectClass": "lv1",
+									"objectClass": "lv2",
 									"sid": 220182568350461,
 									"parameters": {
 										"instance-variable": "unlocked"
@@ -1627,14 +1627,6 @@
 								}
 							],
 							"actions": [
-								{
-									"id": "go-to-layout",
-									"objectClass": "System",
-									"sid": 224892514518135,
-									"parameters": {
-										"layout": "lv1"
-									}
-								},
 								{
 									"id": "set-visible",
 									"objectClass": "cowelKeyCard",
@@ -1651,7 +1643,7 @@
 							"conditions": [
 								{
 									"id": "is-boolean-instance-variable-set",
-									"objectClass": "lv1",
+									"objectClass": "lv2",
 									"sid": 527243824615762,
 									"parameters": {
 										"instance-variable": "unlocked"
@@ -1687,16 +1679,8 @@
 					],
 					"actions": [
 						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 907090400054246,
-							"parameters": {
-								"layout": "start"
-							}
-						},
-						{
 							"id": "set-boolean-instvar",
-							"objectClass": "lv2",
+							"objectClass": "lv1",
 							"sid": 962212225383457,
 							"parameters": {
 								"instance-variable": "unlocked",
@@ -1711,6 +1695,14 @@
 								"instance-variable": "unlocked",
 								"value": "true"
 							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "crownKeyCard",
+							"sid": 560357793562558,
+							"parameters": {
+								"visibility": "invisible"
+							}
 						}
 					],
 					"sid": 103822480403608
@@ -1721,7 +1713,7 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Player",
-							"sid": 370953074195795,
+							"sid": 313144641404229,
 							"parameters": {
 								"object": "lv2"
 							}
@@ -1735,7 +1727,7 @@
 							"conditions": [
 								{
 									"id": "is-boolean-instance-variable-set",
-									"objectClass": "lv2",
+									"objectClass": "lv1",
 									"sid": 212613109244393,
 									"parameters": {
 										"instance-variable": "unlocked"
@@ -1743,14 +1735,6 @@
 								}
 							],
 							"actions": [
-								{
-									"id": "go-to-layout",
-									"objectClass": "System",
-									"sid": 781134169880564,
-									"parameters": {
-										"layout": "lv2"
-									}
-								},
 								{
 									"id": "set-visible",
 									"objectClass": "crownKeyCard",
@@ -1767,7 +1751,7 @@
 							"conditions": [
 								{
 									"id": "is-boolean-instance-variable-set",
-									"objectClass": "lv2",
+									"objectClass": "lv1",
 									"sid": 527124476379058,
 									"parameters": {
 										"instance-variable": "unlocked"
@@ -1816,16 +1800,7 @@
 									}
 								}
 							],
-							"actions": [
-								{
-									"id": "go-to-layout",
-									"objectClass": "System",
-									"sid": 523456407435146,
-									"parameters": {
-										"layout": "bookstore"
-									}
-								}
-							],
+							"actions": [],
 							"sid": 606483175575610
 						},
 						{
@@ -1880,7 +1855,7 @@
 						},
 						{
 							"id": "set-boolean-instvar",
-							"objectClass": "lv1",
+							"objectClass": "lv2",
 							"sid": 148493003541858,
 							"parameters": {
 								"instance-variable": "unlocked",

@@ -775,10 +775,10 @@
 					"world": {
 						"x": 899,
 						"y": 123,
-						"width": 94.78358456989294,
-						"height": 99.29708859703071,
+						"width": 95.54185324645209,
+						"height": 33.76101012299044,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 0.611764705882353,
 						"color": [
 							1,
 							1,
@@ -811,10 +811,10 @@
 					"world": {
 						"x": 1183,
 						"y": 322,
-						"width": 107.78358456989294,
-						"height": 111.29708859703071,
+						"width": 108.64585324645208,
+						"height": 37.84101012299044,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 0.611764705882353,
 						"color": [
 							1,
 							1,
@@ -847,10 +847,10 @@
 					"world": {
 						"x": 1428,
 						"y": 215,
-						"width": 110.78358456989294,
-						"height": 106.29708859703071,
+						"width": 111.66985324645209,
+						"height": 36.141010122990444,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 0.611764705882353,
 						"color": [
 							1,
 							1,
@@ -1006,7 +1006,7 @@
 					}
 				},
 				{
-					"type": "lv1",
+					"type": "lv2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1044,7 +1044,7 @@
 					}
 				},
 				{
-					"type": "lv2",
+					"type": "lv1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
