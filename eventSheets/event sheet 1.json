@@ -2,6 +2,16 @@
 	"name": "Event sheet 1",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "PlayerHealth",
+			"type": "number",
+			"initialValue": "5",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 414152674670899
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Startup",
@@ -27,6 +37,14 @@
 							}
 						},
 						{
+							"id": "set-width",
+							"objectClass": "HealthBar",
+							"sid": 143602549498093,
+							"parameters": {
+								"width": "PlayerHealth*60"
+							}
+						},
+						{
 							"id": "create-object",
 							"objectClass": "System",
 							"sid": 611186424871480,
@@ -45,33 +63,6 @@
 							"sid": 956663281439244,
 							"parameters": {
 								"scale": ".25"
-							}
-						},
-						{
-							"id": "set-position",
-							"objectClass": "BubbleGun",
-							"sid": 669865450094410,
-							"parameters": {
-								"x": "Player.X",
-								"y": "Player.Y"
-							}
-						},
-						{
-							"id": "set-position",
-							"objectClass": "BubbleGun2",
-							"sid": 149940657466870,
-							"parameters": {
-								"x": "Player.X",
-								"y": "Player.Y"
-							}
-						},
-						{
-							"id": "set-position",
-							"objectClass": "BubbleGun3",
-							"sid": 446377643797208,
-							"parameters": {
-								"x": "Player.X",
-								"y": "Player.Y"
 							}
 						},
 						{
@@ -863,11 +854,11 @@
 			],
 			"actions": [
 				{
-					"id": "subtract-from-instvar",
-					"objectClass": "Player",
-					"sid": 534437292263606,
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 903837304404448,
 					"parameters": {
-						"instance-variable": "Health",
+						"variable": "PlayerHealth",
 						"value": "1"
 					}
 				},
@@ -900,9 +891,9 @@
 				{
 					"id": "set-width",
 					"objectClass": "HealthBar",
-					"sid": 599163745364015,
+					"sid": 687205088158998,
 					"parameters": {
-						"width": "Player.Health*60"
+						"width": "PlayerHealth*60"
 					}
 				}
 			],
@@ -912,11 +903,11 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "compare-instance-variable",
-					"objectClass": "Player",
-					"sid": 196738668920539,
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 537915445815021,
 					"parameters": {
-						"instance-variable": "Health",
+						"variable": "PlayerHealth",
 						"comparison": 0,
 						"value": "0"
 					}
@@ -932,21 +923,6 @@
 					"id": "destroy",
 					"objectClass": "Player",
 					"sid": 623705276492729
-				},
-				{
-					"id": "destroy",
-					"objectClass": "BubbleGun",
-					"sid": 708072904125893
-				},
-				{
-					"id": "destroy",
-					"objectClass": "BubbleGun2",
-					"sid": 727476609940476
-				},
-				{
-					"id": "destroy",
-					"objectClass": "BubbleGun3",
-					"sid": 492768911859169
 				},
 				{
 					"id": "start-fade",
@@ -967,17 +943,6 @@
 					"objectClass": "YouDied",
 					"sid": 936001049296705,
 					"behaviorType": "Fade"
-				},
-				{
-					"id": "play",
-					"objectClass": "DeathSound",
-					"sid": 531197727647738,
-					"parameters": {
-						"audio-file": "Elden Ring - YOU DIED [Sound Effect]",
-						"loop": "not-looping",
-						"volume": "-20",
-						"tag-optional": "\"\""
-					}
 				},
 				{
 					"id": "set-visible",
@@ -1562,11 +1527,11 @@
 					],
 					"actions": [
 						{
-							"id": "subtract-from-instvar",
-							"objectClass": "Player",
-							"sid": 717116251257134,
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 145450012650938,
 							"parameters": {
-								"instance-variable": "Health",
+								"variable": "PlayerHealth",
 								"value": "1"
 							}
 						},
@@ -1599,9 +1564,9 @@
 						{
 							"id": "set-width",
 							"objectClass": "HealthBar",
-							"sid": 923510693206049,
+							"sid": 371224833376677,
 							"parameters": {
-								"width": "Player.Health*60"
+								"width": "PlayerHealth*60"
 							}
 						},
 						{
@@ -1611,6 +1576,18 @@
 						}
 					],
 					"sid": 861113792527030
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-end-of-layout",
+							"objectClass": "System",
+							"sid": 544238139434730
+						}
+					],
+					"actions": [],
+					"sid": 510933308712770
 				}
 			],
 			"sid": 694432315322936
@@ -1664,75 +1641,6 @@
 									"sid": 496604353560296,
 									"parameters": {
 										"visibility": "invisible"
-									}
-								},
-								{
-									"id": "set-position",
-									"objectClass": "BubbleGun",
-									"sid": 463534215855425,
-									"parameters": {
-										"x": "Player.X",
-										"y": "Player.Y"
-									}
-								},
-								{
-									"id": "set-position",
-									"objectClass": "BubbleGun2",
-									"sid": 533254291969598,
-									"parameters": {
-										"x": "Player.X",
-										"y": "Player.Y"
-									}
-								},
-								{
-									"id": "set-position",
-									"objectClass": "BubbleGun3",
-									"sid": 637143301010303,
-									"parameters": {
-										"x": "Player.X",
-										"y": "Player.Y"
-									}
-								},
-								{
-									"id": "pin-to-object-imagepoint",
-									"objectClass": "BubbleGun",
-									"sid": 589060629214643,
-									"behaviorType": "Pin",
-									"parameters": {
-										"pin-to": "Player",
-										"image-point": "0",
-										"angle": true,
-										"width-type": "no",
-										"height-type": "no",
-										"z": false
-									}
-								},
-								{
-									"id": "pin-to-object-imagepoint",
-									"objectClass": "BubbleGun2",
-									"sid": 661093605413862,
-									"behaviorType": "Pin",
-									"parameters": {
-										"pin-to": "Player",
-										"image-point": "0",
-										"angle": true,
-										"width-type": "no",
-										"height-type": "no",
-										"z": false
-									}
-								},
-								{
-									"id": "pin-to-object-imagepoint",
-									"objectClass": "BubbleGun3",
-									"sid": 253814523774491,
-									"behaviorType": "Pin",
-									"parameters": {
-										"pin-to": "Player",
-										"image-point": "0",
-										"angle": true,
-										"width-type": "no",
-										"height-type": "no",
-										"z": false
 									}
 								}
 							],
@@ -1803,75 +1711,6 @@
 								"instance-variable": "unlocked",
 								"value": "true"
 							}
-						},
-						{
-							"id": "set-position",
-							"objectClass": "BubbleGun",
-							"sid": 961401174509270,
-							"parameters": {
-								"x": "Player.X",
-								"y": "Player.Y"
-							}
-						},
-						{
-							"id": "set-position",
-							"objectClass": "BubbleGun2",
-							"sid": 630912990341713,
-							"parameters": {
-								"x": "Player.X",
-								"y": "Player.Y"
-							}
-						},
-						{
-							"id": "set-position",
-							"objectClass": "BubbleGun3",
-							"sid": 391211850140058,
-							"parameters": {
-								"x": "Player.X",
-								"y": "Player.Y"
-							}
-						},
-						{
-							"id": "pin-to-object-imagepoint",
-							"objectClass": "BubbleGun",
-							"sid": 946590196516137,
-							"behaviorType": "Pin",
-							"parameters": {
-								"pin-to": "Player",
-								"image-point": "0",
-								"angle": true,
-								"width-type": "no",
-								"height-type": "no",
-								"z": false
-							}
-						},
-						{
-							"id": "pin-to-object-imagepoint",
-							"objectClass": "BubbleGun2",
-							"sid": 826366947810683,
-							"behaviorType": "Pin",
-							"parameters": {
-								"pin-to": "Player",
-								"image-point": "0",
-								"angle": true,
-								"width-type": "no",
-								"height-type": "no",
-								"z": false
-							}
-						},
-						{
-							"id": "pin-to-object-imagepoint",
-							"objectClass": "BubbleGun3",
-							"sid": 212470570500944,
-							"behaviorType": "Pin",
-							"parameters": {
-								"pin-to": "Player",
-								"image-point": "0",
-								"angle": true,
-								"width-type": "no",
-								"height-type": "no",
-								"z": false
-							}
 						}
 					],
 					"sid": 103822480403608
@@ -1918,75 +1757,6 @@
 									"sid": 648430000216905,
 									"parameters": {
 										"visibility": "invisible"
-									}
-								},
-								{
-									"id": "set-position",
-									"objectClass": "BubbleGun",
-									"sid": 795915409226812,
-									"parameters": {
-										"x": "Player.X",
-										"y": "Player.Y"
-									}
-								},
-								{
-									"id": "set-position",
-									"objectClass": "BubbleGun2",
-									"sid": 519427934220366,
-									"parameters": {
-										"x": "Player.X",
-										"y": "Player.Y"
-									}
-								},
-								{
-									"id": "set-position",
-									"objectClass": "BubbleGun3",
-									"sid": 332304981192463,
-									"parameters": {
-										"x": "Player.X",
-										"y": "Player.Y"
-									}
-								},
-								{
-									"id": "pin-to-object-imagepoint",
-									"objectClass": "BubbleGun",
-									"sid": 731677608851673,
-									"behaviorType": "Pin",
-									"parameters": {
-										"pin-to": "Player",
-										"image-point": "0",
-										"angle": true,
-										"width-type": "no",
-										"height-type": "no",
-										"z": false
-									}
-								},
-								{
-									"id": "pin-to-object-imagepoint",
-									"objectClass": "BubbleGun2",
-									"sid": 326318781096084,
-									"behaviorType": "Pin",
-									"parameters": {
-										"pin-to": "Player",
-										"image-point": "0",
-										"angle": true,
-										"width-type": "no",
-										"height-type": "no",
-										"z": false
-									}
-								},
-								{
-									"id": "pin-to-object-imagepoint",
-									"objectClass": "BubbleGun3",
-									"sid": 755151681775379,
-									"behaviorType": "Pin",
-									"parameters": {
-										"pin-to": "Player",
-										"image-point": "0",
-										"angle": true,
-										"width-type": "no",
-										"height-type": "no",
-										"z": false
 									}
 								}
 							],
@@ -2053,75 +1823,6 @@
 									"sid": 523456407435146,
 									"parameters": {
 										"layout": "bookstore"
-									}
-								},
-								{
-									"id": "set-position",
-									"objectClass": "BubbleGun",
-									"sid": 262260303485642,
-									"parameters": {
-										"x": "Player.X",
-										"y": "Player.Y"
-									}
-								},
-								{
-									"id": "set-position",
-									"objectClass": "BubbleGun2",
-									"sid": 319523401330598,
-									"parameters": {
-										"x": "Player.X",
-										"y": "Player.Y"
-									}
-								},
-								{
-									"id": "set-position",
-									"objectClass": "BubbleGun3",
-									"sid": 962518556414598,
-									"parameters": {
-										"x": "Player.X",
-										"y": "Player.Y"
-									}
-								},
-								{
-									"id": "pin-to-object-imagepoint",
-									"objectClass": "BubbleGun",
-									"sid": 184395425459538,
-									"behaviorType": "Pin",
-									"parameters": {
-										"pin-to": "Player",
-										"image-point": "0",
-										"angle": true,
-										"width-type": "no",
-										"height-type": "no",
-										"z": false
-									}
-								},
-								{
-									"id": "pin-to-object-imagepoint",
-									"objectClass": "BubbleGun2",
-									"sid": 888925982459765,
-									"behaviorType": "Pin",
-									"parameters": {
-										"pin-to": "Player",
-										"image-point": "0",
-										"angle": true,
-										"width-type": "no",
-										"height-type": "no",
-										"z": false
-									}
-								},
-								{
-									"id": "pin-to-object-imagepoint",
-									"objectClass": "BubbleGun3",
-									"sid": 265952509772799,
-									"behaviorType": "Pin",
-									"parameters": {
-										"pin-to": "Player",
-										"image-point": "0",
-										"angle": true,
-										"width-type": "no",
-										"height-type": "no",
-										"z": false
 									}
 								}
 							],

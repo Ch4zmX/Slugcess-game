@@ -23,10 +23,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -1,
-						"y": 1,
-						"width": 856.6719316984377,
-						"height": 479.6213447180455,
+						"x": -23,
+						"y": -16,
+						"width": 886.6719316984377,
+						"height": 510.6213447180455,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -71,75 +71,6 @@
 						"height": 30,
 						"originX": 0,
 						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Player",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Idle",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 25,
-					"instanceVariables": {
-						"Health": 5,
-						"Kills": 0,
-						"ShotsPerSecond": 0.75
-					},
-					"behaviors": {
-						"8Direction": {
-							"properties": {
-								"max-speed": 175,
-								"acceleration": 1000000000000000,
-								"deceleration": 1000000000000000,
-								"directions": "dir-8",
-								"set-angle": "no",
-								"allow-sliding": true,
-								"default-controls": false,
-								"enabled": true
-							}
-						},
-						"ScrollTo": {
-							"properties": {
-								"enabled": true
-							}
-						},
-						"BoundToLayout": {
-							"properties": {
-								"bound-by": "edge"
-							}
-						}
-					},
-					"effects": {
-						"Tint": {
-							"isEnabled": false,
-							"parameters": {
-								"color": [
-									0.8901960784313725,
-									0.23137254901960785,
-									0.32941176470588235,
-									1
-								]
-							}
-						}
-					},
-					"world": {
-						"x": 327,
-						"y": 250,
-						"width": 23.771585385890738,
-						"height": 79.72624021729509,
-						"originX": 0.4,
-						"originY": 0.48623853211009177,
 						"color": [
 							1,
 							1,
@@ -696,12 +627,81 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 94,
-						"y": 70,
+						"x": 75,
+						"y": 102,
 						"width": 89.36118939389587,
 						"height": 89.36118939389587,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Player",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 50,
+					"instanceVariables": {
+						"Health": 5,
+						"Kills": 0,
+						"ShotsPerSecond": 0.75
+					},
+					"behaviors": {
+						"8Direction": {
+							"properties": {
+								"max-speed": 175,
+								"acceleration": 1000000000000000,
+								"deceleration": 1000000000000000,
+								"directions": "dir-8",
+								"set-angle": "no",
+								"allow-sliding": true,
+								"default-controls": false,
+								"enabled": true
+							}
+						},
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
+							}
+						},
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						}
+					},
+					"effects": {
+						"Tint": {
+							"isEnabled": false,
+							"parameters": {
+								"color": [
+									0.8901960784313725,
+									0.23137254901960785,
+									0.32941176470588235,
+									1
+								]
+							}
+						}
+					},
+					"world": {
+						"x": 435,
+						"y": 357,
+						"width": 23.771585385890738,
+						"height": 79.72624021729509,
+						"originX": 0.4,
+						"originY": 0.48623853211009177,
 						"color": [
 							1,
 							1,
@@ -730,6 +730,39 @@
 				1
 			],
 			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "Layer 1",
+			"overriden": 1,
+			"subLayers": [],
+			"instances": [],
+			"sid": 181485722720024,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": true,
 			"parallaxX": 1,
 			"parallaxY": 1,
 			"scaleRate": 1,
