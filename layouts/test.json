@@ -573,6 +573,15 @@
 								"enabled": false,
 								"live-preview": false
 							}
+						},
+						"Anchor": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "none",
+								"bottom-edge": "none",
+								"enabled": true
+							}
 						}
 					},
 					"world": {
@@ -734,5 +743,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Event sheet 1"
+	"eventSheet": null
 }

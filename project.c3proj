@@ -211,7 +211,8 @@
 			"cowelKeyCard",
 			"Sprite2",
 			"HealthBar",
-			"DeathSound"
+			"DeathSound",
+			"Block"
 		],
 		"subfolders": []
 	},
@@ -223,12 +224,12 @@
 	},
 	"layouts": {
 		"items": [
+			"Full Map",
 			"test",
 			"start",
 			"lv1",
 			"lv2",
-			"bookstore",
-			"Full Map"
+			"bookstore"
 		],
 		"subfolders": []
 	},
