@@ -9,6 +9,12 @@
 			"type": "number",
 			"desc": "",
 			"sid": 186286554856831
+		},
+		{
+			"name": "EnemyName",
+			"type": "string",
+			"desc": "",
+			"sid": 458641268477190
 		}
 	],
 	"behaviorTypes": [
