@@ -211,7 +211,9 @@
 			"cowelKeyCard",
 			"Sprite2",
 			"HealthBar",
-			"DeathSound"
+			"DeathSound",
+			"TiledBackground",
+			"Sprite"
 		],
 		"subfolders": []
 	},
