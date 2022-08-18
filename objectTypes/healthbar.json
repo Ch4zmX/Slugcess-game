@@ -1,14 +1,19 @@
 {
 	"name": "HealthBar",
 	"plugin-id": "Sprite",
-	"sid": 355820370909254,
+	"sid": 756900058997765,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Pin",
 			"name": "Pin",
-			"sid": 326070224310738
+			"sid": 113023503614629
+		},
+		{
+			"behaviorId": "Anchor",
+			"name": "Anchor",
+			"sid": 724880683758602
 		}
 	],
 	"effectTypes": [],
@@ -24,12 +29,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 655726,
+						"imageSpriteId": 3692290,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 617479072796520,
+				"sid": 768246599239804,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

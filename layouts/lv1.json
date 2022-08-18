@@ -341,7 +341,7 @@
 						"x": 83,
 						"y": 441,
 						"width": 95.64965835201474,
-						"height": 84.87223205882998,
+						"height": 84.87223205883,
 						"originX": 0.5032258064516129,
 						"originY": 0.5454545454545454,
 						"color": [
@@ -376,7 +376,7 @@
 					"world": {
 						"x": 321,
 						"y": 77,
-						"width": 101.64965835201474,
+						"width": 101.64965835201473,
 						"height": 88.87223205883,
 						"originX": 0.5032258064516129,
 						"originY": 0.5454545454545454,
@@ -407,12 +407,20 @@
 								"enabled": true,
 								"tags": ""
 							}
+						},
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 10000,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
 						}
 					},
 					"world": {
 						"x": 226,
 						"y": 427,
-						"width": 116.6526578891051,
+						"width": 116.65265788910511,
 						"height": 129.88130981467373,
 						"originX": 0.422680412371134,
 						"originY": 0.5277777777777778,
@@ -442,6 +450,14 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						},
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 10000,
+								"cone-of-view": 360,
+								"use-collision-cells": true
 							}
 						}
 					},
@@ -926,7 +942,163 @@
 			"name": "Layer 1",
 			"overriden": 0,
 			"subLayers": [],
-			"instances": [],
+			"instances": [
+				{
+					"type": "DeathScreen",
+					"properties": {
+						"initially-visible": false,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 60,
+					"instanceVariables": {},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 1.5,
+								"wait-time": 7,
+								"fade-out-time": 1,
+								"destroy": true,
+								"enabled": false,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": -24,
+						"y": 189,
+						"width": 2077,
+						"height": 104.68934904763,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							0,
+							0,
+							0,
+							0.65
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "HealthBar",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 62,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						},
+						"Anchor": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "none",
+								"bottom-edge": "none",
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 166,
+						"y": 30,
+						"width": 300,
+						"height": 25,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "YouDied",
+					"properties": {
+						"text": "YOU DIED",
+						"enable-bbcode": true,
+						"font": "Times New Roman",
+						"size": 50,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0.45098039215686275,
+							0.043137254901960784,
+							0.043137254901960784,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 61,
+					"instanceVariables": {},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 3,
+								"wait-time": 3,
+								"fade-out-time": 1,
+								"destroy": true,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Tween": {
+							"properties": {
+								"enabled": false
+							}
+						},
+						"Anchor": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "window-right",
+								"bottom-edge": "window-bottom",
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 228,
+						"y": 196,
+						"width": 427.69073057761756,
+						"height": 89.74719483448304,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 2
+					}
+				}
+			],
 			"sid": 959619415256298,
 			"effectTypes": [],
 			"isInitiallyVisible": true,

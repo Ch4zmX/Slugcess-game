@@ -2,7 +2,7 @@
 	"name": "DeathScreen",
 	"plugin-id": "TiledBg",
 	"sid": 388347925150610,
-	"isGlobal": false,
+	"isGlobal": true,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
