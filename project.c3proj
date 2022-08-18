@@ -213,7 +213,8 @@
 			"HealthBar",
 			"DeathSound",
 			"Block",
-			"Spawner"
+			"Spawner",
+			"SlugBoss"
 		],
 		"subfolders": []
 	},

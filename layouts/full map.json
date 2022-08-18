@@ -2111,6 +2111,35 @@
 					}
 				},
 				{
+					"type": "SlugBoss",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 99,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 716,
+						"y": -579,
+						"width": 182.65867833498723,
+						"height": 153.13808385660545,
+						"originX": 0.494949494949495,
+						"originY": 0.5662650602409639,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "YouDied",
 					"properties": {
 						"text": "YOU DIED",
