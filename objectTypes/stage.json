@@ -1,7 +1,7 @@
 {
-	"name": "Sprite4",
+	"name": "stage",
 	"plugin-id": "Sprite",
-	"sid": 151799437969026,
+	"sid": 828962012172318,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,31 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
+						"width": 65,
+						"height": 252,
+						"originX": 0.18461538461538463,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3069223,
+						"imageSpriteId": 7549381,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.003968253968253968,
+								1,
+								0.003968253968253968,
+								1,
+								0.996031746031746,
+								0,
+								0.996031746031746
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 258982165679351,
+				"sid": 423196989287471,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

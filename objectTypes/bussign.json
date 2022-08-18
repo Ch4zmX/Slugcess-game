@@ -1,7 +1,7 @@
 {
-	"name": "Sprite4",
+	"name": "bussign",
 	"plugin-id": "Sprite",
-	"sid": 151799437969026,
+	"sid": 856524610738664,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3069223,
+						"imageSpriteId": 2147245,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 258982165679351,
+				"sid": 342887500067162,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

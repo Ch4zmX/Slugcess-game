@@ -1,29 +1,35 @@
 {
-	"name": "Sprite4",
+	"name": "diningTables",
 	"plugin-id": "Sprite",
-	"sid": 151799437969026,
+	"sid": 131502105926172,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 776382884485048
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 149,
+						"height": 204,
+						"originX": 0.5436241610738255,
+						"originY": 0.5098039215686274,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3069223,
+						"imageSpriteId": 2802862,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 258982165679351,
+				"sid": 370519534915024,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

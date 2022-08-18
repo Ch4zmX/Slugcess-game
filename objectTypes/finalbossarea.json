@@ -1,7 +1,7 @@
 {
-	"name": "stairsBackground",
+	"name": "finalbossArea",
 	"plugin-id": "TiledBg",
-	"sid": 436492533849216,
+	"sid": 329861056812374,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -14,7 +14,7 @@
 		"originalSource": "",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 1805754,
+		"imageSpriteId": 5158950,
 		"useCollisionPoly": true
 	}
 }
