@@ -248,7 +248,8 @@
 			"bussign",
 			"finalbossArea",
 			"TiledBackground",
-			"Sprite"
+			"sky",
+			"Sprite2"
 		],
 		"subfolders": []
 	},

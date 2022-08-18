@@ -1,7 +1,7 @@
 {
-	"name": "street",
+	"name": "sky",
 	"plugin-id": "TiledBg",
-	"sid": 887868501757835,
+	"sid": 376516210445597,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -14,7 +14,7 @@
 		"originalSource": "",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 869988,
+		"imageSpriteId": 5930804,
 		"useCollisionPoly": true
 	}
 }
