@@ -1,16 +1,10 @@
 {
 	"name": "Sprite3",
 	"plugin-id": "Sprite",
-	"sid": 152244182059891,
+	"sid": 101760009193766,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 292185366596331
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -24,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6905379,
+						"imageSpriteId": 2784925,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 805400809052566,
+				"sid": 321949543759468,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

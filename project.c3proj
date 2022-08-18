@@ -209,11 +209,19 @@
 			"crownKeyCard",
 			"gate",
 			"cowelKeyCard",
-			"Sprite2",
+			"stairSide",
 			"HealthBar",
 			"DeathSound",
-			"TiledBackground",
-			"Sprite"
+			"stairsBackground",
+			"midStair",
+			"9patch2",
+			"bookstoreBuild",
+			"Sprite",
+			"bookstoreRoof",
+			"Text2",
+			"Sprite2",
+			"Sprite3",
+			"Sprite4"
 		],
 		"subfolders": []
 	},
