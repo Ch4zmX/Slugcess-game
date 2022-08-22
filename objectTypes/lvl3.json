@@ -1,0 +1,26 @@
+{
+	"name": "lvl3",
+	"plugin-id": "TiledBg",
+	"sid": 744712357709439,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 389203437056835
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 250,
+		"height": 82,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 3928813,
+		"useCollisionPoly": true
+	}
+}

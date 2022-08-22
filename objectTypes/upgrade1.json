@@ -1,47 +1,29 @@
 {
-	"name": "BubbleGun",
+	"name": "Upgrade1",
 	"plugin-id": "Sprite",
-	"sid": 685636074666782,
+	"sid": 275440802962857,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "Pin",
-			"name": "Pin",
-			"sid": 227611202160700
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 500,
-						"height": 500,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 217,
+						"height": 81,
+						"originX": 0.004608294930875576,
+						"originY": 0.49382716049382713,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6048054,
-						"collisionPoly": {
-							"points": [
-								0.75,
-								0.25,
-								0.75,
-								0.75,
-								0.25,
-								0.75,
-								0.25,
-								0.25
-							]
-						},
+						"imageSpriteId": 9275148,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 373290148355981,
+				"sid": 893137052751611,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -15,6 +15,18 @@
 			"type": "string",
 			"desc": "",
 			"sid": 458641268477190
+		},
+		{
+			"name": "DropsCard",
+			"type": "boolean",
+			"desc": "",
+			"sid": 513468948610096
+		},
+		{
+			"name": "CardName",
+			"type": "string",
+			"desc": "",
+			"sid": 356983080489294
 		}
 	],
 	"behaviorTypes": [

@@ -242,7 +242,7 @@
 			"viva",
 			"viva2",
 			"910ID",
-			"coverforDH",
+			"lvl3",
 			"busstop2",
 			"busStop",
 			"bussign",
@@ -251,7 +251,11 @@
 			"concrete",
 			"startGround",
 			"lv2",
-			"lv1"
+			"lv1",
+			"Upgrade2",
+			"Upgrade3",
+			"Upgrade1",
+			"Kills"
 		],
 		"subfolders": []
 	},
@@ -263,8 +267,8 @@
 	},
 	"layouts": {
 		"items": [
-			"Full Map",
-			"start"
+			"start",
+			"Full Map"
 		],
 		"subfolders": []
 	},

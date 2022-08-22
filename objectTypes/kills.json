@@ -1,0 +1,20 @@
+{
+	"name": "Kills",
+	"plugin-id": "Text",
+	"sid": 845659280848472,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 441131221293402
+		},
+		{
+			"behaviorId": "Anchor",
+			"name": "Anchor",
+			"sid": 626773086967258
+		}
+	],
+	"effectTypes": []
+}
