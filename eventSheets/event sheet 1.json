@@ -78,6 +78,14 @@
 								"height-type": "no",
 								"z": false
 							}
+						},
+						{
+							"id": "set-z-elevation",
+							"objectClass": "BubbleGun",
+							"sid": 999168031385325,
+							"parameters": {
+								"z": "1"
+							}
 						}
 					],
 					"sid": 594053834148689
@@ -506,10 +514,10 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Enemy",
-							"sid": 163696026693079,
+							"sid": 112991277343097,
 							"parameters": {
 								"instance-variable": "Health",
-								"value": "20"
+								"value": "10"
 							}
 						},
 						{
@@ -801,6 +809,14 @@
 						"x": "Mouse.X",
 						"y": "Mouse.Y"
 					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Kills",
+					"sid": 907126718566685,
+					"parameters": {
+						"text": "Player.Kills"
+					}
 				}
 			],
 			"sid": 699836800528352
@@ -887,9 +903,9 @@
 				{
 					"id": "every-x-seconds",
 					"objectClass": "System",
-					"sid": 181584871543963,
+					"sid": 827250695368915,
 					"parameters": {
-						"interval-seconds": "0.5"
+						"interval-seconds": "0.3"
 					}
 				}
 			],
@@ -1033,20 +1049,27 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Player",
-					"sid": 344027528734493,
+					"sid": 392689643112113,
 					"parameters": {
-						"object": "GunUpgrader"
+						"object": "Upgrade2"
 					}
+				},
+				{
+					"id": "is-enabled",
+					"objectClass": "lv2",
+					"sid": 113022641821110,
+					"behaviorType": "Solid",
+					"isInverted": true
 				}
 			],
 			"actions": [
 				{
 					"id": "set-instvar-value",
 					"objectClass": "Player",
-					"sid": 468102570718006,
+					"sid": 424940792666709,
 					"parameters": {
 						"instance-variable": "ShotsPerSecond",
-						"value": "1.25"
+						"value": "2.5"
 					}
 				},
 				{
@@ -1093,6 +1116,14 @@
 						"height-type": "no",
 						"z": false
 					}
+				},
+				{
+					"id": "set-z-elevation",
+					"objectClass": "BubbleGun2",
+					"sid": 392515465330305,
+					"parameters": {
+						"z": "1"
+					}
 				}
 			],
 			"sid": 287628504861580
@@ -1103,20 +1134,27 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Player",
-					"sid": 606117761870593,
+					"sid": 432939250071686,
 					"parameters": {
-						"object": "GunUpgrader2"
+						"object": "Upgrade3"
 					}
+				},
+				{
+					"id": "is-enabled",
+					"objectClass": "lvl3",
+					"sid": 364139074443724,
+					"behaviorType": "Solid",
+					"isInverted": true
 				}
 			],
 			"actions": [
 				{
 					"id": "set-instvar-value",
 					"objectClass": "Player",
-					"sid": 683856164037612,
+					"sid": 992454267793294,
 					"parameters": {
 						"instance-variable": "ShotsPerSecond",
-						"value": "3"
+						"value": "4"
 					}
 				},
 				{
@@ -1162,6 +1200,14 @@
 						"width-type": "no",
 						"height-type": "no",
 						"z": false
+					}
+				},
+				{
+					"id": "set-z-elevation",
+					"objectClass": "BubbleGun3",
+					"sid": 125343672639817,
+					"parameters": {
+						"z": "1"
 					}
 				}
 			],
@@ -1540,6 +1586,29 @@
 					],
 					"actions": [],
 					"sid": 510933308712770
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-speed",
+							"objectClass": "Stinger",
+							"sid": 803104416165420,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"comparison": 0,
+								"speed": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Stinger",
+							"sid": 182446694119280
+						}
+					],
+					"sid": 666134998371518
 				}
 			],
 			"sid": 694432315322936
@@ -1568,6 +1637,15 @@
 							"id": "destroy",
 							"objectClass": "cowelKeyCard",
 							"sid": 197243857188114
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "lv1",
+							"sid": 971251600752338,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "disabled"
+							}
 						}
 					],
 					"sid": 361773654615110
@@ -1591,12 +1669,21 @@
 							"sid": 953047839064117
 						},
 						{
-							"id": "set-boolean-instvar",
+							"id": "set-enabled",
 							"objectClass": "bookstore",
-							"sid": 286625233817218,
+							"sid": 379371471456501,
+							"behaviorType": "Solid",
 							"parameters": {
-								"instance-variable": "unlocked",
-								"value": "true"
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "lv2",
+							"sid": 884146571035553,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "disabled"
 							}
 						}
 					],
@@ -1608,22 +1695,29 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Player",
-							"sid": 505554117403658,
+							"sid": 407862861360108,
 							"parameters": {
-								"object": "bookstore"
-							}
-						},
-						{
-							"id": "is-boolean-instance-variable-set",
-							"objectClass": "bookstore",
-							"sid": 751063803835896,
-							"parameters": {
-								"instance-variable": "unlocked"
+								"object": "910ID"
 							}
 						}
 					],
-					"actions": [],
-					"sid": 424572378354856
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "910ID",
+							"sid": 907839426271326
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "lvl3",
+							"sid": 933330241272357,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "disabled"
+							}
+						}
+					],
+					"sid": 907101309544627
 				}
 			],
 			"sid": 769903946736739

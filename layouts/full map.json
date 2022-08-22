@@ -594,7 +594,13 @@
 					},
 					"uid": 82,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 2302,
 						"y": 147,
@@ -813,10 +819,10 @@
 					"world": {
 						"x": 454,
 						"y": 1006,
-						"width": 127,
-						"height": 42,
+						"width": 73.57936507936508,
+						"height": 24.705882352941178,
 						"originX": 0.5,
-						"originY": 0.9529411764705882,
+						"originY": 0.9355203619909501,
 						"color": [
 							1,
 							1,
@@ -1189,7 +1195,9 @@
 					"uid": 7,
 					"instanceVariables": {
 						"Health": 5,
-						"EnemyName": "Ant"
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -1376,7 +1384,9 @@
 					},
 					"uid": 10,
 					"instanceVariables": {
-						"EnemyName": ""
+						"EnemyName": "",
+						"DropsCard": false,
+						"CardName": ""
 					},
 					"behaviors": {},
 					"world": {
@@ -1407,7 +1417,9 @@
 					},
 					"uid": 3,
 					"instanceVariables": {
-						"EnemyName": "Ant"
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
 					},
 					"behaviors": {},
 					"world": {
@@ -1438,7 +1450,9 @@
 					},
 					"uid": 8,
 					"instanceVariables": {
-						"EnemyName": "Snail"
+						"EnemyName": "Snail",
+						"DropsCard": false,
+						"CardName": ""
 					},
 					"behaviors": {},
 					"world": {
@@ -1469,7 +1483,9 @@
 					},
 					"uid": 13,
 					"instanceVariables": {
-						"EnemyName": "Wasp"
+						"EnemyName": "Wasp",
+						"DropsCard": false,
+						"CardName": ""
 					},
 					"behaviors": {},
 					"world": {
@@ -1500,7 +1516,9 @@
 					},
 					"uid": 15,
 					"instanceVariables": {
-						"EnemyName": "Slug"
+						"EnemyName": "Slug",
+						"DropsCard": false,
+						"CardName": ""
 					},
 					"behaviors": {},
 					"world": {
@@ -1531,7 +1549,9 @@
 					},
 					"uid": 17,
 					"instanceVariables": {
-						"EnemyName": "Slug"
+						"EnemyName": "Slug",
+						"DropsCard": false,
+						"CardName": ""
 					},
 					"behaviors": {},
 					"world": {
@@ -1562,7 +1582,9 @@
 					},
 					"uid": 91,
 					"instanceVariables": {
-						"EnemyName": "Wasp"
+						"EnemyName": "Wasp",
+						"DropsCard": false,
+						"CardName": ""
 					},
 					"behaviors": {},
 					"world": {
@@ -1593,7 +1615,9 @@
 					},
 					"uid": 96,
 					"instanceVariables": {
-						"EnemyName": "Snail"
+						"EnemyName": "Snail",
+						"DropsCard": false,
+						"CardName": ""
 					},
 					"behaviors": {},
 					"world": {
@@ -1624,7 +1648,9 @@
 					},
 					"uid": 98,
 					"instanceVariables": {
-						"EnemyName": "Ant"
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
 					},
 					"behaviors": {},
 					"world": {
