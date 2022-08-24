@@ -86,6 +86,84 @@
 							"parameters": {
 								"z": "1"
 							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 831998133755548,
+							"parameters": {
+								"object-to-create": "Enemy",
+								"layer": "0",
+								"x": "SlugBoss.X",
+								"y": "SlugBoss.Y",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Enemy",
+							"sid": 292818507580444,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"enabled": false
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Enemy",
+							"sid": 100306051448563,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "50"
+							}
+						},
+						{
+							"id": "set-size",
+							"objectClass": "Enemy",
+							"sid": 848640141847012,
+							"parameters": {
+								"width": "SlugBoss.Width",
+								"height": "SlugBoss.Height"
+							}
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "Enemy",
+							"sid": 702113321493561,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "SlugBoss",
+								"image-point": "0",
+								"angle": true,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						},
+						{
+							"id": "add-child",
+							"objectClass": "Enemy",
+							"sid": 988481333823569,
+							"parameters": {
+								"child": "SlugBoss",
+								"transform-x": false,
+								"transform-y": false,
+								"transform-w": true,
+								"transform-h": true,
+								"transform-a": true,
+								"transform-z-elevation": true,
+								"destroy-with-parent": true
+							}
+						},
+						{
+							"id": "set-max-speed",
+							"objectClass": "Enemy",
+							"sid": 489979773942332,
+							"behaviorType": "Pathfinding",
+							"parameters": {
+								"speed": "0"
+							}
 						}
 					],
 					"sid": 594053834148689
@@ -203,19 +281,28 @@
 						{
 							"id": "set-max-speed",
 							"objectClass": "Enemy",
-							"sid": 604600183783691,
+							"sid": 447547905876561,
 							"behaviorType": "Pathfinding",
 							"parameters": {
-								"speed": "300"
+								"speed": "400"
 							}
 						},
 						{
 							"id": "set-speed",
 							"objectClass": "Enemy",
-							"sid": 566746097734641,
+							"sid": 764227334551262,
 							"behaviorType": "Pathfinding",
 							"parameters": {
-								"speed": "300"
+								"speed": "400"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Enemy",
+							"sid": 717523669923531,
+							"parameters": {
+								"instance-variable": "CardName",
+								"value": "Spawner.CardName"
 							}
 						}
 					],
@@ -338,6 +425,24 @@
 							"parameters": {
 								"range": "500"
 							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Enemy",
+							"sid": 669134626269450,
+							"parameters": {
+								"instance-variable": "CardName",
+								"value": "Spawner.CardName"
+							}
+						},
+						{
+							"id": "set-max-speed",
+							"objectClass": "Enemy",
+							"sid": 959764541712593,
+							"behaviorType": "Pathfinding",
+							"parameters": {
+								"speed": "0"
+							}
 						}
 					],
 					"sid": 341139395384644
@@ -444,6 +549,15 @@
 							"behaviorType": "Pathfinding",
 							"parameters": {
 								"speed": "180"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Enemy",
+							"sid": 605629926881098,
+							"parameters": {
+								"instance-variable": "CardName",
+								"value": "Spawner.CardName"
 							}
 						}
 					],
@@ -574,6 +688,15 @@
 							"behaviorType": "Pathfinding",
 							"parameters": {
 								"speed": "100"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Enemy",
+							"sid": 720413119684448,
+							"parameters": {
+								"instance-variable": "CardName",
+								"value": "Spawner.CardName"
 							}
 						}
 					],
@@ -1552,6 +1675,19 @@
 								"create-hierarchy": false,
 								"template-name": "\"\""
 							}
+						},
+						{
+							"id": "create-object-by-name",
+							"objectClass": "System",
+							"sid": 590234641448441,
+							"parameters": {
+								"object-name": "Enemy.CardName",
+								"layer": "0",
+								"x": "Enemy.X",
+								"y": "Enemy.Y",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
 						}
 					],
 					"sid": 850727546980899
@@ -1775,6 +1911,15 @@
 							"objectClass": "Enemy",
 							"sid": 805842530902801,
 							"behaviorType": "Pathfinding"
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 998874258161416,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "10"
+							}
 						}
 					],
 					"sid": 361773654615110
@@ -1830,6 +1975,15 @@
 							"objectClass": "Enemy",
 							"sid": 252955783962477,
 							"behaviorType": "Pathfinding"
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 524969581345656,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "10"
+							}
 						}
 					],
 					"sid": 103822480403608
@@ -1871,12 +2025,77 @@
 							"objectClass": "Enemy",
 							"sid": 281393984955557,
 							"behaviorType": "Pathfinding"
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 333125234299989,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "10"
+							}
 						}
 					],
 					"sid": 907101309544627
 				}
 			],
 			"sid": 769903946736739
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-path-found",
+					"objectClass": "SlugBoss",
+					"sid": 707650578587289,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"actions": [
+				{
+					"id": "move-along-path",
+					"objectClass": "SlugBoss",
+					"sid": 813087331657417,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"sid": 704687855984946
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "has-los-to-object",
+					"objectClass": "SlugBoss",
+					"sid": 490642865248385,
+					"behaviorType": "LineOfSight",
+					"parameters": {
+						"object": "Player",
+						"image-point": "0"
+					}
+				},
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 287298968663483,
+					"parameters": {
+						"interval-seconds": "0.05"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "find-path",
+					"objectClass": "SlugBoss",
+					"sid": 122101376702458,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"x": "Player.X",
+						"y": "Player.Y"
+					}
+				}
+			],
+			"sid": 783498297638234
 		}
 	],
 	"sid": 335250269904769

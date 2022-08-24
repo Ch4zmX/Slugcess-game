@@ -266,7 +266,8 @@
 			"Kills",
 			"Sprite",
 			"WallSpawner",
-			"Particles2"
+			"Particles2",
+			"DeadPlayer"
 		],
 		"subfolders": []
 	},
@@ -278,8 +279,7 @@
 	},
 	"layouts": {
 		"items": [
-			"start",
-			"Full Map"
+			"start"
 		],
 		"subfolders": []
 	},

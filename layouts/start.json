@@ -1854,12 +1854,12 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 4672,
-						"y": 2716,
-						"width": 87,
-						"height": 79,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 4663.329307645351,
+						"y": 2722.68611080892,
+						"width": 43.5,
+						"height": 26.544,
+						"originX": 0.43209876543209874,
+						"originY": 0.5818181818181818,
 						"color": [
 							1,
 							1,
@@ -6190,6 +6190,39 @@
 					}
 				},
 				{
+					"type": "DeadPlayer",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 54,
+					"instanceVariables": {
+						"Health": 5,
+						"Kills": 0,
+						"ShotsPerSecond": 1.25
+					},
+					"behaviors": {},
+					"world": {
+						"x": 4665.3759085776765,
+						"y": 2686.671862377242,
+						"width": 23.771585385890738,
+						"height": 79.72624021729509,
+						"originX": 0.4,
+						"originY": 0.48623853211009177,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 4.71238898038469,
+						"zElevation": 1
+					}
+				},
+				{
 					"type": "Player",
 					"properties": {
 						"initially-visible": true,
@@ -6207,7 +6240,7 @@
 					"behaviors": {
 						"8Direction": {
 							"properties": {
-								"max-speed": 200,
+								"max-speed": 500,
 								"acceleration": 1000000000000000,
 								"deceleration": 1000000000000000,
 								"directions": "dir-8",
@@ -6229,8 +6262,8 @@
 						}
 					},
 					"world": {
-						"x": 4472,
-						"y": 2786,
+						"x": 4085.550338249411,
+						"y": 2662.9326125216685,
 						"width": 23.771585385890738,
 						"height": 79.72624021729509,
 						"originX": 0.4,
@@ -6243,6 +6276,51 @@
 						],
 						"angle": 0,
 						"zElevation": 1
+					}
+				},
+				{
+					"type": "Particles2",
+					"properties": {
+						"rate": 50,
+						"spray-cone": 360,
+						"type": "one-shot",
+						"object": -1,
+						"live-preview": false,
+						"speed": 200,
+						"size": 35,
+						"opacity": 100,
+						"grow-rate": 0,
+						"x-randomiser": 0,
+						"y-randomiser": 0,
+						"initial-speed-randomiser": 0,
+						"size-randomiser": 0,
+						"grow-rate-randomiser": 0,
+						"acceleration": -300,
+						"gravity": 0,
+						"angle-randomiser": 0,
+						"life-speed-randomiser": 800,
+						"opacity-randomiser": 0,
+						"destroy-mode": "fade-to-invisible",
+						"timeout": 0.3
+					},
+					"uid": 45,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1802,
+						"y": -449,
+						"width": 100,
+						"height": 100,
+						"originX": 0,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 3
 					}
 				}
 			],
@@ -6622,7 +6700,7 @@
 					"instanceVariables": {
 						"EnemyName": "Wasp",
 						"DropsCard": false,
-						"CardName": ""
+						"CardName": "crownKeyCardd"
 					},
 					"behaviors": {},
 					"world": {
@@ -7893,35 +7971,6 @@
 					}
 				},
 				{
-					"type": "SlugBoss",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1275,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1671,
-						"y": -651,
-						"width": 182.65867833498723,
-						"height": 153.13808385660545,
-						"originX": 0.494949494949495,
-						"originY": 0.5662650602409639,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "wall2",
 					"properties": {
 						"initially-visible": true,
@@ -8711,7 +8760,7 @@
 					}
 				},
 				{
-					"type": "910ID",
+					"type": "Spawner",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -8719,55 +8768,18 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 40,
-					"instanceVariables": {},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
+					"uid": 42,
+					"instanceVariables": {
+						"EnemyName": "Wasp",
+						"DropsCard": false,
+						"CardName": "910ID"
 					},
+					"behaviors": {},
 					"world": {
-						"x": 6121,
-						"y": 2269,
-						"width": 49.30678819615613,
-						"height": 32.15660099749313,
-						"originX": 0.4673913043478261,
-						"originY": 0.5583333333333333,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "crownKeyCard",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 41,
-					"instanceVariables": {},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 6690,
-						"y": 2716,
-						"width": 44.29323218542954,
-						"height": 44.29323218542954,
+						"x": 6098,
+						"y": 2224,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -8789,16 +8801,16 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 42,
+					"uid": 40,
 					"instanceVariables": {
-						"EnemyName": "Wasp",
+						"EnemyName": "Ant",
 						"DropsCard": false,
 						"CardName": ""
 					},
 					"behaviors": {},
 					"world": {
-						"x": 6060,
-						"y": 2200,
+						"x": 5954,
+						"y": 2539,
 						"width": 56.435804238089844,
 						"height": 56.435804238089844,
 						"originX": 0.5,
@@ -8814,7 +8826,7 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "Spawner",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -8822,29 +8834,18 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 43,
-					"instanceVariables": {},
-					"behaviors": {
-						"Pathfinding": {
-							"properties": {
-								"cell-size": 30,
-								"cell-border": -1,
-								"obstacles": "solids",
-								"max-speed": 200,
-								"acceleration": 1000,
-								"deceleration": 2000,
-								"rotate-speed": 135,
-								"rotate-object": true,
-								"diagonals": true,
-								"enabled": true
-							}
-						}
+					"uid": 41,
+					"instanceVariables": {
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
 					},
+					"behaviors": {},
 					"world": {
-						"x": 1589,
-						"y": -352,
-						"width": 250,
-						"height": 250,
+						"x": 6127,
+						"y": 2681,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -8858,7 +8859,209 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 46,
+					"instanceVariables": {
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 6177,
+						"y": 2542,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 47,
+					"instanceVariables": {
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 6229,
+						"y": 2717,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 48,
+					"instanceVariables": {
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 6185,
+						"y": 2862,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.281965944291665,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 49,
+					"instanceVariables": {
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 6403,
+						"y": 2828,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "crownKeyCard",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 50,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 2011,
+						"y": -664,
+						"width": 34.49637662132068,
+						"height": 21.24976799873354,
+						"originX": 0.5757575757575758,
+						"originY": 0.5409836065573771,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "910ID",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 51,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 2103,
+						"y": -667,
+						"width": 33.49645937238868,
+						"height": 21.70570567330786,
+						"originX": 0.4673913043478261,
+						"originY": 0.5583333333333333,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SlugBoss",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -8874,68 +9077,36 @@
 								"cell-size": 30,
 								"cell-border": -1,
 								"obstacles": "solids",
-								"max-speed": 200,
-								"acceleration": 1000000000,
-								"deceleration": 1000000000000,
+								"max-speed": 2000,
+								"acceleration": 1000,
+								"deceleration": 2000,
 								"rotate-speed": 135,
 								"rotate-object": false,
 								"diagonals": true,
 								"enabled": true
 							}
+						},
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 300,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
+						},
+						"Pin": {
+							"properties": {
+								"destroy": true
+							}
 						}
 					},
 					"world": {
-						"x": 4161.12205632617,
-						"y": 2826.9688903615565,
-						"width": 38.062219276886964,
-						"height": 38.062219276886964,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Particles2",
-					"properties": {
-						"rate": 50,
-						"spray-cone": 360,
-						"type": "one-shot",
-						"object": -1,
-						"live-preview": false,
-						"speed": 200,
-						"size": 25,
-						"opacity": 100,
-						"grow-rate": 0,
-						"x-randomiser": 0,
-						"y-randomiser": 0,
-						"initial-speed-randomiser": 0,
-						"size-randomiser": 0,
-						"grow-rate-randomiser": 0,
-						"acceleration": -300,
-						"gravity": 0,
-						"angle-randomiser": 0,
-						"life-speed-randomiser": 800,
-						"opacity-randomiser": 0,
-						"destroy-mode": "fade-to-invisible",
-						"timeout": 0.3
-					},
-					"uid": 45,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1802,
-						"y": -449,
-						"width": 100,
-						"height": 100,
-						"originX": 0,
-						"originY": 0.5,
+						"x": 953,
+						"y": 3312,
+						"width": 182.65867833498723,
+						"height": 153.13808385660545,
+						"originX": 0.505050505050505,
+						"originY": 0.5662650602409639,
 						"color": [
 							1,
 							1,
