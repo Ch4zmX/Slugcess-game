@@ -158,18 +158,9 @@
 							}
 						},
 						{
-							"id": "set-speed",
-							"objectClass": "Enemy",
-							"sid": 532869313923186,
-							"behaviorType": "MoveTo",
-							"parameters": {
-								"speed": "200"
-							}
-						},
-						{
 							"id": "set-instvar-value",
 							"objectClass": "Enemy",
-							"sid": 509388671612240,
+							"sid": 442981429345696,
 							"parameters": {
 								"instance-variable": "Health",
 								"value": "1"
@@ -207,6 +198,24 @@
 								"width-type": "no",
 								"height-type": "no",
 								"z": false
+							}
+						},
+						{
+							"id": "set-max-speed",
+							"objectClass": "Enemy",
+							"sid": 604600183783691,
+							"behaviorType": "Pathfinding",
+							"parameters": {
+								"speed": "300"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Enemy",
+							"sid": 566746097734641,
+							"behaviorType": "Pathfinding",
+							"parameters": {
+								"speed": "300"
 							}
 						}
 					],
@@ -391,15 +400,6 @@
 							}
 						},
 						{
-							"id": "set-speed",
-							"objectClass": "Enemy",
-							"sid": 117128373941648,
-							"behaviorType": "MoveTo",
-							"parameters": {
-								"speed": "130"
-							}
-						},
-						{
 							"id": "set-instvar-value",
 							"objectClass": "Enemy",
 							"sid": 563519477388745,
@@ -429,17 +429,21 @@
 							}
 						},
 						{
-							"id": "pin-to-object-imagepoint",
+							"id": "set-max-speed",
 							"objectClass": "Enemy",
-							"sid": 727696395994929,
-							"behaviorType": "Pin",
+							"sid": 506627304011951,
+							"behaviorType": "Pathfinding",
 							"parameters": {
-								"pin-to": "Slug",
-								"image-point": "0",
-								"angle": true,
-								"width-type": "no",
-								"height-type": "no",
-								"z": false
+								"speed": "180"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Enemy",
+							"sid": 723303074516337,
+							"behaviorType": "Pathfinding",
+							"parameters": {
+								"speed": "180"
 							}
 						}
 					],
@@ -553,9 +557,88 @@
 								"height-type": "no",
 								"z": false
 							}
+						},
+						{
+							"id": "set-max-speed",
+							"objectClass": "Enemy",
+							"sid": 114158108116228,
+							"behaviorType": "Pathfinding",
+							"parameters": {
+								"speed": "100"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Enemy",
+							"sid": 880490629428666,
+							"behaviorType": "Pathfinding",
+							"parameters": {
+								"speed": "100"
+							}
 						}
 					],
 					"sid": 599510469426915
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-path-found",
+							"objectClass": "Enemy",
+							"sid": 749981116919640,
+							"behaviorType": "Pathfinding"
+						},
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 526914250544085
+						},
+						{
+							"id": "has-los-to-object",
+							"objectClass": "Enemy",
+							"sid": 203300807065970,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-along-path",
+							"objectClass": "Enemy",
+							"sid": 603549336747084,
+							"behaviorType": "Pathfinding"
+						}
+					],
+					"sid": 921618757734246
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 452919156493683,
+							"parameters": {
+								"interval-seconds": "0.2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "find-path",
+							"objectClass": "Enemy",
+							"sid": 750454256873934,
+							"behaviorType": "Pathfinding",
+							"parameters": {
+								"x": "Player.X",
+								"y": "Player.Y"
+							}
+						}
+					],
+					"sid": 892656906993208
 				}
 			],
 			"sid": 932541798643036
@@ -1292,26 +1375,48 @@
 							}
 						},
 						{
-							"id": "set-animation",
+							"id": "destroy",
 							"objectClass": "Bubble",
-							"sid": 188138798425593,
+							"sid": 128359980951140
+						},
+						{
+							"id": "set-effect-enabled",
+							"objectClass": "Enemy",
+							"sid": 535513740549304,
 							"parameters": {
-								"animation": "\"Pop\"",
-								"from": "beginning"
+								"mode": "enable",
+								"effect": "\"Tint\""
 							}
 						},
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 570201169238908,
+							"sid": 862803794215584,
 							"parameters": {
-								"seconds": "0.06666"
+								"seconds": "0.1"
 							}
 						},
 						{
-							"id": "destroy",
-							"objectClass": "Bubble",
-							"sid": 367980636582069
+							"id": "set-effect-enabled",
+							"objectClass": "Enemy",
+							"sid": 654994743200397,
+							"parameters": {
+								"mode": "disable",
+								"effect": "\"Tint\""
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 614664456146533,
+							"parameters": {
+								"object-to-create": "Particles2",
+								"layer": "0",
+								"x": "Enemy.X",
+								"y": "Enemy.Y",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
 						}
 					],
 					"sid": 202658511453385
@@ -1433,6 +1538,19 @@
 							"parameters": {
 								"instance-variable": "Kills",
 								"value": "1"
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 255146223834374,
+							"parameters": {
+								"object-to-create": "Particles2",
+								"layer": "0",
+								"x": "Enemy.X",
+								"y": "Enemy.Y",
+								"create-hierarchy": false,
+								"template-name": "\"\""
 							}
 						}
 					],
@@ -1646,6 +1764,17 @@
 							"parameters": {
 								"state": "disabled"
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "lv1",
+							"sid": 186173799194090
+						},
+						{
+							"id": "regenerate-obstacle-map",
+							"objectClass": "Enemy",
+							"sid": 805842530902801,
+							"behaviorType": "Pathfinding"
 						}
 					],
 					"sid": 361773654615110
@@ -1685,6 +1814,22 @@
 							"parameters": {
 								"state": "disabled"
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "lv2",
+							"sid": 456029818740516
+						},
+						{
+							"id": "destroy",
+							"objectClass": "bookstore",
+							"sid": 177499687602725
+						},
+						{
+							"id": "regenerate-obstacle-map",
+							"objectClass": "Enemy",
+							"sid": 252955783962477,
+							"behaviorType": "Pathfinding"
 						}
 					],
 					"sid": 103822480403608
@@ -1715,6 +1860,17 @@
 							"parameters": {
 								"state": "disabled"
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "lvl3",
+							"sid": 988584835968870
+						},
+						{
+							"id": "regenerate-obstacle-map",
+							"objectClass": "Enemy",
+							"sid": 281393984955557,
+							"behaviorType": "Pathfinding"
 						}
 					],
 					"sid": 907101309544627

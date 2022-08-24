@@ -44,9 +44,19 @@
 			"behaviorId": "MoveTo",
 			"name": "MoveTo",
 			"sid": 357441951261112
+		},
+		{
+			"behaviorId": "Pathfinding",
+			"name": "Pathfinding",
+			"sid": 131811071648567
 		}
 	],
-	"effectTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "tint",
+			"name": "Tint"
+		}
+	],
 	"animations": {
 		"items": [
 			{

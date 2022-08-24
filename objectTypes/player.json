@@ -40,12 +40,7 @@
 			"sid": 658380710634770
 		}
 	],
-	"effectTypes": [
-		{
-			"effectId": "tint",
-			"name": "Tint"
-		}
-	],
+	"effectTypes": [],
 	"animations": {
 		"items": [
 			{

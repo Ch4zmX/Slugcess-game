@@ -765,19 +765,6 @@
 							}
 						}
 					},
-					"effects": {
-						"Tint": {
-							"isEnabled": false,
-							"parameters": {
-								"color": [
-									0.8901960784313725,
-									0.23137254901960785,
-									0.32941176470588235,
-									1
-								]
-							}
-						}
-					},
 					"world": {
 						"x": 236,
 						"y": 631,
@@ -1141,17 +1128,6 @@
 						"Damage": 0
 					},
 					"behaviors": {
-						"MoveTo": {
-							"properties": {
-								"max-speed": 130,
-								"acceleration": 10000000,
-								"deceleration": 10000000,
-								"rotate-speed": 0,
-								"set-angle": false,
-								"stop-on-solids": true,
-								"enabled": false
-							}
-						},
 						"LineOfSight": {
 							"properties": {
 								"obstacles": "custom",
@@ -1222,6 +1198,33 @@
 								"set-angle": false,
 								"stop-on-solids": true,
 								"enabled": true
+							}
+						},
+						"Pathfinding": {
+							"properties": {
+								"cell-size": 30,
+								"cell-border": -1,
+								"obstacles": "solids",
+								"max-speed": 200,
+								"acceleration": 1000,
+								"deceleration": 2000,
+								"rotate-speed": 135,
+								"rotate-object": true,
+								"diagonals": true,
+								"enabled": true
+							}
+						}
+					},
+					"effects": {
+						"Tint": {
+							"isEnabled": true,
+							"parameters": {
+								"color": [
+									1,
+									0,
+									0,
+									1
+								]
 							}
 						}
 					},
