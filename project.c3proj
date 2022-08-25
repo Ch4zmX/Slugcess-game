@@ -267,7 +267,13 @@
 			"Sprite",
 			"WallSpawner",
 			"Particles2",
-			"DeadPlayer"
+			"DeadPlayer",
+			"BossBullet",
+			"Sprite3",
+			"Text3",
+			"EnemyFelled",
+			"BossSpawner",
+			"Heart"
 		],
 		"subfolders": []
 	},
@@ -435,7 +441,7 @@
 		"scriptsType": "module",
 		"framerateMode": "vsync",
 		"compositingMode": "standard",
-		"sampling": "trilinear",
+		"sampling": "nearest",
 		"downscaling": "medium",
 		"renderingMode": "auto",
 		"anisotropicFiltering": "auto",

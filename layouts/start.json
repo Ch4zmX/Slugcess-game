@@ -461,8 +461,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 4004,
-						"y": 2957,
+						"x": 3659,
+						"y": 2940,
 						"width": 633,
 						"height": 862,
 						"originX": 0,
@@ -6141,7 +6141,9 @@
 						"live-preview": false
 					},
 					"uid": 34,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Unlocked": false
+					},
 					"behaviors": {},
 					"world": {
 						"x": 4422,
@@ -6170,7 +6172,9 @@
 						"live-preview": false
 					},
 					"uid": 35,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Unlocked": false
+					},
 					"behaviors": {},
 					"world": {
 						"x": 4538.661991034108,
@@ -6179,6 +6183,56 @@
 						"height": 100,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Ant",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Walk",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1101,
+					"instanceVariables": {
+						"Damage": 0,
+						"Health": 0,
+						"Facing": 0
+					},
+					"behaviors": {
+						"MoveTo": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": true,
+								"stop-on-solids": true,
+								"enabled": false
+							}
+						},
+						"Pin": {
+							"properties": {
+								"destroy": true
+							}
+						}
+					},
+					"world": {
+						"x": 1396,
+						"y": -666,
+						"width": 27.833774561623297,
+						"height": 28.884105677156253,
+						"originX": 0.39622641509433965,
+						"originY": 0.5636363636363636,
 						"color": [
 							1,
 							1,
@@ -6233,14 +6287,14 @@
 					},
 					"uid": 1182,
 					"instanceVariables": {
-						"Health": 5,
+						"Health": 10,
 						"Kills": 0,
 						"ShotsPerSecond": 1.25
 					},
 					"behaviors": {
 						"8Direction": {
 							"properties": {
-								"max-speed": 500,
+								"max-speed": 250,
 								"acceleration": 1000000000000000,
 								"deceleration": 1000000000000000,
 								"directions": "dir-8",
@@ -6262,8 +6316,8 @@
 						}
 					},
 					"world": {
-						"x": 4085.550338249411,
-						"y": 2662.9326125216685,
+						"x": 4075,
+						"y": 2699,
 						"width": 23.771585385890738,
 						"height": 79.72624021729509,
 						"originX": 0.4,
@@ -6360,7 +6414,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -6393,7 +6447,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -6426,7 +6480,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -6459,7 +6513,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -6492,7 +6546,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -6525,7 +6579,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -6558,7 +6612,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -6591,7 +6645,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -6624,7 +6678,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -6657,7 +6711,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -6667,12 +6721,12 @@
 					"instanceVariables": {
 						"EnemyName": "Snail",
 						"DropsCard": true,
-						"CardName": "910ID"
+						"CardName": ""
 					},
 					"behaviors": {},
 					"world": {
-						"x": 5833,
-						"y": 2250,
+						"x": 5874,
+						"y": 2255,
 						"width": 56.435804238089844,
 						"height": 56.435804238089844,
 						"originX": 0.5,
@@ -6690,7 +6744,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -6700,7 +6754,7 @@
 					"instanceVariables": {
 						"EnemyName": "Wasp",
 						"DropsCard": false,
-						"CardName": "crownKeyCardd"
+						"CardName": "crownKeyCard"
 					},
 					"behaviors": {},
 					"world": {
@@ -6723,7 +6777,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -6756,7 +6810,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -6789,7 +6843,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -6822,7 +6876,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -6855,7 +6909,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -6888,7 +6942,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -6921,7 +6975,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -6954,7 +7008,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -6987,7 +7041,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -7020,7 +7074,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -7053,7 +7107,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -7086,7 +7140,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -7119,7 +7173,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -7152,7 +7206,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -7185,7 +7239,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -7218,7 +7272,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -7251,7 +7305,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -7284,7 +7338,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -7317,7 +7371,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -7350,7 +7404,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -7383,7 +7437,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -7397,8 +7451,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 4044,
-						"y": 1117,
+						"x": 3304,
+						"y": 1014,
 						"width": 56.435804238089844,
 						"height": 56.435804238089844,
 						"originX": 0.5,
@@ -7416,7 +7470,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -7430,8 +7484,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 4046,
-						"y": 1472,
+						"x": 3220,
+						"y": 1241,
 						"width": 56.435804238089844,
 						"height": 56.435804238089844,
 						"originX": 0.5,
@@ -7449,7 +7503,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -7459,12 +7513,12 @@
 					"instanceVariables": {
 						"EnemyName": "Wasp",
 						"DropsCard": false,
-						"CardName": ""
+						"CardName": "Heart"
 					},
 					"behaviors": {},
 					"world": {
-						"x": 3442,
-						"y": 1280,
+						"x": 3443,
+						"y": 1129,
 						"width": 56.435804238089844,
 						"height": 56.435804238089844,
 						"originX": 0.5,
@@ -7507,7 +7561,7 @@
 						},
 						"Pin": {
 							"properties": {
-								"destroy": false
+								"destroy": true
 							}
 						}
 					},
@@ -7525,56 +7579,6 @@
 							1
 						],
 						"angle": 0.003234664442221813,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Ant",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Walk",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1101,
-					"instanceVariables": {
-						"Damage": 0,
-						"Health": 0,
-						"Facing": 0
-					},
-					"behaviors": {
-						"MoveTo": {
-							"properties": {
-								"max-speed": 200,
-								"acceleration": 600,
-								"deceleration": 600,
-								"rotate-speed": 0,
-								"set-angle": true,
-								"stop-on-solids": true,
-								"enabled": false
-							}
-						},
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 1396,
-						"y": -666,
-						"width": 27.833774561623297,
-						"height": 28.884105677156253,
-						"originX": 0.39622641509433965,
-						"originY": 0.5636363636363636,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
 						"zElevation": 0
 					}
 				},
@@ -7600,7 +7604,7 @@
 						},
 						"Pin": {
 							"properties": {
-								"destroy": false
+								"destroy": true
 							}
 						},
 						"MoveTo": {
@@ -7698,7 +7702,7 @@
 						},
 						"Pin": {
 							"properties": {
-								"destroy": false
+								"destroy": true
 							}
 						}
 					},
@@ -7808,7 +7812,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -7841,7 +7845,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -7874,7 +7878,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -7907,7 +7911,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -7940,7 +7944,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8045,7 +8049,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8078,7 +8082,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8111,7 +8115,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8144,7 +8148,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8177,7 +8181,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8191,8 +8195,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 6183,
-						"y": 2064,
+						"x": 6153,
+						"y": 2081,
 						"width": 56.435804238089844,
 						"height": 56.435804238089844,
 						"originX": 0.5,
@@ -8210,7 +8214,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8243,7 +8247,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8276,7 +8280,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8309,7 +8313,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8342,7 +8346,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8375,7 +8379,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8390,7 +8394,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 5830,
-						"y": 1477,
+						"y": 1478,
 						"width": 56.435804238089844,
 						"height": 56.435804238089844,
 						"originX": 0.5,
@@ -8408,7 +8412,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8441,7 +8445,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8474,7 +8478,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8507,7 +8511,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8540,7 +8544,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8573,7 +8577,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8606,7 +8610,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8639,7 +8643,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8672,7 +8676,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8762,7 +8766,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8776,8 +8780,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 6098,
-						"y": 2224,
+						"x": 6100,
+						"y": 2274,
 						"width": 56.435804238089844,
 						"height": 56.435804238089844,
 						"originX": 0.5,
@@ -8795,7 +8799,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8828,7 +8832,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8861,7 +8865,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8894,7 +8898,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8927,7 +8931,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -8960,7 +8964,7 @@
 				{
 					"type": "Spawner",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -9075,9 +9079,9 @@
 						"Pathfinding": {
 							"properties": {
 								"cell-size": 30,
-								"cell-border": -1,
+								"cell-border": 50,
 								"obstacles": "solids",
-								"max-speed": 2000,
+								"max-speed": 200,
 								"acceleration": 1000,
 								"deceleration": 2000,
 								"rotate-speed": 135,
@@ -9089,7 +9093,7 @@
 						"LineOfSight": {
 							"properties": {
 								"obstacles": "solids",
-								"range": 300,
+								"range": 1000,
 								"cone-of-view": 360,
 								"use-collision-cells": true
 							}
@@ -9101,12 +9105,1305 @@
 						}
 					},
 					"world": {
-						"x": 953,
-						"y": 3312,
+						"x": 1652,
+						"y": -734,
 						"width": 182.65867833498723,
 						"height": 153.13808385660545,
 						"originX": 0.505050505050505,
 						"originY": 0.5662650602409639,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "BossBullet",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 3,
+					"instanceVariables": {
+						"Health": 3
+					},
+					"behaviors": {
+						"Bullet": {
+							"properties": {
+								"speed": 500,
+								"acceleration": -50,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 1467.7290992253422,
+						"y": -633.7999832849629,
+						"width": 32.60984199813598,
+						"height": 32.60984199813598,
+						"originX": 1.5,
+						"originY": 0.6875,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 7,
+					"instanceVariables": {
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2448,
+						"y": 627,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 10,
+					"instanceVariables": {
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2329,
+						"y": 741,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 13,
+					"instanceVariables": {
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2434,
+						"y": 797,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 15,
+					"instanceVariables": {
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2571,
+						"y": 733,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 17,
+					"instanceVariables": {
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2544,
+						"y": 910,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 43,
+					"instanceVariables": {
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2732,
+						"y": 726,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 55,
+					"instanceVariables": {
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2912,
+						"y": 737,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 56,
+					"instanceVariables": {
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 3217,
+						"y": 291,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 57,
+					"instanceVariables": {
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 3197,
+						"y": 524,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 58,
+					"instanceVariables": {
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 3208,
+						"y": 730,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 60,
+					"instanceVariables": {
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 3208,
+						"y": 106,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 61,
+					"instanceVariables": {
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 3302,
+						"y": 782,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 62,
+					"instanceVariables": {
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 3053,
+						"y": 715,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 63,
+					"instanceVariables": {
+						"EnemyName": "Slug",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2732,
+						"y": 1143,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 65,
+					"instanceVariables": {
+						"EnemyName": "Slug",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2409,
+						"y": 1417,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 66,
+					"instanceVariables": {
+						"EnemyName": "Slug",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2274,
+						"y": 633,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 67,
+					"instanceVariables": {
+						"EnemyName": "Slug",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 3039,
+						"y": 988,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 68,
+					"instanceVariables": {
+						"EnemyName": "Slug",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2911,
+						"y": 1225,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 70,
+					"instanceVariables": {
+						"EnemyName": "Slug",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2399,
+						"y": 1283,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 71,
+					"instanceVariables": {
+						"EnemyName": "Slug",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2677,
+						"y": 1417,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 72,
+					"instanceVariables": {
+						"EnemyName": "Slug",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2515,
+						"y": 1381,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 73,
+					"instanceVariables": {
+						"EnemyName": "Slug",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2437,
+						"y": 1502,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 74,
+					"instanceVariables": {
+						"EnemyName": "Slug",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2270,
+						"y": 1438,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 75,
+					"instanceVariables": {
+						"EnemyName": "Slug",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2215,
+						"y": 1280,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 76,
+					"instanceVariables": {
+						"EnemyName": "Slug",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2765,
+						"y": 1278,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 77,
+					"instanceVariables": {
+						"EnemyName": "Slug",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2796,
+						"y": 1114,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 78,
+					"instanceVariables": {
+						"EnemyName": "Slug",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2667,
+						"y": 1022,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 79,
+					"instanceVariables": {
+						"EnemyName": "Slug",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2875,
+						"y": 1018,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 80,
+					"instanceVariables": {
+						"EnemyName": "Slug",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2664,
+						"y": 1199,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 81,
+					"instanceVariables": {
+						"EnemyName": "Slug",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 3044,
+						"y": 1234,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 82,
+					"instanceVariables": {
+						"EnemyName": "Slug",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 3234,
+						"y": 1105,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 83,
+					"instanceVariables": {
+						"EnemyName": "Wasp",
+						"DropsCard": false,
+						"CardName": "Heart"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 3474,
+						"y": 1381,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 84,
+					"instanceVariables": {
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 3181,
+						"y": 211,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 85,
+					"instanceVariables": {
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 3350,
+						"y": 398,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 86,
+					"instanceVariables": {
+						"EnemyName": "Ant",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 3355,
+						"y": 190,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 87,
+					"instanceVariables": {
+						"EnemyName": "Wasp",
+						"DropsCard": false,
+						"CardName": "Heart"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 4082,
+						"y": 1299,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "BossSpawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 88,
+					"instanceVariables": {
+						"EnemyName": "SlugBoss",
+						"DropsCard": false,
+						"CardName": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 950,
+						"y": 3299,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Heart",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 69,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1321,
+						"y": -596,
+						"width": 48.44367662728139,
+						"height": 45.82509951229321,
+						"originX": 0.5135135135135135,
+						"originY": 0.32,
 						"color": [
 							1,
 							1,
@@ -9177,7 +10474,7 @@
 						"Fade": {
 							"properties": {
 								"fade-in-time": 1.5,
-								"wait-time": 7,
+								"wait-time": 5,
 								"fade-out-time": 1,
 								"destroy": true,
 								"enabled": false,
@@ -9279,6 +10576,73 @@
 					}
 				},
 				{
+					"type": "EnemyFelled",
+					"properties": {
+						"text": "ENEMY FELLED",
+						"enable-bbcode": true,
+						"font": "Times New Roman",
+						"size": 50,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0.9411764705882353,
+							0.9176470588235294,
+							0.2196078431372549,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 8,
+					"instanceVariables": {},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 3,
+								"wait-time": 3,
+								"fade-out-time": 1,
+								"destroy": true,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Tween": {
+							"properties": {
+								"enabled": false
+							}
+						},
+						"Anchor": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "window-right",
+								"bottom-edge": "window-bottom",
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 151,
+						"y": 191,
+						"width": 589.7380824188871,
+						"height": 89.74719483448304,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 2
+					}
+				},
+				{
 					"type": "HealthBar",
 					"properties": {
 						"initially-visible": true,
@@ -9306,8 +10670,8 @@
 						}
 					},
 					"world": {
-						"x": 175,
-						"y": 27,
+						"x": 189.90897429975138,
+						"y": 36.98227232154166,
 						"width": 300,
 						"height": 25,
 						"originX": 0.5,

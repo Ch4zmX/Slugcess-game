@@ -1,7 +1,7 @@
 {
-	"name": "Sprite3",
+	"name": "Heart",
 	"plugin-id": "Sprite",
-	"sid": 735727382564758,
+	"sid": 505785058601731,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,19 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 185,
+						"height": 175,
+						"originX": 0.5135135135135135,
+						"originY": 0.32,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8180621,
+						"imageSpriteId": 2812073,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 959071855314759,
+				"sid": 959321764221156,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

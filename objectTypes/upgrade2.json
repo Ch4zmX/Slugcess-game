@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 748211974464686,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "Unlocked",
+			"type": "boolean",
+			"desc": "",
+			"sid": 186012760363084
+		}
+	],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
