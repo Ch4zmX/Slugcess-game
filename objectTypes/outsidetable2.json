@@ -1,0 +1,63 @@
+{
+	"name": "outsideTable2",
+	"plugin-id": "Sprite",
+	"sid": 365340842249293,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 176085712396915
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 81,
+						"height": 93,
+						"originX": 0.8010035136650119,
+						"originY": 0.786180151595276,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9337009,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.8010035136650119,
+								0,
+								1,
+								0,
+								1,
+								0.786180151595276,
+								1,
+								1,
+								0.8010035136650119,
+								1,
+								0,
+								1,
+								0,
+								0.786180151595276
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 350986777563132,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

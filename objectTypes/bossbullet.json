@@ -1,21 +1,21 @@
 {
 	"name": "BossBullet",
 	"plugin-id": "Sprite",
-	"sid": 947461862401884,
+	"sid": 775372506780734,
 	"isGlobal": false,
 	"instanceVariables": [
 		{
 			"name": "Health",
 			"type": "number",
 			"desc": "",
-			"sid": 877973363476249
+			"sid": 617428800153769
 		}
 	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Bullet",
 			"name": "Bullet",
-			"sid": 870041393894413
+			"sid": 695860024935100
 		}
 	],
 	"effectTypes": [],
@@ -31,7 +31,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8970257,
+						"imageSpriteId": 8214173,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -48,7 +48,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 206851616421843,
+				"sid": 519512571109050,
 				"name": "Animation 1",
 				"isLooping": true,
 				"isPingPong": false,

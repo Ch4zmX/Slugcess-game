@@ -160,7 +160,7 @@
 						{
 							"id": "set-size",
 							"objectClass": "Enemy",
-							"sid": 858868014877808,
+							"sid": 148206110582911,
 							"parameters": {
 								"width": "Ant.Width",
 								"height": "Ant.Height"
@@ -212,7 +212,7 @@
 						{
 							"id": "set-max-speed",
 							"objectClass": "Enemy",
-							"sid": 447547905876561,
+							"sid": 677206812446654,
 							"behaviorType": "Pathfinding",
 							"parameters": {
 								"speed": "400"
@@ -221,7 +221,7 @@
 						{
 							"id": "set-speed",
 							"objectClass": "Enemy",
-							"sid": 764227334551262,
+							"sid": 176713799564080,
 							"behaviorType": "Pathfinding",
 							"parameters": {
 								"speed": "400"
@@ -230,7 +230,7 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Enemy",
-							"sid": 717523669923531,
+							"sid": 241535843684079,
 							"parameters": {
 								"instance-variable": "CardName",
 								"value": "Spawner.CardName"
@@ -239,7 +239,7 @@
 						{
 							"id": "add-obstacle",
 							"objectClass": "Enemy",
-							"sid": 717558314728105,
+							"sid": 474598166638256,
 							"behaviorType": "LineOfSight",
 							"parameters": {
 								"obstacle": "Sprite2"
@@ -254,7 +254,7 @@
 						{
 							"id": "for-each",
 							"objectClass": "System",
-							"sid": 846326785635387,
+							"sid": 443180967014134,
 							"parameters": {
 								"object": "Spawner"
 							}
@@ -262,7 +262,7 @@
 						{
 							"id": "compare-two-values",
 							"objectClass": "System",
-							"sid": 285436103920605,
+							"sid": 280807456625752,
 							"parameters": {
 								"first-value": "Spawner.EnemyName",
 								"comparison": 0,
@@ -274,7 +274,7 @@
 						{
 							"id": "set-visible",
 							"objectClass": "Wasp",
-							"sid": 882902467689843,
+							"sid": 691875520721061,
 							"parameters": {
 								"visibility": "visible"
 							}
@@ -282,7 +282,7 @@
 						{
 							"id": "create-object",
 							"objectClass": "System",
-							"sid": 419410429861594,
+							"sid": 173751936655036,
 							"parameters": {
 								"object-to-create": "Enemy",
 								"layer": "0",
@@ -295,7 +295,7 @@
 						{
 							"id": "create-object-by-name",
 							"objectClass": "System",
-							"sid": 261220802398082,
+							"sid": 397779454030107,
 							"parameters": {
 								"object-name": "Spawner.EnemyName",
 								"layer": "0",
@@ -308,7 +308,7 @@
 						{
 							"id": "set-size",
 							"objectClass": "Enemy",
-							"sid": 864869523500022,
+							"sid": 512918702029120,
 							"parameters": {
 								"width": "Wasp.Width",
 								"height": "Wasp.Height"
@@ -317,7 +317,7 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Enemy",
-							"sid": 493852294628903,
+							"sid": 829075399512026,
 							"parameters": {
 								"instance-variable": "Health",
 								"value": "10"
@@ -326,12 +326,12 @@
 						{
 							"id": "destroy",
 							"objectClass": "Spawner",
-							"sid": 655987670394604
+							"sid": 816181453219230
 						},
 						{
 							"id": "set-enabled",
 							"objectClass": "Enemy",
-							"sid": 894700614960114,
+							"sid": 748328696889966,
 							"behaviorType": "MoveTo",
 							"parameters": {
 								"enabled": false
@@ -340,7 +340,7 @@
 						{
 							"id": "add-child",
 							"objectClass": "Enemy",
-							"sid": 103122119715452,
+							"sid": 402151249632013,
 							"parameters": {
 								"child": "Wasp",
 								"transform-x": true,
@@ -355,7 +355,7 @@
 						{
 							"id": "pin-to-object-imagepoint",
 							"objectClass": "Enemy",
-							"sid": 746212583774705,
+							"sid": 308048678818219,
 							"behaviorType": "Pin",
 							"parameters": {
 								"pin-to": "Wasp",
@@ -369,7 +369,7 @@
 						{
 							"id": "set-range",
 							"objectClass": "Enemy",
-							"sid": 736343645007420,
+							"sid": 420764311612781,
 							"behaviorType": "LineOfSight",
 							"parameters": {
 								"range": "500"
@@ -378,7 +378,7 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Enemy",
-							"sid": 669134626269450,
+							"sid": 467911988110275,
 							"parameters": {
 								"instance-variable": "CardName",
 								"value": "Spawner.CardName"
@@ -387,7 +387,7 @@
 						{
 							"id": "set-max-speed",
 							"objectClass": "Enemy",
-							"sid": 959764541712593,
+							"sid": 183032477694713,
 							"behaviorType": "Pathfinding",
 							"parameters": {
 								"speed": "0"
@@ -396,7 +396,7 @@
 						{
 							"id": "add-obstacle",
 							"objectClass": "Enemy",
-							"sid": 958817660463934,
+							"sid": 961211999450451,
 							"behaviorType": "LineOfSight",
 							"parameters": {
 								"obstacle": "Sprite2"
@@ -405,14 +405,14 @@
 						{
 							"id": "add-obstacle",
 							"objectClass": "Wasp",
-							"sid": 570218030471922,
+							"sid": 130514299814901,
 							"behaviorType": "LineOfSight",
 							"parameters": {
 								"obstacle": "Sprite2"
 							}
 						}
 					],
-					"sid": 341139395384644
+					"sid": 600977409429258
 				},
 				{
 					"eventType": "block",
@@ -420,7 +420,7 @@
 						{
 							"id": "for-each",
 							"objectClass": "System",
-							"sid": 135970017695309,
+							"sid": 193561460891693,
 							"parameters": {
 								"object": "Spawner"
 							}
@@ -428,7 +428,7 @@
 						{
 							"id": "compare-two-values",
 							"objectClass": "System",
-							"sid": 529580539819698,
+							"sid": 663678505302325,
 							"parameters": {
 								"first-value": "Spawner.EnemyName",
 								"comparison": 0,
@@ -440,7 +440,7 @@
 						{
 							"id": "set-visible",
 							"objectClass": "Slug",
-							"sid": 611478138097999,
+							"sid": 976731220770794,
 							"parameters": {
 								"visibility": "visible"
 							}
@@ -448,7 +448,7 @@
 						{
 							"id": "create-object",
 							"objectClass": "System",
-							"sid": 428947707163068,
+							"sid": 135719276783176,
 							"parameters": {
 								"object-to-create": "Enemy",
 								"layer": "0",
@@ -461,7 +461,7 @@
 						{
 							"id": "create-object-by-name",
 							"objectClass": "System",
-							"sid": 132567015439925,
+							"sid": 550183744727124,
 							"parameters": {
 								"object-name": "Spawner.EnemyName",
 								"layer": "0",
@@ -474,7 +474,7 @@
 						{
 							"id": "set-size",
 							"objectClass": "Enemy",
-							"sid": 292219120350171,
+							"sid": 211691496694510,
 							"parameters": {
 								"width": "Slug.Width",
 								"height": "Slug.Height"
@@ -483,7 +483,7 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Enemy",
-							"sid": 563519477388745,
+							"sid": 225622389282992,
 							"parameters": {
 								"instance-variable": "Health",
 								"value": "3"
@@ -492,12 +492,12 @@
 						{
 							"id": "destroy",
 							"objectClass": "Spawner",
-							"sid": 272387180166019
+							"sid": 208945166763811
 						},
 						{
 							"id": "add-child",
 							"objectClass": "Enemy",
-							"sid": 739459382638496,
+							"sid": 606904288442587,
 							"parameters": {
 								"child": "Slug",
 								"transform-x": true,
@@ -512,7 +512,7 @@
 						{
 							"id": "set-max-speed",
 							"objectClass": "Enemy",
-							"sid": 506627304011951,
+							"sid": 172786190712246,
 							"behaviorType": "Pathfinding",
 							"parameters": {
 								"speed": "180"
@@ -521,7 +521,7 @@
 						{
 							"id": "set-speed",
 							"objectClass": "Enemy",
-							"sid": 723303074516337,
+							"sid": 528144156564307,
 							"behaviorType": "Pathfinding",
 							"parameters": {
 								"speed": "180"
@@ -530,7 +530,7 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Enemy",
-							"sid": 605629926881098,
+							"sid": 972516219051605,
 							"parameters": {
 								"instance-variable": "CardName",
 								"value": "Spawner.CardName"
@@ -539,14 +539,14 @@
 						{
 							"id": "add-obstacle",
 							"objectClass": "Enemy",
-							"sid": 583752040980356,
+							"sid": 316551578525156,
 							"behaviorType": "LineOfSight",
 							"parameters": {
 								"obstacle": "Sprite2"
 							}
 						}
 					],
-					"sid": 174669648222526
+					"sid": 331890705968060
 				},
 				{
 					"eventType": "block",
@@ -554,7 +554,7 @@
 						{
 							"id": "for-each",
 							"objectClass": "System",
-							"sid": 782602936563679,
+							"sid": 343389960070839,
 							"parameters": {
 								"object": "Spawner"
 							}
@@ -562,7 +562,7 @@
 						{
 							"id": "compare-two-values",
 							"objectClass": "System",
-							"sid": 715093653049168,
+							"sid": 610274768515206,
 							"parameters": {
 								"first-value": "Spawner.EnemyName",
 								"comparison": 0,
@@ -574,7 +574,7 @@
 						{
 							"id": "set-visible",
 							"objectClass": "Snail",
-							"sid": 914346538237398,
+							"sid": 776591695650987,
 							"parameters": {
 								"visibility": "visible"
 							}
@@ -582,7 +582,7 @@
 						{
 							"id": "create-object",
 							"objectClass": "System",
-							"sid": 174494346708210,
+							"sid": 998438168736243,
 							"parameters": {
 								"object-to-create": "Enemy",
 								"layer": "0",
@@ -595,7 +595,7 @@
 						{
 							"id": "create-object-by-name",
 							"objectClass": "System",
-							"sid": 833538092803407,
+							"sid": 800094441110054,
 							"parameters": {
 								"object-name": "Spawner.EnemyName",
 								"layer": "0",
@@ -608,7 +608,7 @@
 						{
 							"id": "set-size",
 							"objectClass": "Enemy",
-							"sid": 643848812963194,
+							"sid": 677454719775113,
 							"parameters": {
 								"width": "Snail.Width",
 								"height": "Snail.Height"
@@ -617,7 +617,7 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Enemy",
-							"sid": 112991277343097,
+							"sid": 496099464118101,
 							"parameters": {
 								"instance-variable": "Health",
 								"value": "10"
@@ -626,12 +626,12 @@
 						{
 							"id": "destroy",
 							"objectClass": "Spawner",
-							"sid": 584123627622557
+							"sid": 949125629460346
 						},
 						{
 							"id": "add-child",
 							"objectClass": "Enemy",
-							"sid": 844958264854146,
+							"sid": 155667787430151,
 							"parameters": {
 								"child": "Snail",
 								"transform-x": true,
@@ -646,7 +646,7 @@
 						{
 							"id": "pin-to-object-imagepoint",
 							"objectClass": "Enemy",
-							"sid": 207133745533475,
+							"sid": 101989533424126,
 							"behaviorType": "Pin",
 							"parameters": {
 								"pin-to": "Snail",
@@ -660,7 +660,7 @@
 						{
 							"id": "set-max-speed",
 							"objectClass": "Enemy",
-							"sid": 114158108116228,
+							"sid": 492018994898998,
 							"behaviorType": "Pathfinding",
 							"parameters": {
 								"speed": "100"
@@ -669,7 +669,7 @@
 						{
 							"id": "set-speed",
 							"objectClass": "Enemy",
-							"sid": 880490629428666,
+							"sid": 994805881615373,
 							"behaviorType": "Pathfinding",
 							"parameters": {
 								"speed": "100"
@@ -678,7 +678,7 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Enemy",
-							"sid": 720413119684448,
+							"sid": 719133389326081,
 							"parameters": {
 								"instance-variable": "CardName",
 								"value": "Spawner.CardName"
@@ -687,14 +687,14 @@
 						{
 							"id": "add-obstacle",
 							"objectClass": "Enemy",
-							"sid": 441295906210114,
+							"sid": 790370699538596,
 							"behaviorType": "LineOfSight",
 							"parameters": {
 								"obstacle": "Sprite2"
 							}
 						}
 					],
-					"sid": 599510469426915
+					"sid": 377321130658406
 				},
 				{
 					"eventType": "block",
@@ -702,18 +702,18 @@
 						{
 							"id": "on-path-found",
 							"objectClass": "Enemy",
-							"sid": 749981116919640,
+							"sid": 198351356926178,
 							"behaviorType": "Pathfinding"
 						},
 						{
 							"id": "every-tick",
 							"objectClass": "System",
-							"sid": 526914250544085
+							"sid": 970186024230125
 						},
 						{
 							"id": "has-los-to-object",
 							"objectClass": "Enemy",
-							"sid": 203300807065970,
+							"sid": 929406950242203,
 							"behaviorType": "LineOfSight",
 							"parameters": {
 								"object": "Player",
@@ -725,11 +725,11 @@
 						{
 							"id": "move-along-path",
 							"objectClass": "Enemy",
-							"sid": 603549336747084,
+							"sid": 887452591146433,
 							"behaviorType": "Pathfinding"
 						}
 					],
-					"sid": 921618757734246
+					"sid": 535565538934577
 				},
 				{
 					"eventType": "block",
@@ -737,7 +737,7 @@
 						{
 							"id": "every-x-seconds",
 							"objectClass": "System",
-							"sid": 783062839120081,
+							"sid": 667387885529705,
 							"parameters": {
 								"interval-seconds": "0.2"
 							}
@@ -747,7 +747,7 @@
 						{
 							"id": "find-path",
 							"objectClass": "Enemy",
-							"sid": 750454256873934,
+							"sid": 421581849391923,
 							"behaviorType": "Pathfinding",
 							"parameters": {
 								"x": "Player.X",
@@ -755,7 +755,7 @@
 							}
 						}
 					],
-					"sid": 892656906993208
+					"sid": 136353044767532
 				}
 			],
 			"sid": 932541798643036
@@ -1111,7 +1111,7 @@
 				{
 					"id": "set-width",
 					"objectClass": "HealthBar",
-					"sid": 206891288737777,
+					"sid": 657105369313931,
 					"parameters": {
 						"width": "PlayerHealth*30"
 					}
@@ -1220,7 +1220,7 @@
 				{
 					"id": "is-boolean-instance-variable-set",
 					"objectClass": "Upgrade2",
-					"sid": 216221670939635,
+					"sid": 477028855438119,
 					"parameters": {
 						"instance-variable": "Unlocked"
 					}
@@ -1230,7 +1230,7 @@
 				{
 					"id": "set-instvar-value",
 					"objectClass": "Player",
-					"sid": 424940792666709,
+					"sid": 184304838336732,
 					"parameters": {
 						"instance-variable": "ShotsPerSecond",
 						"value": "2.5"
@@ -1239,17 +1239,17 @@
 				{
 					"id": "destroy",
 					"objectClass": "BubbleGun",
-					"sid": 154122169200762
+					"sid": 302195875711146
 				},
 				{
 					"id": "destroy",
 					"objectClass": "BubbleGun3",
-					"sid": 813996138575477
+					"sid": 311522488436409
 				},
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 214151093533822,
+					"sid": 880508564951892,
 					"parameters": {
 						"object-to-create": "BubbleGun2",
 						"layer": "0",
@@ -1262,7 +1262,7 @@
 				{
 					"id": "set-scale",
 					"objectClass": "BubbleGun2",
-					"sid": 431035277762832,
+					"sid": 569714736032116,
 					"parameters": {
 						"scale": "0.25"
 					}
@@ -1270,7 +1270,7 @@
 				{
 					"id": "pin-to-object-imagepoint",
 					"objectClass": "BubbleGun2",
-					"sid": 794088272910220,
+					"sid": 414215208911487,
 					"behaviorType": "Pin",
 					"parameters": {
 						"pin-to": "Player",
@@ -1284,7 +1284,7 @@
 				{
 					"id": "set-z-elevation",
 					"objectClass": "BubbleGun2",
-					"sid": 392515465330305,
+					"sid": 646273108836614,
 					"parameters": {
 						"z": "1"
 					}
@@ -1292,7 +1292,7 @@
 				{
 					"id": "set-collisions-enabled",
 					"objectClass": "Upgrade2",
-					"sid": 117220631549283,
+					"sid": 913357846120143,
 					"parameters": {
 						"collisions": "disabled"
 					}
@@ -1314,7 +1314,7 @@
 				{
 					"id": "is-boolean-instance-variable-set",
 					"objectClass": "Upgrade3",
-					"sid": 980187906045517,
+					"sid": 506888441229987,
 					"parameters": {
 						"instance-variable": "Unlocked"
 					}
@@ -1324,7 +1324,7 @@
 				{
 					"id": "set-instvar-value",
 					"objectClass": "Player",
-					"sid": 992454267793294,
+					"sid": 597713789689339,
 					"parameters": {
 						"instance-variable": "ShotsPerSecond",
 						"value": "4"
@@ -1333,17 +1333,17 @@
 				{
 					"id": "destroy",
 					"objectClass": "BubbleGun",
-					"sid": 463511662663754
+					"sid": 142792077894788
 				},
 				{
 					"id": "destroy",
 					"objectClass": "BubbleGun2",
-					"sid": 700424072535377
+					"sid": 264544187726816
 				},
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 518910693665854,
+					"sid": 336237573353885,
 					"parameters": {
 						"object-to-create": "BubbleGun3",
 						"layer": "0",
@@ -1356,7 +1356,7 @@
 				{
 					"id": "set-scale",
 					"objectClass": "BubbleGun3",
-					"sid": 102081999549214,
+					"sid": 277374975925235,
 					"parameters": {
 						"scale": ".25"
 					}
@@ -1364,7 +1364,7 @@
 				{
 					"id": "pin-to-object-imagepoint",
 					"objectClass": "BubbleGun3",
-					"sid": 434096963154653,
+					"sid": 420064953749445,
 					"behaviorType": "Pin",
 					"parameters": {
 						"pin-to": "Player",
@@ -1378,7 +1378,7 @@
 				{
 					"id": "set-z-elevation",
 					"objectClass": "BubbleGun3",
-					"sid": 125343672639817,
+					"sid": 971812782102245,
 					"parameters": {
 						"z": "1"
 					}
@@ -1458,7 +1458,7 @@
 						{
 							"id": "create-object",
 							"objectClass": "System",
-							"sid": 410158806605082,
+							"sid": 787373158586076,
 							"parameters": {
 								"object-to-create": "Particles2",
 								"layer": "0",
@@ -1581,7 +1581,7 @@
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "Enemy",
-							"sid": 818584286511593,
+							"sid": 508073862780263,
 							"parameters": {
 								"instance-variable": "Health",
 								"comparison": 3,
@@ -1593,7 +1593,7 @@
 						{
 							"id": "create-object",
 							"objectClass": "System",
-							"sid": 242159148652044,
+							"sid": 633744621927782,
 							"parameters": {
 								"object-to-create": "Particles2",
 								"layer": "0",
@@ -1606,7 +1606,7 @@
 						{
 							"id": "create-object-by-name",
 							"objectClass": "System",
-							"sid": 426929708835479,
+							"sid": 423598862391991,
 							"parameters": {
 								"object-name": "Enemy.CardName",
 								"layer": "0",
@@ -1619,12 +1619,12 @@
 						{
 							"id": "destroy",
 							"objectClass": "Enemy",
-							"sid": 778681624574241
+							"sid": 389330178051312
 						},
 						{
 							"id": "add-to-instvar",
 							"objectClass": "Player",
-							"sid": 500550442197443,
+							"sid": 333472353838538,
 							"parameters": {
 								"instance-variable": "Kills",
 								"value": "1"
@@ -1712,7 +1712,7 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Stinger",
-							"sid": 897989910262975,
+							"sid": 688222799058081,
 							"parameters": {
 								"object": "Player"
 							}
@@ -1720,7 +1720,7 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "BossBullet",
-							"sid": 216006281738851,
+							"sid": 894183069788096,
 							"parameters": {
 								"object": "Player"
 							}
@@ -1730,7 +1730,7 @@
 						{
 							"id": "subtract-from-eventvar",
 							"objectClass": "System",
-							"sid": 145450012650938,
+							"sid": 232152224806987,
 							"parameters": {
 								"variable": "PlayerHealth",
 								"value": "1"
@@ -1739,7 +1739,7 @@
 						{
 							"id": "set-effect-enabled",
 							"objectClass": "Player",
-							"sid": 428564751041301,
+							"sid": 881483553137088,
 							"parameters": {
 								"mode": "enable",
 								"effect": "\"Tint\""
@@ -1748,7 +1748,7 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 120263626920513,
+							"sid": 693680694407723,
 							"parameters": {
 								"seconds": "0.1"
 							}
@@ -1756,7 +1756,7 @@
 						{
 							"id": "set-effect-enabled",
 							"objectClass": "Player",
-							"sid": 314096880564942,
+							"sid": 842321207759934,
 							"parameters": {
 								"mode": "disable",
 								"effect": "\"Tint\""
@@ -1765,7 +1765,7 @@
 						{
 							"id": "set-width",
 							"objectClass": "HealthBar",
-							"sid": 878463580429143,
+							"sid": 947226724551838,
 							"parameters": {
 								"width": "PlayerHealth*30"
 							}
@@ -1773,15 +1773,15 @@
 						{
 							"id": "destroy",
 							"objectClass": "Stinger",
-							"sid": 442766681688727
+							"sid": 493851118714271
 						},
 						{
 							"id": "destroy",
 							"objectClass": "BossBullet",
-							"sid": 305763942496067
+							"sid": 957587494579472
 						}
 					],
-					"sid": 861113792527030,
+					"sid": 641702394013160,
 					"isOrBlock": true
 				},
 				{
@@ -1790,7 +1790,7 @@
 						{
 							"id": "compare-speed",
 							"objectClass": "Stinger",
-							"sid": 803104416165420,
+							"sid": 924822424920499,
 							"behaviorType": "Bullet",
 							"parameters": {
 								"comparison": 0,
@@ -1800,7 +1800,7 @@
 						{
 							"id": "compare-speed",
 							"objectClass": "BossBullet",
-							"sid": 326146901925586,
+							"sid": 730937814391319,
 							"behaviorType": "Bullet",
 							"parameters": {
 								"comparison": 0,
@@ -1812,15 +1812,15 @@
 						{
 							"id": "destroy",
 							"objectClass": "Stinger",
-							"sid": 182446694119280
+							"sid": 967350599196741
 						},
 						{
 							"id": "destroy",
 							"objectClass": "BossBullet",
-							"sid": 246930712085053
+							"sid": 287840781440703
 						}
 					],
-					"sid": 666134998371518,
+					"sid": 404549217306775,
 					"isOrBlock": true
 				}
 			],
@@ -1839,7 +1839,7 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Player",
-							"sid": 382812827579099,
+							"sid": 856060432949774,
 							"parameters": {
 								"object": "cowelKeyCard"
 							}
@@ -1849,7 +1849,7 @@
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
-							"sid": 282242207794768,
+							"sid": 580486683121179,
 							"parameters": {
 								"variable": "PlayerHealth",
 								"value": "15"
@@ -1858,7 +1858,7 @@
 						{
 							"id": "set-width",
 							"objectClass": "HealthBar",
-							"sid": 409405789548994,
+							"sid": 853652148562470,
 							"parameters": {
 								"width": "PlayerHealth*30"
 							}
@@ -1866,12 +1866,12 @@
 						{
 							"id": "destroy",
 							"objectClass": "cowelKeyCard",
-							"sid": 197243857188114
+							"sid": 574366955494330
 						},
 						{
 							"id": "set-enabled",
 							"objectClass": "lv1",
-							"sid": 971251600752338,
+							"sid": 685293990285032,
 							"behaviorType": "Solid",
 							"parameters": {
 								"state": "disabled"
@@ -1880,16 +1880,16 @@
 						{
 							"id": "destroy",
 							"objectClass": "lv1",
-							"sid": 186173799194090
+							"sid": 287055439713445
 						},
 						{
 							"id": "regenerate-obstacle-map",
 							"objectClass": "Enemy",
-							"sid": 805842530902801,
+							"sid": 600294727471460,
 							"behaviorType": "Pathfinding"
 						}
 					],
-					"sid": 361773654615110
+					"sid": 294517666028800
 				},
 				{
 					"eventType": "block",
@@ -1897,7 +1897,7 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Player",
-							"sid": 678144561363863,
+							"sid": 364824175581588,
 							"parameters": {
 								"object": "crownKeyCard"
 							}
@@ -1907,7 +1907,7 @@
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
-							"sid": 165764722109371,
+							"sid": 783361367423071,
 							"parameters": {
 								"variable": "PlayerHealth",
 								"value": "15"
@@ -1916,7 +1916,7 @@
 						{
 							"id": "set-width",
 							"objectClass": "HealthBar",
-							"sid": 889593758435876,
+							"sid": 412107404727890,
 							"parameters": {
 								"width": "PlayerHealth*30"
 							}
@@ -1924,12 +1924,12 @@
 						{
 							"id": "destroy",
 							"objectClass": "crownKeyCard",
-							"sid": 953047839064117
+							"sid": 147524512180386
 						},
 						{
 							"id": "set-enabled",
 							"objectClass": "bookstore",
-							"sid": 379371471456501,
+							"sid": 823009778448256,
 							"behaviorType": "Solid",
 							"parameters": {
 								"state": "disabled"
@@ -1938,7 +1938,7 @@
 						{
 							"id": "set-enabled",
 							"objectClass": "lv2",
-							"sid": 884146571035553,
+							"sid": 199935103272169,
 							"behaviorType": "Solid",
 							"parameters": {
 								"state": "disabled"
@@ -1947,30 +1947,30 @@
 						{
 							"id": "destroy",
 							"objectClass": "lv2",
-							"sid": 456029818740516
+							"sid": 384129469148408
 						},
 						{
 							"id": "destroy",
 							"objectClass": "bookstore",
-							"sid": 177499687602725
+							"sid": 648889556083201
 						},
 						{
 							"id": "regenerate-obstacle-map",
 							"objectClass": "Enemy",
-							"sid": 252955783962477,
+							"sid": 535480349704463,
 							"behaviorType": "Pathfinding"
 						},
 						{
 							"id": "set-boolean-instvar",
 							"objectClass": "Upgrade2",
-							"sid": 928258021227372,
+							"sid": 732042950258392,
 							"parameters": {
 								"instance-variable": "Unlocked",
 								"value": "true"
 							}
 						}
 					],
-					"sid": 103822480403608
+					"sid": 828317396390417
 				},
 				{
 					"eventType": "block",
@@ -1978,7 +1978,7 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Player",
-							"sid": 407862861360108,
+							"sid": 279029728780293,
 							"parameters": {
 								"object": "910ID"
 							}
@@ -1988,7 +1988,7 @@
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
-							"sid": 600351838001045,
+							"sid": 322269980631852,
 							"parameters": {
 								"variable": "PlayerHealth",
 								"value": "15"
@@ -1997,7 +1997,7 @@
 						{
 							"id": "set-width",
 							"objectClass": "HealthBar",
-							"sid": 584100152046180,
+							"sid": 697046254720893,
 							"parameters": {
 								"width": "PlayerHealth*30"
 							}
@@ -2005,12 +2005,12 @@
 						{
 							"id": "destroy",
 							"objectClass": "910ID",
-							"sid": 907839426271326
+							"sid": 258735597310054
 						},
 						{
 							"id": "set-enabled",
 							"objectClass": "lvl3",
-							"sid": 933330241272357,
+							"sid": 241234347929602,
 							"behaviorType": "Solid",
 							"parameters": {
 								"state": "disabled"
@@ -2019,25 +2019,25 @@
 						{
 							"id": "destroy",
 							"objectClass": "lvl3",
-							"sid": 988584835968870
+							"sid": 254496616018502
 						},
 						{
 							"id": "regenerate-obstacle-map",
 							"objectClass": "Enemy",
-							"sid": 281393984955557,
+							"sid": 720434460351333,
 							"behaviorType": "Pathfinding"
 						},
 						{
 							"id": "set-boolean-instvar",
 							"objectClass": "Upgrade3",
-							"sid": 672779849376977,
+							"sid": 841376180435679,
 							"parameters": {
 								"instance-variable": "Unlocked",
 								"value": "true"
 							}
 						}
 					],
-					"sid": 907101309544627
+					"sid": 196027165250745
 				},
 				{
 					"eventType": "block",
@@ -2045,7 +2045,7 @@
 						{
 							"id": "compare-two-values",
 							"objectClass": "System",
-							"sid": 808954498704616,
+							"sid": 839270986203066,
 							"parameters": {
 								"first-value": "Enemy.Count",
 								"comparison": 0,
@@ -2057,7 +2057,7 @@
 						{
 							"id": "create-object",
 							"objectClass": "System",
-							"sid": 563132316912243,
+							"sid": 666840387721074,
 							"parameters": {
 								"object-to-create": "SlugBoss",
 								"layer": "0",
@@ -2070,12 +2070,12 @@
 						{
 							"id": "destroy",
 							"objectClass": "BossSpawner",
-							"sid": 596098000754099
+							"sid": 725997421950542
 						},
 						{
 							"id": "create-object",
 							"objectClass": "System",
-							"sid": 831998133755548,
+							"sid": 189089381531665,
 							"parameters": {
 								"object-to-create": "Enemy",
 								"layer": "0",
@@ -2088,7 +2088,7 @@
 						{
 							"id": "set-enabled",
 							"objectClass": "Enemy",
-							"sid": 292818507580444,
+							"sid": 666815756553387,
 							"behaviorType": "MoveTo",
 							"parameters": {
 								"enabled": false
@@ -2097,7 +2097,7 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Enemy",
-							"sid": 960588030285603,
+							"sid": 677269085616277,
 							"parameters": {
 								"instance-variable": "Health",
 								"value": "100"
@@ -2106,7 +2106,7 @@
 						{
 							"id": "set-size",
 							"objectClass": "Enemy",
-							"sid": 848640141847012,
+							"sid": 530037424545610,
 							"parameters": {
 								"width": "SlugBoss.Width",
 								"height": "SlugBoss.Height"
@@ -2115,7 +2115,7 @@
 						{
 							"id": "pin-to-object-imagepoint",
 							"objectClass": "Enemy",
-							"sid": 702113321493561,
+							"sid": 954318527363564,
 							"behaviorType": "Pin",
 							"parameters": {
 								"pin-to": "SlugBoss",
@@ -2129,7 +2129,7 @@
 						{
 							"id": "add-child",
 							"objectClass": "Enemy",
-							"sid": 988481333823569,
+							"sid": 180162639944407,
 							"parameters": {
 								"child": "SlugBoss",
 								"transform-x": false,
@@ -2144,14 +2144,14 @@
 						{
 							"id": "set-max-speed",
 							"objectClass": "Enemy",
-							"sid": 489979773942332,
+							"sid": 660751414302453,
 							"behaviorType": "Pathfinding",
 							"parameters": {
 								"speed": "0"
 							}
 						}
 					],
-					"sid": 759443699789642
+					"sid": 649101916154892
 				},
 				{
 					"eventType": "block",
@@ -2159,7 +2159,7 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Player",
-							"sid": 757972546981302,
+							"sid": 902778831859326,
 							"parameters": {
 								"object": "Heart"
 							}
@@ -2169,7 +2169,7 @@
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
-							"sid": 544310739376141,
+							"sid": 750884102152604,
 							"parameters": {
 								"variable": "PlayerHealth",
 								"value": "15"
@@ -2178,18 +2178,18 @@
 						{
 							"id": "destroy",
 							"objectClass": "Heart",
-							"sid": 839280699162715
+							"sid": 474451879612057
 						},
 						{
 							"id": "set-width",
 							"objectClass": "HealthBar",
-							"sid": 270222781033406,
+							"sid": 841977606653711,
 							"parameters": {
 								"width": "PlayerHealth*30"
 							}
 						}
 					],
-					"sid": 502335325591828
+					"sid": 500148843622554
 				}
 			],
 			"sid": 769903946736739
@@ -2200,7 +2200,7 @@
 				{
 					"id": "on-path-found",
 					"objectClass": "SlugBoss",
-					"sid": 707650578587289,
+					"sid": 213367707642840,
 					"behaviorType": "Pathfinding"
 				}
 			],
@@ -2208,11 +2208,11 @@
 				{
 					"id": "move-along-path",
 					"objectClass": "SlugBoss",
-					"sid": 813087331657417,
+					"sid": 960049304614226,
 					"behaviorType": "Pathfinding"
 				}
 			],
-			"sid": 704687855984946
+			"sid": 693678160648312
 		},
 		{
 			"eventType": "block",
@@ -2220,7 +2220,7 @@
 				{
 					"id": "has-los-to-object",
 					"objectClass": "SlugBoss",
-					"sid": 490642865248385,
+					"sid": 838554695053234,
 					"behaviorType": "LineOfSight",
 					"parameters": {
 						"object": "Player",
@@ -2230,7 +2230,7 @@
 				{
 					"id": "every-x-seconds",
 					"objectClass": "System",
-					"sid": 230647129698189,
+					"sid": 746868062670964,
 					"parameters": {
 						"interval-seconds": "1"
 					}
@@ -2240,7 +2240,7 @@
 				{
 					"id": "find-path",
 					"objectClass": "SlugBoss",
-					"sid": 122101376702458,
+					"sid": 904916803300005,
 					"behaviorType": "Pathfinding",
 					"parameters": {
 						"x": "Player.X",
@@ -2248,7 +2248,7 @@
 					}
 				}
 			],
-			"sid": 783498297638234
+			"sid": 923443810276093
 		},
 		{
 			"eventType": "block",
@@ -2256,20 +2256,20 @@
 				{
 					"id": "on-destroyed",
 					"objectClass": "SlugBoss",
-					"sid": 499246088802074
+					"sid": 720222035699806
 				}
 			],
 			"actions": [
 				{
 					"id": "start-fade",
 					"objectClass": "DeathScreen",
-					"sid": 562058265172185,
+					"sid": 334680899426025,
 					"behaviorType": "Fade"
 				},
 				{
 					"id": "set-visible",
 					"objectClass": "DeathScreen",
-					"sid": 664865148246430,
+					"sid": 438279362610168,
 					"parameters": {
 						"visibility": "visible"
 					}
@@ -2277,13 +2277,13 @@
 				{
 					"id": "start-fade",
 					"objectClass": "EnemyFelled",
-					"sid": 778056700630760,
+					"sid": 886679857376315,
 					"behaviorType": "Fade"
 				},
 				{
 					"id": "set-visible",
 					"objectClass": "EnemyFelled",
-					"sid": 827595860325277,
+					"sid": 789219949041570,
 					"parameters": {
 						"visibility": "visible"
 					}
@@ -2291,13 +2291,13 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 879986018248219,
+					"sid": 524057244007016,
 					"parameters": {
 						"seconds": "8"
 					}
 				}
 			],
-			"sid": 213222062225447
+			"sid": 760547667612592
 		},
 		{
 			"eventType": "block",
@@ -2305,7 +2305,7 @@
 				{
 					"id": "every-x-seconds",
 					"objectClass": "System",
-					"sid": 410194881236568,
+					"sid": 999490997849748,
 					"parameters": {
 						"interval-seconds": "1.5"
 					}
@@ -2313,7 +2313,7 @@
 				{
 					"id": "has-los-to-object",
 					"objectClass": "SlugBoss",
-					"sid": 791802144348103,
+					"sid": 669242297391138,
 					"behaviorType": "LineOfSight",
 					"parameters": {
 						"object": "Player",
@@ -2325,7 +2325,7 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 277633976013828,
+					"sid": 337267213317652,
 					"parameters": {
 						"object-to-create": "BossBullet",
 						"layer": "0",
@@ -2338,7 +2338,7 @@
 				{
 					"id": "set-angle-toward-position",
 					"objectClass": "BossBullet",
-					"sid": 218994802123956,
+					"sid": 602160196264170,
 					"parameters": {
 						"x": "Player.X",
 						"y": "Player.Y"
@@ -2347,7 +2347,7 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 521300700023085,
+					"sid": 481829082742605,
 					"parameters": {
 						"object-to-create": "BossBullet",
 						"layer": "0",
@@ -2360,7 +2360,7 @@
 				{
 					"id": "set-angle",
 					"objectClass": "BossBullet",
-					"sid": 334230110334802,
+					"sid": 806158829050698,
 					"parameters": {
 						"angle": "angle(SlugBoss.X, SlugBoss.Y, Player.X, Player.Y)+15"
 					}
@@ -2368,7 +2368,7 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 815709587313939,
+					"sid": 772976220948960,
 					"parameters": {
 						"object-to-create": "BossBullet",
 						"layer": "0",
@@ -2381,13 +2381,13 @@
 				{
 					"id": "set-angle",
 					"objectClass": "BossBullet",
-					"sid": 983474079312999,
+					"sid": 978529611034404,
 					"parameters": {
 						"angle": "angle(SlugBoss.X, SlugBoss.Y, Player.X, Player.Y)-15"
 					}
 				}
 			],
-			"sid": 727247821758124
+			"sid": 497829617321015
 		},
 		{
 			"eventType": "block",
@@ -2395,7 +2395,7 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Bubble",
-					"sid": 869636038825626,
+					"sid": 829825242180146,
 					"parameters": {
 						"object": "BossBullet"
 					}
@@ -2405,19 +2405,19 @@
 				{
 					"id": "destroy",
 					"objectClass": "Bubble",
-					"sid": 817100772950882
+					"sid": 227713851490557
 				},
 				{
 					"id": "subtract-from-instvar",
 					"objectClass": "BossBullet",
-					"sid": 548535794684248,
+					"sid": 989742595093018,
 					"parameters": {
 						"instance-variable": "Health",
 						"value": "1"
 					}
 				}
 			],
-			"sid": 333083099092241
+			"sid": 455055686463931
 		},
 		{
 			"eventType": "block",
@@ -2425,7 +2425,7 @@
 				{
 					"id": "compare-instance-variable",
 					"objectClass": "BossBullet",
-					"sid": 959927306729907,
+					"sid": 666952726157229,
 					"parameters": {
 						"instance-variable": "Health",
 						"comparison": 0,
@@ -2437,10 +2437,10 @@
 				{
 					"id": "destroy",
 					"objectClass": "BossBullet",
-					"sid": 550759756479858
+					"sid": 652396749305989
 				}
 			],
-			"sid": 723923775214575
+			"sid": 120004080648663
 		}
 	],
 	"sid": 335250269904769

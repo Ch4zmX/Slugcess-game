@@ -83,8 +83,8 @@
 					"world": {
 						"x": 1182,
 						"y": 414.3037322892478,
-						"width": 89.9637581571669,
-						"height": 160.25122273566265,
+						"width": 36.413902111234215,
+						"height": 64.86359015491108,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -112,8 +112,8 @@
 					"world": {
 						"x": 1416,
 						"y": 107,
-						"width": 89.9637581571669,
-						"height": 181.6437581571669,
+						"width": 36.413902111234215,
+						"height": 73.52247353980565,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -141,8 +141,8 @@
 					"world": {
 						"x": 896,
 						"y": 313.98370922588873,
-						"width": 89.9637581571669,
-						"height": 361.2911766089444,
+						"width": 36.413902111234215,
+						"height": 146.23690481790607,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -307,10 +307,10 @@
 					"world": {
 						"x": 480,
 						"y": 454,
-						"width": 92.56418550194974,
-						"height": 89.02681684492656,
-						"originX": 0.5098924731182793,
-						"originY": 0.5521212121212121,
+						"width": 46.28209275097487,
+						"height": 46.293944759361814,
+						"originX": 0.6022468406948762,
+						"originY": 4.08509180877602,
 						"color": [
 							1,
 							1,
@@ -343,10 +343,10 @@
 					"world": {
 						"x": 718,
 						"y": 90,
-						"width": 98.37063711485297,
-						"height": 93.22262104073076,
-						"originX": 0.5098924731182793,
-						"originY": 0.5521212121212121,
+						"width": 49.185318557426484,
+						"height": 48.475762941179994,
+						"originX": 0.6022468406948762,
+						"originY": 4.08509180877602,
 						"color": [
 							1,
 							1,
@@ -358,7 +358,7 @@
 					}
 				},
 				{
-					"type": "longTable",
+					"type": "outsideTable",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -387,10 +387,10 @@
 					"world": {
 						"x": 623,
 						"y": 440,
-						"width": 116.65265788910511,
-						"height": 129.88130981467373,
-						"originX": 0.422680412371134,
-						"originY": 0.5277777777777778,
+						"width": 118.45656496986446,
+						"height": 43.89507229847769,
+						"originX": 0.3479200951777708,
+						"originY": 15.905539185180194,
 						"color": [
 							1,
 							1,
@@ -402,7 +402,7 @@
 					}
 				},
 				{
-					"type": "longTable",
+					"type": "outsideTable",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -431,10 +431,10 @@
 					"world": {
 						"x": 1071,
 						"y": 123,
-						"width": 116.65265788910511,
-						"height": 129.88130981467373,
-						"originX": 0.422680412371134,
-						"originY": 0.5277777777777778,
+						"width": 118.45656496986446,
+						"height": 43.89507229847769,
+						"originX": 0.3479200951777708,
+						"originY": 15.905539185180194,
 						"color": [
 							1,
 							1,
@@ -604,10 +604,10 @@
 					"world": {
 						"x": 2302,
 						"y": 147,
-						"width": 68.99275324264136,
-						"height": 68.99275324264136,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 73.68426046314097,
+						"height": 41.94759397152595,
+						"originX": 0.473612529792305,
+						"originY": 1.856907894736842,
 						"color": [
 							1,
 							1,
@@ -835,10 +835,10 @@
 					"world": {
 						"x": 451,
 						"y": 688,
-						"width": 87,
-						"height": 79,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 92.91599999999998,
+						"height": 48.032000000000004,
+						"originX": 0.473612529792305,
+						"originY": 1.856907894736842,
 						"color": [
 							1,
 							1,
@@ -1684,13 +1684,41 @@
 					},
 					"uid": 99,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Pathfinding": {
+							"properties": {
+								"cell-size": 30,
+								"cell-border": -1,
+								"obstacles": "solids",
+								"max-speed": 200,
+								"acceleration": 1000,
+								"deceleration": 2000,
+								"rotate-speed": 135,
+								"rotate-object": true,
+								"diagonals": true,
+								"enabled": true
+							}
+						},
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 10000,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
+						},
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 716,
 						"y": -579,
 						"width": 182.65867833498723,
 						"height": 153.13808385660545,
-						"originX": 0.494949494949495,
+						"originX": 0.505050505050505,
 						"originY": 0.5662650602409639,
 						"color": [
 							1,

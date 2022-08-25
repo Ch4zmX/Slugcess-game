@@ -1,0 +1,63 @@
+{
+	"name": "diningTableSmall",
+	"plugin-id": "Sprite",
+	"sid": 548207822218950,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 927377396319105
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 85,
+						"height": 88,
+						"originX": 0.5411764705882353,
+						"originY": 0.5568181818181818,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4841395,
+						"collisionPoly": {
+							"points": [
+								0.03529411764705882,
+								0.06818181818181818,
+								0.5411764705882353,
+								0.011363636363636364,
+								0.9764705882352941,
+								0.125,
+								0.9411764705882353,
+								0.5568181818181818,
+								0.9058823529411765,
+								0.9090909090909091,
+								0.5411764705882353,
+								0.9090909090909091,
+								0.15294117647058825,
+								0.9204545454545454,
+								0.03529411764705882,
+								0.5568181818181818
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 846884183810145,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

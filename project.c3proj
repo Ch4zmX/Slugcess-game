@@ -206,7 +206,7 @@
 			"bush",
 			"wall",
 			"table",
-			"longTable",
+			"outsideTable",
 			"volleyballNet",
 			"building",
 			"pathway",
@@ -267,13 +267,23 @@
 			"Sprite",
 			"WallSpawner",
 			"Particles2",
-			"DeadPlayer",
+			"outsideTable2",
+			"diningTableLong",
+			"diningTableSmall",
+			"GrassMid",
+			"GrassRM",
+			"GrassLM",
+			"GrassBM",
+			"GrassTM",
+			"GrassTL",
+			"GrassTR",
+			"GrassBR",
+			"GrassBL",
+			"invisibleLine",
+			"Heart",
 			"BossBullet",
-			"Sprite3",
-			"Text3",
-			"EnemyFelled",
 			"BossSpawner",
-			"Heart"
+			"EnemyFelled"
 		],
 		"subfolders": []
 	},
@@ -285,7 +295,8 @@
 	},
 	"layouts": {
 		"items": [
-			"start"
+			"start",
+			"Full Map"
 		],
 		"subfolders": []
 	},
