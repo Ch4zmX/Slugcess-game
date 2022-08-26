@@ -53,7 +53,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8427247,
+						"imageSpriteId": 3835254,
 						"collisionPoly": {
 							"points": [
 								0.17647058823529413,
@@ -78,7 +78,7 @@
 						"imagePoints": [
 							{
 								"name": "Gun",
-								"x": 0.11764705882352941,
+								"x": 0.7647058823529411,
 								"y": 0.6470588235294118
 							}
 						],
@@ -92,7 +92,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2174770,
+						"imageSpriteId": 8860684,
 						"collisionPoly": {
 							"points": [
 								0.17647058823529413,
@@ -117,7 +117,7 @@
 						"imagePoints": [
 							{
 								"name": "Gun",
-								"x": 0.11764705882352941,
+								"x": 0.7647058823529411,
 								"y": 0.6470588235294118
 							}
 						],
@@ -142,7 +142,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 213497,
+						"imageSpriteId": 7508513,
 						"collisionPoly": {
 							"points": [
 								0.3684210526315789,
@@ -181,7 +181,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4435963,
+						"imageSpriteId": 9614438,
 						"collisionPoly": {
 							"points": [
 								0.21428571428571427,
@@ -220,7 +220,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5771298,
+						"imageSpriteId": 6343902,
 						"collisionPoly": {
 							"points": [
 								0.25,
@@ -259,7 +259,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8986622,
+						"imageSpriteId": 9028457,
 						"collisionPoly": {
 							"points": [
 								0.3333333333333333,
@@ -298,7 +298,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5402271,
+						"imageSpriteId": 7508935,
 						"collisionPoly": {
 							"points": [
 								0.2,
@@ -337,7 +337,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9684102,
+						"imageSpriteId": 878912,
 						"collisionPoly": {
 							"points": [
 								0.3684210526315789,

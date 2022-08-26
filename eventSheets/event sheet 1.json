@@ -68,9 +68,9 @@
 						{
 							"id": "set-scale",
 							"objectClass": "BubbleGun",
-							"sid": 709864167924603,
+							"sid": 548050146201074,
 							"parameters": {
-								"scale": ".25"
+								"scale": "1.5"
 							}
 						},
 						{
@@ -220,10 +220,10 @@
 						{
 							"id": "set-max-speed",
 							"objectClass": "Enemy",
-							"sid": 677206812446654,
+							"sid": 444598482513271,
 							"behaviorType": "Pathfinding",
 							"parameters": {
-								"speed": "400"
+								"speed": "500"
 							}
 						},
 						{
@@ -251,6 +251,15 @@
 							"behaviorType": "LineOfSight",
 							"parameters": {
 								"obstacle": "Sprite2"
+							}
+						},
+						{
+							"id": "set-acceleration",
+							"objectClass": "Enemy",
+							"sid": 893840368193389,
+							"behaviorType": "Pathfinding",
+							"parameters": {
+								"acceleration": "500"
 							}
 						}
 					],
@@ -538,19 +547,19 @@
 						{
 							"id": "set-max-speed",
 							"objectClass": "Enemy",
-							"sid": 172786190712246,
+							"sid": 123599356537754,
 							"behaviorType": "Pathfinding",
 							"parameters": {
-								"speed": "180"
+								"speed": "300"
 							}
 						},
 						{
 							"id": "set-speed",
 							"objectClass": "Enemy",
-							"sid": 528144156564307,
+							"sid": 543532142206331,
 							"behaviorType": "Pathfinding",
 							"parameters": {
-								"speed": "180"
+								"speed": "200"
 							}
 						},
 						{
@@ -984,6 +993,90 @@
 						}
 					],
 					"sid": 585233602476853
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 994508887710755,
+							"parameters": {
+								"first-value": "Mouse.X",
+								"comparison": 2,
+								"second-value": "Player.X"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-flipped",
+							"objectClass": "BubbleGun",
+							"sid": 471403387930507,
+							"parameters": {
+								"state": "flipped"
+							}
+						},
+						{
+							"id": "set-flipped",
+							"objectClass": "BubbleGun2",
+							"sid": 422498231100097,
+							"parameters": {
+								"state": "flipped"
+							}
+						},
+						{
+							"id": "set-flipped",
+							"objectClass": "BubbleGun3",
+							"sid": 323773635559507,
+							"parameters": {
+								"state": "flipped"
+							}
+						}
+					],
+					"sid": 487353343336297
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 565105162267231,
+							"parameters": {
+								"first-value": "Mouse.X",
+								"comparison": 5,
+								"second-value": "Player.X"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-flipped",
+							"objectClass": "BubbleGun",
+							"sid": 779270081004286,
+							"parameters": {
+								"state": "not-flipped"
+							}
+						},
+						{
+							"id": "set-flipped",
+							"objectClass": "BubbleGun2",
+							"sid": 661995410885260,
+							"parameters": {
+								"state": "not-flipped"
+							}
+						},
+						{
+							"id": "set-flipped",
+							"objectClass": "BubbleGun3",
+							"sid": 107273759853523,
+							"parameters": {
+								"state": "not-flipped"
+							}
+						}
+					],
+					"sid": 608891519528152
 				}
 			],
 			"sid": 849698987995208
@@ -1051,12 +1144,34 @@
 			"actions": [
 				{
 					"id": "spawn-another-object",
-					"objectClass": "Player",
-					"sid": 313531013378416,
+					"objectClass": "BubbleGun",
+					"sid": 697745593822159,
 					"parameters": {
 						"object": "Bubble",
 						"layer": "0",
-						"image-point": "0",
+						"image-point": "\"Barrel\"",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "BubbleGun2",
+					"sid": 931519069405591,
+					"parameters": {
+						"object": "Bubble",
+						"layer": "0",
+						"image-point": "\"Barrel\"",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "BubbleGun3",
+					"sid": 326325241853679,
+					"parameters": {
+						"object": "Bubble",
+						"layer": "0",
+						"image-point": "\"Barrel\"",
 						"create-hierarchy": false
 					}
 				},
@@ -1274,10 +1389,10 @@
 				{
 					"id": "set-instvar-value",
 					"objectClass": "Player",
-					"sid": 184304838336732,
+					"sid": 337500213558736,
 					"parameters": {
 						"instance-variable": "ShotsPerSecond",
-						"value": "2.5"
+						"value": "2.25"
 					}
 				},
 				{
@@ -1306,9 +1421,9 @@
 				{
 					"id": "set-scale",
 					"objectClass": "BubbleGun2",
-					"sid": 569714736032116,
+					"sid": 382898503835842,
 					"parameters": {
-						"scale": "0.25"
+						"scale": "1.2"
 					}
 				},
 				{
@@ -1400,9 +1515,9 @@
 				{
 					"id": "set-scale",
 					"objectClass": "BubbleGun3",
-					"sid": 277374975925235,
+					"sid": 443198090126536,
 					"parameters": {
-						"scale": ".25"
+						"scale": "1.7"
 					}
 				},
 				{

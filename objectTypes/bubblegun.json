@@ -17,14 +17,14 @@
 			{
 				"frames": [
 					{
-						"width": 500,
-						"height": 500,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 27,
+						"height": 16,
+						"originX": 0.14814814814814814,
+						"originY": 0.875,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6048054,
+						"imageSpriteId": 1915098,
 						"collisionPoly": {
 							"points": [
 								0.75,
@@ -38,6 +38,18 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Handle",
+								"x": 0.14814814814814814,
+								"y": 0.875
+							},
+							{
+								"name": "Barrel",
+								"x": 1,
+								"y": 0.5
+							}
+						],
 						"duration": 1
 					}
 				],
