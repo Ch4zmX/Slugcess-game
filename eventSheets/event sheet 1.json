@@ -29,11 +29,19 @@
 					],
 					"actions": [
 						{
+							"id": "load",
+							"objectClass": "System",
+							"sid": 878925080137346,
+							"parameters": {
+								"slot": "\"Checkpoint\""
+							}
+						},
+						{
 							"id": "save",
 							"objectClass": "System",
-							"sid": 983024293886168,
+							"sid": 887927955709049,
 							"parameters": {
-								"slot": "\"Start\""
+								"slot": "\"Checkpoint\""
 							}
 						},
 						{
@@ -68,11 +76,11 @@
 						{
 							"id": "pin-to-object-imagepoint",
 							"objectClass": "BubbleGun",
-							"sid": 973683027061860,
+							"sid": 874163546007856,
 							"behaviorType": "Pin",
 							"parameters": {
 								"pin-to": "Player",
-								"image-point": "0",
+								"image-point": "\"Gun\"",
 								"angle": true,
 								"width-type": "no",
 								"height-type": "no",
@@ -756,6 +764,24 @@
 						}
 					],
 					"sid": 136353044767532
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "Enemy",
+							"sid": 517806959530368,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [],
+					"sid": 245470013948614
 				}
 			],
 			"sid": 932541798643036
@@ -1198,9 +1224,9 @@
 				{
 					"id": "load",
 					"objectClass": "System",
-					"sid": 897107452557310,
+					"sid": 402764008561775,
 					"parameters": {
-						"slot": "\"Start\""
+						"slot": "\"Checkpoint\""
 					}
 				}
 			],
@@ -1270,11 +1296,11 @@
 				{
 					"id": "pin-to-object-imagepoint",
 					"objectClass": "BubbleGun2",
-					"sid": 414215208911487,
+					"sid": 372683785099934,
 					"behaviorType": "Pin",
 					"parameters": {
 						"pin-to": "Player",
-						"image-point": "0",
+						"image-point": "\"Gun\"",
 						"angle": true,
 						"width-type": "no",
 						"height-type": "no",
@@ -1364,11 +1390,11 @@
 				{
 					"id": "pin-to-object-imagepoint",
 					"objectClass": "BubbleGun3",
-					"sid": 420064953749445,
+					"sid": 423792166488275,
 					"behaviorType": "Pin",
 					"parameters": {
 						"pin-to": "Player",
-						"image-point": "0",
+						"image-point": "\"Gun\"",
 						"angle": true,
 						"width-type": "no",
 						"height-type": "no",
@@ -2186,6 +2212,14 @@
 							"sid": 841977606653711,
 							"parameters": {
 								"width": "PlayerHealth*30"
+							}
+						},
+						{
+							"id": "save",
+							"objectClass": "System",
+							"sid": 324332272525052,
+							"parameters": {
+								"slot": "\"Checkpoint\""
 							}
 						}
 					],

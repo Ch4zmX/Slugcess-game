@@ -167,6 +167,14 @@
 			"bundled": false
 		},
 		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
 			"type": "effect",
 			"id": "tint",
 			"name": "Tint",
@@ -283,7 +291,8 @@
 			"Heart",
 			"BossBullet",
 			"BossSpawner",
-			"EnemyFelled"
+			"EnemyFelled",
+			"HealthBarMax"
 		],
 		"subfolders": []
 	},
