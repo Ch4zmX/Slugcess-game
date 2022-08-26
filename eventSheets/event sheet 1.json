@@ -325,10 +325,10 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Enemy",
-							"sid": 829075399512026,
+							"sid": 464333883941294,
 							"parameters": {
 								"instance-variable": "Health",
-								"value": "10"
+								"value": "5"
 							}
 						},
 						{
@@ -418,6 +418,24 @@
 							"parameters": {
 								"obstacle": "Sprite2"
 							}
+						},
+						{
+							"id": "set-active",
+							"objectClass": "Enemy",
+							"sid": 346888608095017,
+							"behaviorType": "Sine",
+							"parameters": {
+								"state": "inactive"
+							}
+						},
+						{
+							"id": "set-active",
+							"objectClass": "Enemy",
+							"sid": 219542728744563,
+							"behaviorType": "Sine2",
+							"parameters": {
+								"state": "inactive"
+							}
 						}
 					],
 					"sid": 600977409429258
@@ -491,10 +509,10 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Enemy",
-							"sid": 225622389282992,
+							"sid": 441169540961352,
 							"parameters": {
 								"instance-variable": "Health",
-								"value": "3"
+								"value": "2"
 							}
 						},
 						{
