@@ -88,30 +88,6 @@
 		},
 		{
 			"type": "behavior",
-			"id": "EightDir",
-			"name": "8 Direction",
-			"author": "Scirra",
-			"version": "r302",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "scrollto",
-			"name": "Scroll To",
-			"author": "Scirra",
-			"version": "r302",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "bound",
-			"name": "Bound to layout",
-			"author": "Scirra",
-			"version": "r302",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
 			"id": "Bullet",
 			"name": "Bullet",
 			"author": "Scirra",
@@ -175,6 +151,30 @@
 			"bundled": false
 		},
 		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direction",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "bound",
+			"name": "Bound to layout",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
 			"type": "effect",
 			"id": "tint",
 			"name": "Tint",
@@ -190,17 +190,11 @@
 			"Slug",
 			"Keyboard",
 			"Mouse",
-			"Player",
-			"BubbleGun",
 			"Bubble",
 			"Snail",
 			"YouDied",
 			"DeathScreen",
 			"stairwall",
-			"BubbleGun2",
-			"GunUpgrader",
-			"BubbleGun3",
-			"GunUpgrader2",
 			"Ant",
 			"Particles",
 			"Wasp",
@@ -216,7 +210,6 @@
 			"table",
 			"outsideTable",
 			"volleyballNet",
-			"building",
 			"pathway",
 			"crownKeyCard",
 			"gate",
@@ -241,7 +234,6 @@
 			"storeBeams2",
 			"bookstoreRoof",
 			"storeBackWall",
-			"upgradeSign",
 			"crownDiningHall",
 			"wall2",
 			"fountain",
@@ -268,9 +260,6 @@
 			"startGround",
 			"lv2",
 			"lv1",
-			"Upgrade2",
-			"Upgrade3",
-			"Upgrade1",
 			"Kills",
 			"Sprite",
 			"WallSpawner",
@@ -288,9 +277,30 @@
 			"GrassBR",
 			"GrassBL",
 			"invisibleLine",
-			"Heart",
-			"BossBullet",
+			"bush2",
+			"Sprite3",
+			"utensils",
+			"desserts",
+			"conveyor",
+			"pizza",
+			"restaurant",
+			"sign1",
+			"sign3",
+			"sign2",
+			"bossWall",
+			"sign4",
+			"Sprite4",
+			"titleScreen",
 			"BossSpawner",
+			"Upgrade1",
+			"Upgrade2",
+			"Upgrade3",
+			"Player",
+			"BubbleGun",
+			"BubbleGun2",
+			"BubbleGun3",
+			"BossBullet",
+			"Heart",
 			"EnemyFelled",
 			"HealthBarMax"
 		],
@@ -304,14 +314,15 @@
 	},
 	"layouts": {
 		"items": [
-			"start",
-			"Full Map"
+			"start screen",
+			"world"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Event sheet 1",
+			"Event sheet 2"
 		],
 		"subfolders": []
 	},
@@ -433,9 +444,9 @@
 		"zAxisScale": "normalized",
 		"fov": 0.7853981633974483,
 		"useLoaderLayout": false,
-		"fullscreenMode": "letterbox-scale",
+		"fullscreenMode": "scale-inner",
 		"fullscreenQuality": "high",
-		"viewportFit": "auto",
+		"viewportFit": "cover",
 		"backgroundColor": [
 			0,
 			0,
@@ -471,7 +482,7 @@
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https"
 	},
-	"viewportWidth": 854,
+	"viewportWidth": 700,
 	"viewportHeight": 480,
 	"firstLayout": null
 }

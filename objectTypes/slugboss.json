@@ -8,17 +8,12 @@
 		{
 			"behaviorId": "Pathfinding",
 			"name": "Pathfinding",
-			"sid": 325845445270327
+			"sid": 494769380445281
 		},
 		{
 			"behaviorId": "LOS",
 			"name": "LineOfSight",
-			"sid": 161654272401895
-		},
-		{
-			"behaviorId": "Pin",
-			"name": "Pin",
-			"sid": 701058607615713
+			"sid": 826254063948387
 		}
 	],
 	"effectTypes": [],
@@ -34,7 +29,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1947129,
+						"imageSpriteId": 8243738,
 						"collisionPoly": {
 							"points": [
 								0.8585858585858586,

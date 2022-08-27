@@ -1,26 +1,26 @@
 {
 	"name": "BossSpawner",
 	"plugin-id": "Sprite",
-	"sid": 428626982125090,
+	"sid": 335771433193413,
 	"isGlobal": false,
 	"instanceVariables": [
 		{
 			"name": "EnemyName",
 			"type": "string",
 			"desc": "",
-			"sid": 576887071799957
+			"sid": 814624507454694
 		},
 		{
 			"name": "DropsCard",
 			"type": "boolean",
 			"desc": "",
-			"sid": 960642458356505
+			"sid": 405198259909390
 		},
 		{
 			"name": "CardName",
 			"type": "string",
 			"desc": "",
-			"sid": 745371816354860
+			"sid": 257263383014381
 		}
 	],
 	"behaviorTypes": [],
@@ -37,12 +37,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9034022,
+						"imageSpriteId": 2811451,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 507052346854447,
+				"sid": 887692820066840,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

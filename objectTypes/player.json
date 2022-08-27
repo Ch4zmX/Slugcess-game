@@ -1,43 +1,43 @@
 {
 	"name": "Player",
 	"plugin-id": "Sprite",
-	"sid": 543395048267214,
+	"sid": 956331827575733,
 	"isGlobal": true,
 	"instanceVariables": [
 		{
 			"name": "Health",
 			"type": "number",
 			"desc": "",
-			"sid": 920953756641341
+			"sid": 405789294887152
 		},
 		{
 			"name": "Kills",
 			"type": "number",
 			"desc": "",
-			"sid": 312504591014797
+			"sid": 899951435401844
 		},
 		{
 			"name": "ShotsPerSecond",
 			"type": "number",
 			"desc": "1.333 is default bubble gun, 3 is bubble pistol, 5 is bubble assault rifle",
-			"sid": 816063868567920
+			"sid": 525517594058401
 		}
 	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "EightDir",
 			"name": "8Direction",
-			"sid": 998223234593080
+			"sid": 848956622757849
 		},
 		{
 			"behaviorId": "scrollto",
 			"name": "ScrollTo",
-			"sid": 531282731226082
+			"sid": 986134164512632
 		},
 		{
 			"behaviorId": "bound",
 			"name": "BoundToLayout",
-			"sid": 658380710634770
+			"sid": 154335119287609
 		}
 	],
 	"effectTypes": [],
@@ -53,7 +53,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3835254,
+						"imageSpriteId": 2225433,
 						"collisionPoly": {
 							"points": [
 								0.17647058823529413,
@@ -92,7 +92,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8860684,
+						"imageSpriteId": 6807220,
 						"collisionPoly": {
 							"points": [
 								0.17647058823529413,
@@ -124,7 +124,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 958459039819348,
+				"sid": 393343259384200,
 				"name": "Idle",
 				"isLooping": true,
 				"isPingPong": false,
@@ -142,7 +142,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7508513,
+						"imageSpriteId": 5247184,
 						"collisionPoly": {
 							"points": [
 								0.3684210526315789,
@@ -181,7 +181,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9614438,
+						"imageSpriteId": 4749696,
 						"collisionPoly": {
 							"points": [
 								0.21428571428571427,
@@ -220,7 +220,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6343902,
+						"imageSpriteId": 7245009,
 						"collisionPoly": {
 							"points": [
 								0.25,
@@ -259,7 +259,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9028457,
+						"imageSpriteId": 6845413,
 						"collisionPoly": {
 							"points": [
 								0.3333333333333333,
@@ -298,7 +298,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7508935,
+						"imageSpriteId": 9637045,
 						"collisionPoly": {
 							"points": [
 								0.2,
@@ -337,7 +337,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 878912,
+						"imageSpriteId": 171214,
 						"collisionPoly": {
 							"points": [
 								0.3684210526315789,
@@ -369,7 +369,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 964825230098195,
+				"sid": 681761064284956,
 				"name": "Walk",
 				"isLooping": true,
 				"isPingPong": false,

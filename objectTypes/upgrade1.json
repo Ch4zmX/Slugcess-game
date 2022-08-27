@@ -1,29 +1,66 @@
 {
 	"name": "Upgrade1",
 	"plugin-id": "Sprite",
-	"sid": 275440802962857,
+	"sid": 831126239920611,
 	"isGlobal": false,
-	"instanceVariables": [],
-	"behaviorTypes": [],
+	"instanceVariables": [
+		{
+			"name": "Unlocked",
+			"type": "boolean",
+			"desc": "",
+			"sid": 965609339614376
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 754987727624470
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 217,
-						"height": 81,
-						"originX": 0.004608294930875576,
-						"originY": 0.49382716049382713,
+						"width": 27,
+						"height": 16,
+						"originX": 0.14814814814814814,
+						"originY": 0.875,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9275148,
+						"imageSpriteId": 123508,
+						"collisionPoly": {
+							"points": [
+								0.75,
+								0.25,
+								0.75,
+								0.75,
+								0.25,
+								0.75,
+								0.25,
+								0.25
+							]
+						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Handle",
+								"x": 0.14814814814814814,
+								"y": 0.875
+							},
+							{
+								"name": "Barrel",
+								"x": 1,
+								"y": 0.5
+							}
+						],
 						"duration": 1
 					}
 				],
-				"sid": 893137052751611,
+				"sid": 867305582538500,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

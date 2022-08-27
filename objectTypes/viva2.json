@@ -4,31 +4,37 @@
 	"sid": 926159253876246,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 538014015394791
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 252,
-						"height": 98,
+						"width": 415,
+						"height": 90,
 						"originX": 0.5,
-						"originY": 1.2857142857142858,
+						"originY": 1.268633540372671,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6803478,
+						"imageSpriteId": 3546783,
 						"collisionPoly": {
 							"points": [
-								0.003968253968253968,
-								0.01020408163265306,
-								0.996031746031746,
-								0.01020408163265306,
-								0.996031746031746,
-								1,
-								0.003968253968253968,
-								1
+								0.006347303109893038,
+								0.02085181898846495,
+								0.993652696890107,
+								0.02085181898846495,
+								0.993652696890107,
+								0.9891304347826086,
+								0.006347303109893038,
+								0.9891304347826086
 							]
 						},
 						"useCollisionPoly": true,

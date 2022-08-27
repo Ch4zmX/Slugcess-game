@@ -1,0 +1,63 @@
+{
+	"name": "pizza",
+	"plugin-id": "Sprite",
+	"sid": 798239912547776,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 824652568742917
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 118,
+						"height": 623,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6405573,
+						"collisionPoly": {
+							"points": [
+								0.00847457627118644,
+								0.0016051364365971107,
+								0.5,
+								0.0016051364365971107,
+								0.9830508474576272,
+								0.0016051364365971107,
+								0.9830508474576272,
+								0.5,
+								0.9830508474576272,
+								0.9967897271268058,
+								0.5,
+								0.9967897271268058,
+								0.00847457627118644,
+								0.9967897271268058,
+								0.06779661016949153,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 351242150082927,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

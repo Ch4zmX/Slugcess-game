@@ -1,0 +1,63 @@
+{
+	"name": "sign1",
+	"plugin-id": "Sprite",
+	"sid": 273641331415224,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 603159900811474
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 101,
+						"height": 170,
+						"originX": 0.5,
+						"originY": 0.5235294117647059,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9375622,
+						"collisionPoly": {
+							"points": [
+								0.10891089108910891,
+								0.21176470588235294,
+								0.5,
+								0.08823529411764706,
+								0.900990099009901,
+								0.2,
+								0.46534653465346537,
+								0.5235294117647059,
+								0.46534653465346537,
+								0.5823529411764706,
+								0.5,
+								0.4,
+								0.37623762376237624,
+								0.6705882352941176,
+								0.37623762376237624,
+								0.5235294117647059
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 932423514138581,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

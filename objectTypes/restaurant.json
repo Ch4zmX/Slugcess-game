@@ -1,0 +1,63 @@
+{
+	"name": "restaurant",
+	"plugin-id": "Sprite",
+	"sid": 626914323247094,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 756569495642646
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 502,
+						"height": 328,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7868977,
+						"collisionPoly": {
+							"points": [
+								0.007920635548500945,
+								0.012084033928161299,
+								0.5,
+								0.012084033928161299,
+								0.9881427295358872,
+								0.015077383413264605,
+								0.7361980949367196,
+								0.5,
+								0.9901110469936931,
+								0.9849226165867354,
+								0.5,
+								0.9849226165867354,
+								0.007920635548500945,
+								0.9849226165867354,
+								0.007920635548500945,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 889316291041479,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

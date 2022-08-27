@@ -1,0 +1,63 @@
+{
+	"name": "conveyor",
+	"plugin-id": "Sprite",
+	"sid": 952226794194017,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 924743111137597
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 248,
+						"height": 33,
+						"originX": 0.5,
+						"originY": 0.13636363636363635,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5386295,
+						"collisionPoly": {
+							"points": [
+								0.10080645161290322,
+								0.030303030303030304,
+								0.5,
+								0.030303030303030304,
+								0.8951612903225806,
+								0.030303030303030304,
+								0.9919354838709677,
+								0.13636363636363635,
+								0.9919354838709677,
+								0.9393939393939394,
+								0.5,
+								0.9393939393939394,
+								0.004032258064516129,
+								0.9393939393939394,
+								0.004032258064516129,
+								0.13636363636363635
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 841091450021909,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

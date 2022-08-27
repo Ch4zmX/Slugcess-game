@@ -1,0 +1,63 @@
+{
+	"name": "desserts",
+	"plugin-id": "Sprite",
+	"sid": 331305356642420,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 216954523731708
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 116,
+						"height": 371,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9152810,
+						"collisionPoly": {
+							"points": [
+								0.00847457627118644,
+								0.002680965147453083,
+								0.5,
+								0.002680965147453083,
+								0.9830508474576272,
+								0.002680965147453083,
+								0.9830508474576272,
+								0.5,
+								0.9830508474576272,
+								0.9946380697050938,
+								0.5,
+								0.9946380697050938,
+								0.00847457627118644,
+								0.9946380697050938,
+								0.00847457627118644,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 314224398940179,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

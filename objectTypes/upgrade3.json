@@ -1,36 +1,62 @@
 {
 	"name": "Upgrade3",
 	"plugin-id": "Sprite",
-	"sid": 137952394555698,
+	"sid": 581523712971542,
 	"isGlobal": false,
 	"instanceVariables": [
 		{
 			"name": "Unlocked",
 			"type": "boolean",
 			"desc": "",
-			"sid": 400494304355832
+			"sid": 395710882530275
 		}
 	],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 744571053953281
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 28,
+						"height": 9,
+						"originX": 0.15457142857142858,
+						"originY": 0.5653333333333334,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8004650,
+						"imageSpriteId": 4018977,
+						"collisionPoly": {
+							"points": [
+								0.43685714285714283,
+								0.4471111111111111,
+								0.5,
+								0.4408888888888889,
+								0.5204285714285715,
+								0.48133333333333334,
+								0.7321428571428571,
+								0.5,
+								0.5297142857142857,
+								0.524888888888889,
+								0.5,
+								0.5233333333333333,
+								0.4721428571428571,
+								0.5217777777777778,
+								0.29014285714285715,
+								0.5
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 615679298936720,
+				"sid": 138779681858729,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

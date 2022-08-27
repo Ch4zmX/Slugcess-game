@@ -1,7 +1,7 @@
 {
 	"name": "Heart",
 	"plugin-id": "Sprite",
-	"sid": 886821723537845,
+	"sid": 839442299758447,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8781163,
+						"imageSpriteId": 3358432,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 356023447346510,
+				"sid": 863178483974950,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

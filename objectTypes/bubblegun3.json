@@ -1,14 +1,14 @@
 {
 	"name": "BubbleGun3",
 	"plugin-id": "Sprite",
-	"sid": 186278042118388,
+	"sid": 130549703718700,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Pin",
 			"name": "Pin",
-			"sid": 933882270111755
+			"sid": 866694095491593
 		}
 	],
 	"effectTypes": [],
@@ -24,7 +24,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8460047,
+						"imageSpriteId": 4128787,
 						"collisionPoly": {
 							"points": [
 								0.43685714285714283,
@@ -49,7 +49,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 683016167534952,
+				"sid": 351565393947087,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
