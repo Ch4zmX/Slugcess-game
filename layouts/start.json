@@ -11502,12 +11502,12 @@
 					"instanceVariables": {
 						"Health": 5,
 						"Kills": 0,
-						"ShotsPerSecond": 1
+						"ShotsPerSecond": 100
 					},
 					"behaviors": {
 						"8Direction": {
 							"properties": {
-								"max-speed": 300,
+								"max-speed": 600,
 								"acceleration": 1000000000000000,
 								"deceleration": 1000000000000000,
 								"directions": "dir-8",
@@ -12077,6 +12077,83 @@
 					}
 				},
 				{
+					"type": "Upgrader",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 271,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 4519.8876953125,
+						"y": 4487.556640625,
+						"width": 27,
+						"height": 16,
+						"originX": 0.14814814814814814,
+						"originY": 0.875,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text3",
+					"properties": {
+						"text": "The Slug Boss has spawned! Go to science hill down the road from spawn and slay the enemy!",
+						"enable-bbcode": true,
+						"font": "Garamond Premier",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 266,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 254.14905231669667,
+						"y": 91.04035185652018,
+						"width": 343.78853012856575,
+						"height": 115.86426759843098,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "HealthBarMax",
 					"properties": {
 						"initially-visible": true,
@@ -12192,11 +12269,11 @@
 						},
 						"Anchor": {
 							"properties": {
-								"left-edge": "window-left",
-								"top-edge": "window-top",
+								"left-edge": "none",
+								"top-edge": "none",
 								"right-edge": "none",
 								"bottom-edge": "none",
-								"enabled": true
+								"enabled": false
 							}
 						}
 					},
@@ -12204,7 +12281,7 @@
 						"x": -15,
 						"y": 182,
 						"width": 2077,
-						"height": 104.68934904763,
+						"height": 92.1238957074025,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -12212,6 +12289,73 @@
 							0,
 							0,
 							0.65
+						],
+						"angle": 0,
+						"zElevation": 1
+					}
+				},
+				{
+					"type": "EnemyFelled",
+					"properties": {
+						"text": "ENEMY FELLED",
+						"enable-bbcode": true,
+						"font": "Times New Roman",
+						"size": 50,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0.9411764705882353,
+							0.9176470588235294,
+							0.2196078431372549,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 44,
+					"instanceVariables": {},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 3,
+								"wait-time": 3,
+								"fade-out-time": 1,
+								"destroy": true,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Tween": {
+							"properties": {
+								"enabled": false
+							}
+						},
+						"Anchor": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "window-right",
+								"bottom-edge": "window-bottom",
+								"enabled": false
+							}
+						}
+					},
+					"world": {
+						"x": 155,
+						"y": 192,
+						"width": 507.0476339709176,
+						"height": 89.74719483448304,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
 						],
 						"angle": 0,
 						"zElevation": 2
@@ -12263,81 +12407,14 @@
 								"top-edge": "window-top",
 								"right-edge": "window-right",
 								"bottom-edge": "window-bottom",
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 280,
-						"y": 191,
-						"width": 321.44497897061103,
-						"height": 89.74719483448304,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 2
-					}
-				},
-				{
-					"type": "EnemyFelled",
-					"properties": {
-						"text": "ENEMY FELLED",
-						"enable-bbcode": true,
-						"font": "Times New Roman",
-						"size": 50,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0.9411764705882353,
-							0.9176470588235294,
-							0.2196078431372549,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 44,
-					"instanceVariables": {},
-					"behaviors": {
-						"Fade": {
-							"properties": {
-								"fade-in-time": 3,
-								"wait-time": 3,
-								"fade-out-time": 1,
-								"destroy": true,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
-						"Tween": {
-							"properties": {
 								"enabled": false
 							}
-						},
-						"Anchor": {
-							"properties": {
-								"left-edge": "window-left",
-								"top-edge": "window-top",
-								"right-edge": "window-right",
-								"bottom-edge": "window-bottom",
-								"enabled": true
-							}
 						}
 					},
 					"world": {
-						"x": 150,
-						"y": 190,
-						"width": 589.7380824188871,
+						"x": 152.85725308660116,
+						"y": 188.9999765019066,
+						"width": 327.7122738656799,
 						"height": 89.74719483448304,
 						"originX": 0,
 						"originY": 0,

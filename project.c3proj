@@ -302,7 +302,11 @@
 			"BossBullet",
 			"Heart",
 			"EnemyFelled",
-			"HealthBarMax"
+			"HealthBarMax",
+			"cowell",
+			"crown",
+			"nine",
+			"Text3"
 		],
 		"subfolders": []
 	},
@@ -446,7 +450,7 @@
 		"useLoaderLayout": false,
 		"fullscreenMode": "scale-inner",
 		"fullscreenQuality": "high",
-		"viewportFit": "cover",
+		"viewportFit": "auto",
 		"backgroundColor": [
 			0,
 			0,
@@ -484,5 +488,5 @@
 	},
 	"viewportWidth": 700,
 	"viewportHeight": 480,
-	"firstLayout": null
+	"firstLayout": "start screen"
 }

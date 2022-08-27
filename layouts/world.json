@@ -8200,8 +8200,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1382,
-						"y": 2765,
+						"x": 2253.304295375132,
+						"y": 2479.196049753247,
 						"width": 76.64758491124996,
 						"height": 132.25465631745092,
 						"originX": 0.6176470588235294,
@@ -8498,49 +8498,35 @@
 					}
 				},
 				{
-					"type": "Player",
+					"type": "cowell",
 					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Idle",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
+						"text": "Nice, now I can access Cowell and Stevenson!",
+						"enable-bbcode": true,
+						"font": "Ink Free",
+						"size": 13,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
 					},
-					"uid": 13,
-					"instanceVariables": {
-						"Health": 5,
-						"Kills": 0,
-						"ShotsPerSecond": 1
-					},
-					"behaviors": {
-						"8Direction": {
-							"properties": {
-								"max-speed": 300,
-								"acceleration": 1000000000000000,
-								"deceleration": 1000000000000000,
-								"directions": "dir-8",
-								"set-angle": "no",
-								"allow-sliding": true,
-								"default-controls": false,
-								"enabled": true
-							}
-						},
-						"ScrollTo": {
-							"properties": {
-								"enabled": true
-							}
-						},
-						"BoundToLayout": {
-							"properties": {
-								"bound-by": "edge"
-							}
-						}
-					},
+					"uid": 39,
+					"instanceVariables": {},
+					"behaviors": {},
 					"world": {
-						"x": 4468,
-						"y": 2702,
-						"width": 45.3985003591957,
-						"height": 80.95831643002086,
+						"x": 4598.110746708556,
+						"y": 2638.8229226751537,
+						"width": 348.6827324618589,
+						"height": 30,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -8550,43 +8536,93 @@
 							1
 						],
 						"angle": 0,
-						"zElevation": 1
+						"zElevation": 0
 					}
-				}
-			],
-			"sid": 733180514478962,
-			"effectTypes": [],
-			"isInitiallyVisible": true,
-			"isInitiallyInteractive": true,
-			"color": [
-				1,
-				1,
-				1,
-				1
-			],
-			"backgroundColor": [
-				1,
-				1,
-				1,
-				1
-			],
-			"isTransparent": false,
-			"parallaxX": 1,
-			"parallaxY": 1,
-			"scaleRate": 1,
-			"forceOwnTexture": false,
-			"renderingMode": "3d",
-			"drawOrder": "z-order",
-			"useRenderCells": false,
-			"blendMode": "normal",
-			"zElevation": 0,
-			"global": false
-		},
-		{
-			"name": "Layer 1",
-			"overriden": 0,
-			"subLayers": [],
-			"instances": [
+				},
+				{
+					"type": "crown",
+					"properties": {
+						"text": "Another ID card! This will take me to Crown and Merrill! ",
+						"enable-bbcode": true,
+						"font": "Ink Free",
+						"size": 13,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 40,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 6383,
+						"y": 2756,
+						"width": 331.12984685960055,
+						"height": 45.487784631443446,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "nine",
+					"properties": {
+						"text": "Wow, another one? People need to keep a closer eye on their cards. I think this one will open up college 9 and 10.",
+						"enable-bbcode": true,
+						"font": "Ink Free",
+						"size": 13,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 41,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 5902.883003749971,
+						"y": 2281.57305696856,
+						"width": 346.61763149104263,
+						"height": 73.36579696804233,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
 				{
 					"type": "Spawner",
 					"properties": {
@@ -12350,148 +12386,6 @@
 					}
 				},
 				{
-					"type": "crownKeyCard",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 43,
-					"instanceVariables": {},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 2310,
-						"y": -355,
-						"width": 72.1448217843722,
-						"height": 41.07120940533547,
-						"originX": 0.473612529792305,
-						"originY": 1.856907894736842,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "910ID",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 45,
-					"instanceVariables": {},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 2119,
-						"y": -340,
-						"width": 66.13120470012896,
-						"height": 37.647726934671454,
-						"originX": 0.3625853059170109,
-						"originY": 2.4565515350877196,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Heart",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 70,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1314,
-						"y": -513,
-						"width": 48.44367662728139,
-						"height": 45.82509951229321,
-						"originX": 0.5135135135135135,
-						"originY": 0.32,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "BossBullet",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 71,
-					"instanceVariables": {
-						"Health": 3
-					},
-					"behaviors": {
-						"Bullet": {
-							"properties": {
-								"speed": 500,
-								"acceleration": -50,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 1442,
-						"y": -558,
-						"width": 32.60984199813598,
-						"height": 32.60984199813598,
-						"originX": 1.5,
-						"originY": 0.6875,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Spawner",
 					"properties": {
 						"initially-visible": false,
@@ -12646,6 +12540,271 @@
 						"height": 56.435804238089844,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawner",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 32,
+					"instanceVariables": {
+						"EnemyName": "Wasp",
+						"DropsCard": false,
+						"CardName": "Heart"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2323,
+						"y": 442,
+						"width": 56.435804238089844,
+						"height": 56.435804238089844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Player",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 13,
+					"instanceVariables": {
+						"Health": 5,
+						"Kills": 0,
+						"ShotsPerSecond": 100
+					},
+					"behaviors": {
+						"8Direction": {
+							"properties": {
+								"max-speed": 800,
+								"acceleration": 1000000000000000,
+								"deceleration": 1000000000000000,
+								"directions": "dir-8",
+								"set-angle": "no",
+								"allow-sliding": true,
+								"default-controls": false,
+								"enabled": true
+							}
+						},
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
+							}
+						},
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						}
+					},
+					"world": {
+						"x": 4468,
+						"y": 2702,
+						"width": 45.3985003591957,
+						"height": 80.95831643002086,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 1
+					}
+				}
+			],
+			"sid": 733180514478962,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "Layer 1",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "crownKeyCard",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 43,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 2310,
+						"y": -355,
+						"width": 72.1448217843722,
+						"height": 41.07120940533547,
+						"originX": 0.473612529792305,
+						"originY": 1.856907894736842,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "910ID",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 45,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 2119,
+						"y": -340,
+						"width": 66.13120470012896,
+						"height": 37.647726934671454,
+						"originX": 0.3625853059170109,
+						"originY": 2.4565515350877196,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Heart",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 70,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1314,
+						"y": -513,
+						"width": 48.44367662728139,
+						"height": 45.82509951229321,
+						"originX": 0.5135135135135135,
+						"originY": 0.32,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "BossBullet",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 71,
+					"instanceVariables": {
+						"Health": 3
+					},
+					"behaviors": {
+						"Bullet": {
+							"properties": {
+								"speed": 500,
+								"acceleration": -50,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 1442,
+						"y": -558,
+						"width": 32.60984199813598,
+						"height": 32.60984199813598,
+						"originX": 1.5,
+						"originY": 0.6875,
 						"color": [
 							1,
 							1,
@@ -13025,13 +13184,13 @@
 						"Pathfinding": {
 							"properties": {
 								"cell-size": 30,
-								"cell-border": -1,
+								"cell-border": 50,
 								"obstacles": "solids",
 								"max-speed": 200,
 								"acceleration": 1000,
 								"deceleration": 2000,
 								"rotate-speed": 135,
-								"rotate-object": true,
+								"rotate-object": false,
 								"diagonals": true,
 								"enabled": true
 							}
@@ -13049,9 +13208,9 @@
 						"x": 1641,
 						"y": -619,
 						"width": 266.33966369888464,
-						"height": 223.29486956573155,
+						"height": 263.64936406556257,
 						"originX": 0.505050505050505,
-						"originY": 0.5662650602409639,
+						"originY": 0.47959183673469397,
 						"color": [
 							1,
 							1,
@@ -13149,28 +13308,37 @@
 					}
 				},
 				{
-					"type": "Spawner",
+					"type": "Text3",
 					"properties": {
+						"text": "The Slug Boss has spawned! Go to science hill down the road from spawn and slay the enemy!",
+						"enable-bbcode": true,
+						"font": "Garamond Premier",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
 						"initially-visible": false,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
+						"origin": "top-left"
 					},
-					"uid": 32,
-					"instanceVariables": {
-						"EnemyName": "Wasp",
-						"DropsCard": false,
-						"CardName": "Heart"
-					},
+					"uid": 279,
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 2323,
-						"y": 442,
-						"width": 56.435804238089844,
-						"height": 56.435804238089844,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 132.67975318493347,
+						"y": 91.54744115792602,
+						"width": 343.78853012856575,
+						"height": 115.86426759843098,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -13209,9 +13377,9 @@
 						}
 					},
 					"world": {
-						"x": 250,
+						"x": 225,
 						"y": 25,
-						"width": 450,
+						"width": 400,
 						"height": 25,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -13253,9 +13421,9 @@
 						}
 					},
 					"world": {
-						"x": 250,
+						"x": 225,
 						"y": 25,
-						"width": 450,
+						"width": 400,
 						"height": 25,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -13301,7 +13469,7 @@
 								"top-edge": "window-top",
 								"right-edge": "none",
 								"bottom-edge": "none",
-								"enabled": true
+								"enabled": false
 							}
 						}
 					},
@@ -13368,15 +13536,15 @@
 								"top-edge": "window-top",
 								"right-edge": "window-right",
 								"bottom-edge": "window-bottom",
-								"enabled": true
+								"enabled": false
 							}
 						}
 					},
 					"world": {
-						"x": 205.3248603853636,
-						"y": 185.9543834988759,
+						"x": 222.39899979598687,
+						"y": 204.73672069344718,
 						"width": 321.44497897061103,
-						"height": 89.74719483448304,
+						"height": 71.98843220320653,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -13435,13 +13603,13 @@
 								"top-edge": "window-top",
 								"right-edge": "window-right",
 								"bottom-edge": "window-bottom",
-								"enabled": true
+								"enabled": false
 							}
 						}
 					},
 					"world": {
-						"x": 66.57978228325675,
-						"y": 186.8129219520415,
+						"x": 83,
+						"y": 198,
 						"width": 589.7380824188871,
 						"height": 89.74719483448304,
 						"originX": 0,

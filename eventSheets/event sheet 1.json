@@ -5,7 +5,7 @@
 			"eventType": "variable",
 			"name": "PlayerHealth",
 			"type": "number",
-			"initialValue": "15",
+			"initialValue": "20",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -47,9 +47,9 @@
 						{
 							"id": "set-width",
 							"objectClass": "HealthBar",
-							"sid": 339531779567388,
+							"sid": 420919234978371,
 							"parameters": {
-								"width": "PlayerHealth*30"
+								"width": "PlayerHealth*20"
 							}
 						},
 						{
@@ -98,28 +98,19 @@
 						{
 							"id": "set-position",
 							"objectClass": "YouDied",
-							"sid": 479135010985301,
+							"sid": 416575161502054,
 							"parameters": {
 								"x": "(ViewportWidth(0) - self.Width)/2",
-								"y": "(ViewportHeight(0) - self.Height)/2"
+								"y": "(ViewportHeight(0))/2"
 							}
 						},
 						{
 							"id": "set-position",
 							"objectClass": "EnemyFelled",
-							"sid": 251285471799474,
+							"sid": 714953622463380,
 							"parameters": {
 								"x": "(ViewportWidth(0) - self.Width)/2",
-								"y": "(ViewportHeight(0) - self.Height)/2"
-							}
-						},
-						{
-							"id": "set-position",
-							"objectClass": "DeathScreen",
-							"sid": 396350878915617,
-							"parameters": {
-								"x": "(ViewportWidth(0) - self.Width)/2",
-								"y": "(ViewportHeight(0) - self.Height)/2"
+								"y": "(ViewportHeight(0))/2"
 							}
 						}
 					],
@@ -1234,9 +1225,9 @@
 				{
 					"id": "every-x-seconds",
 					"objectClass": "System",
-					"sid": 693755920933333,
+					"sid": 543861488094615,
 					"parameters": {
-						"interval-seconds": "0.3"
+						"interval-seconds": ".18"
 					}
 				}
 			],
@@ -1279,9 +1270,9 @@
 				{
 					"id": "set-width",
 					"objectClass": "HealthBar",
-					"sid": 468140260177045,
+					"sid": 936067829490017,
 					"parameters": {
-						"width": "PlayerHealth*30"
+						"width": "PlayerHealth*20"
 					}
 				}
 			],
@@ -1492,10 +1483,10 @@
 				{
 					"id": "set-instvar-value",
 					"objectClass": "Player",
-					"sid": 405102597607019,
+					"sid": 515536297759637,
 					"parameters": {
 						"instance-variable": "ShotsPerSecond",
-						"value": "4"
+						"value": "3"
 					}
 				},
 				{
@@ -1898,10 +1889,10 @@
 						{
 							"id": "subtract-from-eventvar",
 							"objectClass": "System",
-							"sid": 270892499731713,
+							"sid": 550481507780293,
 							"parameters": {
 								"variable": "PlayerHealth",
-								"value": "1"
+								"value": "2"
 							}
 						},
 						{
@@ -1933,9 +1924,9 @@
 						{
 							"id": "set-width",
 							"objectClass": "HealthBar",
-							"sid": 744756427422485,
+							"sid": 646624321919756,
 							"parameters": {
-								"width": "PlayerHealth*30"
+								"width": "PlayerHealth*20"
 							}
 						},
 						{
@@ -2017,18 +2008,18 @@
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
-							"sid": 724220575696719,
+							"sid": 760118072238365,
 							"parameters": {
 								"variable": "PlayerHealth",
-								"value": "15"
+								"value": "20"
 							}
 						},
 						{
 							"id": "set-width",
 							"objectClass": "HealthBar",
-							"sid": 844453793062260,
+							"sid": 330097939160875,
 							"parameters": {
-								"width": "PlayerHealth*30"
+								"width": "PlayerHealth*20"
 							}
 						},
 						{
@@ -2055,6 +2046,14 @@
 							"objectClass": "Enemy",
 							"sid": 261844455424996,
 							"behaviorType": "Pathfinding"
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "cowell",
+							"sid": 794726927232610,
+							"parameters": {
+								"visibility": "visible"
+							}
 						}
 					],
 					"sid": 331365808680937
@@ -2075,18 +2074,18 @@
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
-							"sid": 787066969925769,
+							"sid": 913725118132884,
 							"parameters": {
 								"variable": "PlayerHealth",
-								"value": "15"
+								"value": "20"
 							}
 						},
 						{
 							"id": "set-width",
 							"objectClass": "HealthBar",
-							"sid": 496584022868835,
+							"sid": 438252840738778,
 							"parameters": {
-								"width": "PlayerHealth*30"
+								"width": "PlayerHealth*20"
 							}
 						},
 						{
@@ -2136,6 +2135,14 @@
 								"instance-variable": "Unlocked",
 								"value": "true"
 							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "crown",
+							"sid": 509648940174071,
+							"parameters": {
+								"visibility": "visible"
+							}
 						}
 					],
 					"sid": 721135658690311
@@ -2156,18 +2163,18 @@
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
-							"sid": 744272430708223,
+							"sid": 817787438709414,
 							"parameters": {
 								"variable": "PlayerHealth",
-								"value": "15"
+								"value": "20"
 							}
 						},
 						{
 							"id": "set-width",
 							"objectClass": "HealthBar",
-							"sid": 270292163531833,
+							"sid": 322504102336242,
 							"parameters": {
-								"width": "PlayerHealth*30"
+								"width": "PlayerHealth*20"
 							}
 						},
 						{
@@ -2202,6 +2209,14 @@
 							"parameters": {
 								"instance-variable": "Unlocked",
 								"value": "true"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "nine",
+							"sid": 315466164961423,
+							"parameters": {
+								"visibility": "visible"
 							}
 						}
 					],
@@ -2317,6 +2332,27 @@
 							"parameters": {
 								"speed": "0"
 							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Text3",
+							"sid": 440451738783440,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 218195136268518,
+							"parameters": {
+								"seconds": "5"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Text3",
+							"sid": 125147409370918
 						}
 					],
 					"sid": 338738538082163
@@ -2337,10 +2373,10 @@
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
-							"sid": 280253449623874,
+							"sid": 658373935187245,
 							"parameters": {
 								"variable": "PlayerHealth",
-								"value": "15"
+								"value": "min(20, PlayerHealth+10)"
 							}
 						},
 						{
@@ -2351,9 +2387,9 @@
 						{
 							"id": "set-width",
 							"objectClass": "HealthBar",
-							"sid": 714740631393753,
+							"sid": 907583073160423,
 							"parameters": {
-								"width": "PlayerHealth*30"
+								"width": "PlayerHealth*20"
 							}
 						},
 						{

@@ -1,0 +1,67 @@
+{
+	"name": "Upgrader",
+	"plugin-id": "Sprite",
+	"sid": 359500933294695,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 325011639471118
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 27,
+						"height": 16,
+						"originX": 0.14814814814814814,
+						"originY": 0.875,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 604252,
+						"collisionPoly": {
+							"points": [
+								0.75,
+								0.25,
+								0.75,
+								0.75,
+								0.25,
+								0.75,
+								0.25,
+								0.25
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Handle",
+								"x": 0.14814814814814814,
+								"y": 0.875
+							},
+							{
+								"name": "Barrel",
+								"x": 1,
+								"y": 0.5
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 538373382423324,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
