@@ -94,6 +94,33 @@
 							"parameters": {
 								"z": "1"
 							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "YouDied",
+							"sid": 479135010985301,
+							"parameters": {
+								"x": "(ViewportWidth(0) - self.Width)/2",
+								"y": "(ViewportHeight(0) - self.Height)/2"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "EnemyFelled",
+							"sid": 251285471799474,
+							"parameters": {
+								"x": "(ViewportWidth(0) - self.Width)/2",
+								"y": "(ViewportHeight(0) - self.Height)/2"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "DeathScreen",
+							"sid": 396350878915617,
+							"parameters": {
+								"x": "(ViewportWidth(0) - self.Width)/2",
+								"y": "(ViewportHeight(0) - self.Height)/2"
+							}
 						}
 					],
 					"sid": 348432822664640
